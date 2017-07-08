@@ -18,7 +18,7 @@ New technology will be deployed when it is ready and has been tested. However, w
 | Feb 2016 | 0.12.0 | [libsecp256k1 verification][] |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Feb 2016 | | Segregated witness feature complete & ready for general review |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Mar 2016 | 0.12.1 | Deploy OP_CHECKSEQUENCEVERIFY (BIPs [68][BIP68] & [112][BIP112]) + [BIP113][] as first [BIP9][] versionbits soft fork |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
-| | | [Segregated witness pull request](https://github.com/ion/ion/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
+| | | [Segregated witness pull request](https://github.com/cevap/ion/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Oct 2016 | 0.13.1 | Deploy segregated witness (including block size increase) |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | 2017 | | Weak blocks and IBLT, Lightning, or both ||
 
@@ -173,27 +173,27 @@ To get specific suggestions on how you can help, please join the
 
 [#ion-dev]: https://webchat.freenode.net/?channels=ion-dev&amp;uio=d4
 [actively studied]: http://diyhpl.us/wiki/transcripts/scalingion/ion-block-propagation-iblt-rusty-russell/
-[bip-segwit]: https://github.com/ion/bips/blob/master/bip-0141.mediawiki
-[BIP9]: https://github.com/ion/bips/blob/master/bip-0009.mediawiki
-[BIP16]: https://github.com/ion/bips/blob/master/bip-0016.mediawiki
-[BIP30]: https://github.com/ion/bips/blob/master/bip-0030.mediawiki
-[BIP34]: https://github.com/ion/bips/blob/master/bip-0034.mediawiki
-[BIP50]: https://github.com/ion/bips/blob/master/bip-0050.mediawiki
-[BIP65]: https://github.com/ion/bips/blob/master/bip-0065.mediawiki
-[BIP66]: https://github.com/ion/bips/blob/master/bip-0066.mediawiki
-[BIP68]: https://github.com/ion/bips/blob/master/bip-0068.mediawiki
-[BIP112]: https://github.com/ion/bips/blob/master/bip-0112.mediawiki
-[BIP113]: https://github.com/ion/bips/blob/master/bip-0113.mediawiki
+[bip-segwit]: https://github.com/cevap/bips/blob/master/bip-0141.mediawiki
+[BIP9]: https://github.com/cevap/bips/blob/master/bip-0009.mediawiki
+[BIP16]: https://github.com/cevap/bips/blob/master/bip-0016.mediawiki
+[BIP30]: https://github.com/cevap/bips/blob/master/bip-0030.mediawiki
+[BIP34]: https://github.com/cevap/bips/blob/master/bip-0034.mediawiki
+[BIP50]: https://github.com/cevap/bips/blob/master/bip-0050.mediawiki
+[BIP65]: https://github.com/cevap/bips/blob/master/bip-0065.mediawiki
+[BIP66]: https://github.com/cevap/bips/blob/master/bip-0066.mediawiki
+[BIP68]: https://github.com/cevap/bips/blob/master/bip-0068.mediawiki
+[BIP112]: https://github.com/cevap/bips/blob/master/bip-0112.mediawiki
+[BIP113]: https://github.com/cevap/bips/blob/master/bip-0113.mediawiki
 [ion core contributor]: https://bitcoin.org/en/ion-core/
 [Ion relay network]: http://ionrelaynetwork.org/
 [code review]: https://bitcoin.org/en/development#code-review
 [estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
 [increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
-[libsecp256k1]: https://github.com/ion/secp256k1
-[libsecp256k1 verification]: https://github.com/ion/ion/pull/6954
-[max_block_size]: https://github.com/ion/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
+[libsecp256k1]: https://github.com/cevap/secp256k1
+[libsecp256k1 verification]: https://github.com/cevap/ion/pull/6954
+[max_block_size]: https://github.com/cevap/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
 [payment channel efficiency]: https://scalingion.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
-[previous soft forks]: https://github.com/ion/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
+[previous soft forks]: https://github.com/cevap/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
 [weak blocks and iblts]: https://www.youtube.com/watch?v=ivgxcEOyWNs&t=1h40m20s
 [q simple raise]: #size-bump

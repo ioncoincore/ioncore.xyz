@@ -75,7 +75,7 @@ IsSuperMajority() 或其简写ISM，是一个历史遗留的软分叉触发器�
 
 ## 谁来为提议的不同更新版本分配版本位？
 
-软分叉是通过 [BIPs process][BIP1] 被提议的。现行的 BIP9 软分叉提议存放在 [assignments page](https://github.com/ion/bips/blob/master/bip-0009.mediawiki#deployments)
+软分叉是通过 [BIPs process][BIP1] 被提议的。现行的 BIP9 软分叉提议存放在 [assignments page](https://github.com/cevap/bips/blob/master/bip-0009.mediawiki#deployments)
 
 ## 更多阅读
 
@@ -83,7 +83,7 @@ IsSuperMajority() 或其简写ISM，是一个历史遗留的软分叉触发器�
 {% include _toc.html %}
 
 - <http://rusty.ozlabs.org/?p=576>
-- <https://github.com/ion/bips/blob/master/bip-0009.mediawiki>
+- <https://github.com/cevap/bips/blob/master/bip-0009.mediawiki>
 - <https://iontalk.org/index.php?topic=1067693.msg11446462#msg11446462>
 
 include _references.md %}

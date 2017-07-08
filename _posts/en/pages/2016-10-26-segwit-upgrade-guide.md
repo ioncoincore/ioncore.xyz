@@ -58,7 +58,7 @@ When segwit is activated, you will want to be able to mine and relay segwit-styl
 - Mining software:
   - [BFGMiner](https://github.com/luke-jr/bfgminer)\*
   - [CGMiner](https://github.com/ckolivas/cgminer)
-  - [libblkmaker](https://github.com/ion/libblkmaker/pull/6)\*
+  - [libblkmaker](https://github.com/cevap/libblkmaker/pull/6)\*
 
 - Pool software:
   - [ckpool](https://bitbucket.org/ckolivas/ckpool)
@@ -200,7 +200,7 @@ Segwit is described for developers in the following documents:
 
 Please note, [BIP142][] (address format for segregated witness) is in *deferred* status (as defined by BIP1) and is not proposed as a standard.  Instead, wallet developers are invited to discuss on the [ion-dev mailing list][ion-dev] the creation of a new Ion address format that will be more usable than current base58check-encoded addresses.
 
-Most implementation details for BIPs 141, 143, 144, and 145 may be found in [Ion Core PR#8149](https://github.com/ion/ion/pull/8149).  The implementation for BIP147 may be found in [Ion Core PR#8636](https://github.com/ion/ion/pull/8636).
+Most implementation details for BIPs 141, 143, 144, and 145 may be found in [Ion Core PR#8149](https://github.com/cevap/ion/pull/8149).  The implementation for BIP147 may be found in [Ion Core PR#8636](https://github.com/cevap/ion/pull/8636).
 
 For testing changes on a segwit-enabled network, testnet (testnet3) has supported segwit for several months now and includes a large number of segwit blocks, including blocks that have very nearly the maximum block size allowed for by segwit.  Ion Core’s regression-testing (regtest) mode also supports segwit by default in Ion Core 0.13.0 and 0.13.1.
 

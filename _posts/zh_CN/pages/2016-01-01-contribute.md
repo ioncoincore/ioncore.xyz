@@ -11,7 +11,7 @@ share: false
 ---
 
 欢迎您为项目做贡献！
-我们的主要源代码库是 [hosted on GitHub](https://github.com/ion/ion/)，您可以通过几个途径提供帮助 
+我们的主要源代码库是 [hosted on GitHub](https://github.com/cevap/ion/)，您可以通过几个途径提供帮助 
 
   - 改进文档 ([查看][README.md] 和  [文档][doc])
   - [翻译][translation_process.md] 
@@ -32,9 +32,9 @@ share: false
 
 您还可以翻译这个 [website][website-contrib] 或为其做出贡献。
 
-[README.md]: https://github.com/ion/ion/blob/master/README.md
-[doc]: https://github.com/ion/ion/tree/master/doc
-[translation_process.md]: https://github.com/ion/ion/blob/master/doc/translation_process.md
+[README.md]: https://github.com/cevap/ion/blob/master/README.md
+[doc]: https://github.com/cevap/ion/tree/master/doc
+[translation_process.md]: https://github.com/cevap/ion/blob/master/doc/translation_process.md
 [website-contrib]: https://github.com/cevap/website/blob/gh-pages/README.md
 
 {% include _references.md %}

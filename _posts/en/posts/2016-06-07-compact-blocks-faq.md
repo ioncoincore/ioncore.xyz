@@ -87,8 +87,8 @@ Furthermore, the experiments conducted and data collected using the first versio
 
 The first version of compact blocks has been assigned [BIP152][], has a working implementation, and is being actively tested by the developer community. 
 
-- BIP152: <https://github.com/ion/bips/blob/master/bip-0152.mediawiki>
-- Reference implementation: <https://github.com/ion/ion/pull/8068>
+- BIP152: <https://github.com/cevap/bips/blob/master/bip-0152.mediawiki>
+- Reference implementation: <https://github.com/cevap/ion/pull/8068>
 
 ## How can this be adapted for even faster p2p relay?
 

@@ -87,7 +87,7 @@ learn me a ion,http://learnmeaion.com/,ready,block explorer,ion core
 Ledger Wallet,https://www.ledgerwallet.com/,ready,hardware wallet,
 libion,https://github.com/libion,planned,library,
 libion,http://libion.dyne.org/,planned,library,
-libblkmaker,https://github.com/ion/libblkmaker/pull/6,ready,mining library,n/a
+libblkmaker,https://github.com/cevap/libblkmaker/pull/6,ready,mining library,n/a
 LocalIons,https://www.localions.com/,ready,P2P Exchange,
 Lykke,http://www.lykke.com ,planned,exchange,NIon
 Magnr,https://magnr.com/,ready,"broker, financial services","BitGo, Bitfinex, Bitstamp"

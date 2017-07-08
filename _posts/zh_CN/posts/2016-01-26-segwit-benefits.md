@@ -49,8 +49,8 @@ Segwit 可以防止第三方和 scriptSig 延展性, 通过把比特币交易中
  * [关于延展性攻击的 2015 年比特币电报文章](http://cointelegraph.com/news/115374/the-ongoing-ion-malleability-attack)
  * [关于延展性攻击的2015年比特币杂志文章](https://ionmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
  * [概述各种比特币改进建议对闪电交易的重要性](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning/)
- * [BIP 62](https://github.com/ion/bips/blob/master/bip-0062.mediawiki)
- * [比特币改进建议 140-延展性修复的替代方法](https://github.com/ion/bips/blob/master/bip-0140.mediawiki)
+ * [BIP 62](https://github.com/cevap/bips/blob/master/bip-0062.mediawiki)
+ * [比特币改进建议 140-延展性修复的替代方法](https://github.com/cevap/bips/blob/master/bip-0140.mediawiki)
  * [关于 683f…8bfa 交易在 Stack exchange 问答网络平台的回答](http://ion.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
 
 ## 线性增长 sighash 的操作
@@ -74,7 +74,7 @@ Segwit 通过改变交易哈希签名的计算方式可以解决此问题，使�
 
 ### 更多信息
 
- * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
  * [在 25s 交易中 Rusty Russell 发布的博客](http://rusty.ozlabs.org/?p=522)
  * [CVE 2013-2292-比特币维基](https://en.ion.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
  * [提议限制交易至 100KB](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-July/009494.html)
@@ -96,7 +96,7 @@ Segwit 使 input 哈希变的精确从而解决了此问题。这意味着硬件
 
 ### 更多资料
 
- * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
  
 ## 通過 multisig（P2SH) 增強的安全性
 

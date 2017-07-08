@@ -289,7 +289,7 @@ We have a nice depends system now that builds all of our dependencies, which is 
 
 ### Segwit pull request
 
-<https://github.com/ion/ion/pull/7910>
+<https://github.com/cevap/ion/pull/7910>
 
 ### Build tools
 

@@ -22,10 +22,10 @@ Please note that commit activity represents only a part of the overall developer
 
 We would also like to take this opportunity to thank everyone who has been involved so far in contributing to Ion Core and helping make Ion better for everyone.
 
-[repository]: https://github.com/ion/ion
-[activity]: https://github.com/ion/ion/graphs/contributors?from=2015-01-01&to=2016-01-01&type=c
-[BIP65]: https://github.com/ion/bips/blob/master/bip-0065.mediawiki
-[BIP66]: https://github.com/ion/bips/blob/master/bip-0066.mediawiki
-[0.12]: https://github.com/ion/ion/blob/0.12/doc/release-notes.md
-[libsecp256k1]: https://github.com/ion/secp256k1
-[secp_contributors]: https://github.com/ion/secp256k1/graphs/contributors?from=2013-03-04&to=2015-12-01&type=c
+[repository]: https://github.com/cevap/ion
+[activity]: https://github.com/cevap/ion/graphs/contributors?from=2015-01-01&to=2016-01-01&type=c
+[BIP65]: https://github.com/cevap/bips/blob/master/bip-0065.mediawiki
+[BIP66]: https://github.com/cevap/bips/blob/master/bip-0066.mediawiki
+[0.12]: https://github.com/cevap/ion/blob/0.12/doc/release-notes.md
+[libsecp256k1]: https://github.com/cevap/secp256k1
+[secp_contributors]: https://github.com/cevap/secp256k1/graphs/contributors?from=2013-03-04&to=2015-12-01&type=c

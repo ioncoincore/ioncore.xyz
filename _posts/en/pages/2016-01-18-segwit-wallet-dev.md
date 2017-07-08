@@ -67,7 +67,7 @@ A wallet MUST implement all the features in this section, in order to be conside
 * For spending of P2SH-P2WPKH:
     * The <code>scriptSig</code> MUST ONLY contain a push of the <code>redeemScript</code>
     * The corresponding witness field MUST contain exactly 2 items, a signature followed by the public key
-    * There is a new signature generation algorithm described in [BIP143][] for segwit scripts. Developers should follow the instructions carefully, and make use of the P2SH-P2WPKH example in [BIP143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki#P2SHP2WPKH) to make sure they are able to reproduce the <code>sighash</code>.
+    * There is a new signature generation algorithm described in [BIP143][] for segwit scripts. Developers should follow the instructions carefully, and make use of the P2SH-P2WPKH example in [BIP143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki#P2SHP2WPKH) to make sure they are able to reproduce the <code>sighash</code>.
     * The [BIP143][] signature generating algorithm covers the value of the input being spent, which simplifies the design of air-gapped light-weight wallets and hardware wallets.
     * Please note that for a P2SH-P2WPKH, the <code>scriptCode</code> is always 26 bytes including the leading size byte, as <code>0x1976a914{20-byte keyhash}88ac</code>, NOT the <code>redeemScript</code> nor <code>scriptPubKey</code>
     * [Example](http://n.ion.ninja/checktx?txid=8139979112e894a14f8370438a471d23984061ff83a9eba0bc7a34433327ec21)
@@ -175,6 +175,6 @@ The following functions are not required for initial segwit support.
 * [Examples of different witness transaction types and transaction validity checking tool](http://n.ion.ninja/checktx)
 * [BIP141][]
 * [BIP143][]
-* [Script tests](https://github.com/ion/ion/blob/master/src/test/data/script_tests.json)
-* [Valid transaction tests](https://github.com/ion/ion/blob/master/src/test/data/tx_valid.json)
-* [Invalid transaction tests](https://github.com/ion/ion/blob/master/src/test/data/tx_invalid.json)
+* [Script tests](https://github.com/cevap/ion/blob/master/src/test/data/script_tests.json)
+* [Valid transaction tests](https://github.com/cevap/ion/blob/master/src/test/data/tx_valid.json)
+* [Invalid transaction tests](https://github.com/cevap/ion/blob/master/src/test/data/tx_invalid.json)

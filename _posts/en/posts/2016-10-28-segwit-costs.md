@@ -37,11 +37,11 @@ Transactions and block information are serialised for three main purposes:
 
 Segwit affects serialisation in two ways:
 
- * A witness commitment is included in the coinbase transaction, adding between 38 and 47 bytes, or about 0.005% of a block.  (See [BIP 141 - commitment structure](https://github.com/ion/bips/blob/master/bip-0141.mediawiki#commitment-structure))
+ * A witness commitment is included in the coinbase transaction, adding between 38 and 47 bytes, or about 0.005% of a block.  (See [BIP 141 - commitment structure](https://github.com/cevap/bips/blob/master/bip-0141.mediawiki#commitment-structure))
 
- * A new transaction serialisation that includes the segregated witness data is defined (see [BIP 141](https://github.com/ion/bips/blob/master/bip-0141.mediawiki#Transaction_ID), or [BIP 144](https://github.com/ion/bips/blob/master/bip-0144.mediawiki#Serialization)).  This adds an overhead of 2 bytes per transaction to allow the serialisation formats to be easily distinguished, and an overhead of 1 byte per input for the count of witness items for each input. These combine to about 1% per transaction.
+ * A new transaction serialisation that includes the segregated witness data is defined (see [BIP 141](https://github.com/cevap/bips/blob/master/bip-0141.mediawiki#Transaction_ID), or [BIP 144](https://github.com/cevap/bips/blob/master/bip-0144.mediawiki#Serialization)).  This adds an overhead of 2 bytes per transaction to allow the serialisation formats to be easily distinguished, and an overhead of 1 byte per input for the count of witness items for each input. These combine to about 1% per transaction.
 
-The segwit transaction formats (see [BIP 141 - witness program](https://github.com/ion/bips/blob/master/bip-0141.mediawiki#witness-program)) have the following impact when serialised:
+The segwit transaction formats (see [BIP 141 - witness program](https://github.com/cevap/bips/blob/master/bip-0141.mediawiki#witness-program)) have the following impact when serialised:
 
  * Compared to P2PKH, P2WPKH uses 3 *fewer* bytes (-1%) in the scriptPubKey, and the same number of witness bytes as P2PKH scriptSig.
 
@@ -79,7 +79,7 @@ seconds per block on a Raspberry Pi v1, or under 1/10th of a second on more capa
 
 The segwit patch set is a major change to Ion, and was rolled out, though not activated on the main Ion network, in Ion Core 0.13.0.  Any major change like this runs a variety of risks, including:
 
- * Outright bugs: mistakes can be made in design or implementation giving unexpected or harmful results. For example [PR#8525](https://github.com/ion/ion/pull/8525).
+ * Outright bugs: mistakes can be made in design or implementation giving unexpected or harmful results. For example [PR#8525](https://github.com/cevap/ion/pull/8525).
 
  * User errors: changes to the system can result in user confusion, resulting in incorrect use of the system, which in turn may lead to harmful results.
 
@@ -105,8 +105,8 @@ In order to reduce the chances of these risks occurring when segwit is activated
 
     Technical reviews include:
 
-    - [PR#7910](https://github.com/ion/ion/pull/7910)
-    - [PR#8149](https://github.com/ion/ion/pull/8149)
+    - [PR#7910](https://github.com/cevap/ion/pull/7910)
+    - [PR#8149](https://github.com/cevap/ion/pull/8149)
     - [Development branch pull requests](https://github.com/sipa/ion/pulls?utf8=%E2%9C%93&q=is%3Apr%20)
     - [Ion Core Zurich Meeting](/logs/2016-05-zurich-meeting-notes.html)
     - [Peter Todd's review](https://petertodd.org/2016/segwit-consensus-critical-code-review)

@@ -107,6 +107,6 @@ Ruben de Vries
 
 _This letter was originally published in Ion Magazine on 1st September 2015 at <https://ionmagazine.com/articles/open-letter-ion-community-developers-1441146317>._
 
-[1]: https://github.com/ion/ion/tree/master/doc/release-notes
-[2]: https://github.com/ion/bips
+[1]: https://github.com/cevap/ion/tree/master/doc/release-notes
+[2]: https://github.com/cevap/bips
 [3]: https://scalingion.org/montreal2015/

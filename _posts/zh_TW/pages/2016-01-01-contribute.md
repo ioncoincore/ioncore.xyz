@@ -11,7 +11,7 @@ version: 0
 ---
 
 You are welcome to contribute to the project!
-Our main source code repository is [hosted on GitHub](https://github.com/ion/ion/) and there are several aspects you can help on:
+Our main source code repository is [hosted on GitHub](https://github.com/cevap/ion/) and there are several aspects you can help on:
 
   - Improving our documentation (see [README.md][README.md] and [doc folder][doc])
   - [Translations][translation_process.md]
@@ -31,11 +31,11 @@ Most Ion Core related discussion happens in the `#ion-core-dev` IRC channel on i
 
 You can also translate or contribute to this [website][website-contrib].
 
-[README.md]: https://github.com/ion/ion/blob/master/README.md
-[doc]: https://github.com/ion/ion/tree/master/doc
-[translation_process.md]: https://github.com/ion/ion/blob/master/doc/translation_process.md
-[issues]: https://github.com/ion/ion/issues
-[pulls]: https://github.com/ion/ion/pulls
+[README.md]: https://github.com/cevap/ion/blob/master/README.md
+[doc]: https://github.com/cevap/ion/tree/master/doc
+[translation_process.md]: https://github.com/cevap/ion/blob/master/doc/translation_process.md
+[issues]: https://github.com/cevap/ion/issues
+[pulls]: https://github.com/cevap/ion/pulls
 [ion-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/ion-discuss
 [ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
 [website-contrib]: https://github.com/cevap/website/blob/gh-pages/README.md

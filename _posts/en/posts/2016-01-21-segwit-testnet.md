@@ -57,9 +57,9 @@ Once compiled, add `-segnet` to the standard `iond` and `ion-cli` command line.
 
 ### SegWit BIPs
 
-- [BIP141](https://github.com/ion/bips/blob/master/bip-0141.mediawiki): An overview of the segregated witness soft fork, and a discussion on its benefits, backwards compatibility, consensus limits, and deployment.
-- [BIP143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki): The definition of a new digest algorithm for signature verification used in segregated witness transactions.
-- [BIP144](https://github.com/ion/bips/blob/master/bip-0144.mediawiki): The new message types and serialization formats for segregated witness transactions.
+- [BIP141](https://github.com/cevap/bips/blob/master/bip-0141.mediawiki): An overview of the segregated witness soft fork, and a discussion on its benefits, backwards compatibility, consensus limits, and deployment.
+- [BIP143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki): The definition of a new digest algorithm for signature verification used in segregated witness transactions.
+- [BIP144](https://github.com/cevap/bips/blob/master/bip-0144.mediawiki): The new message types and serialization formats for segregated witness transactions.
 
 ### References
 

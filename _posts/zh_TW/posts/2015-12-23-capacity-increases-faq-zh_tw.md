@@ -170,24 +170,24 @@ David Harding 提供了下表以[估計][estimated savings]在不同費用和交
 如果你想得到更多有關如何貢獻的建議，請加入[#ion-dev][] IRC 頻道討論。
 
 [#ion-dev]: https://webchat.freenode.net/?channels=ion-dev&amp;uio=d4
-[bip-segwit]: https://github.com/ion/bips/blob/master/bip-0141.mediawiki
-[BIP9]: https://github.com/ion/bips/blob/master/bip-0009.mediawiki
-[BIP16]: https://github.com/ion/bips/blob/master/bip-0016.mediawiki
-[BIP34]: https://github.com/ion/bips/blob/master/bip-0034.mediawiki
-[BIP50]: https://github.com/ion/bips/blob/master/bip-0050.mediawiki
-[BIP65]: https://github.com/ion/bips/blob/master/bip-0065.mediawiki
-[BIP66]: https://github.com/ion/bips/blob/master/bip-0066.mediawiki
-[BIP68]: https://github.com/ion/bips/blob/master/bip-0068.mediawiki
-[BIP112]: https://github.com/ion/bips/blob/master/bip-0112.mediawiki
-[BIP113]: https://github.com/ion/bips/blob/master/bip-0113.mediawiki
+[bip-segwit]: https://github.com/cevap/bips/blob/master/bip-0141.mediawiki
+[BIP9]: https://github.com/cevap/bips/blob/master/bip-0009.mediawiki
+[BIP16]: https://github.com/cevap/bips/blob/master/bip-0016.mediawiki
+[BIP34]: https://github.com/cevap/bips/blob/master/bip-0034.mediawiki
+[BIP50]: https://github.com/cevap/bips/blob/master/bip-0050.mediawiki
+[BIP65]: https://github.com/cevap/bips/blob/master/bip-0065.mediawiki
+[BIP66]: https://github.com/cevap/bips/blob/master/bip-0066.mediawiki
+[BIP68]: https://github.com/cevap/bips/blob/master/bip-0068.mediawiki
+[BIP112]: https://github.com/cevap/bips/blob/master/bip-0112.mediawiki
+[BIP113]: https://github.com/cevap/bips/blob/master/bip-0113.mediawiki
 [ion core contributor]: https://bitcoin.org/en/ion-core/
 [Ion relay network]: http://ionrelaynetwork.org/
 [code review]: https://bitcoin.org/en/development#code-review
 [estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
 [increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
-[libsecp256k1 verification]: https://github.com/ion/ion/pull/6954
-[max_block_size]: https://github.com/ion/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
+[libsecp256k1 verification]: https://github.com/cevap/ion/pull/6954
+[max_block_size]: https://github.com/cevap/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
 [payment channel efficiency]: https://scalingion.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
-[previous soft forks]: https://github.com/ion/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
+[previous soft forks]: https://github.com/cevap/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
 [q simple raise]: #size-bump

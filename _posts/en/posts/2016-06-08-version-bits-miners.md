@@ -89,12 +89,12 @@ Non-upgraded miners risk producing invalid blocks which would be orphaned if the
 
 ## Who assigns version bits to different upgrade proposals?
 
-Soft forks are proposed through the [BIPs process][BIP1]. Active [BIP9][] soft fork proposals are listed on the [assignments page](https://github.com/ion/bips/blob/master/bip-0009.mediawiki#deployments)
+Soft forks are proposed through the [BIPs process][BIP1]. Active [BIP9][] soft fork proposals are listed on the [assignments page](https://github.com/cevap/bips/blob/master/bip-0009.mediawiki#deployments)
 
 ## Further reading
 
 - <http://rusty.ozlabs.org/?p=576>
-- <https://github.com/ion/bips/blob/master/bip-0009.mediawiki>
+- <https://github.com/cevap/bips/blob/master/bip-0009.mediawiki>
 - <https://iontalk.org/index.php?topic=1067693.msg11446462#msg11446462>
 
 {% include _references.md %}

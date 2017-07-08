@@ -43,8 +43,8 @@ Note: segwit transactions only avoid malleability if all their inputs are segwit
  * [Coin Telegraph article on 2015 Malleability attack](http://cointelegraph.com/news/115374/the-ongoing-ion-malleability-attack)
  * [Ion Magazine article on 2015 Malleability attack](https://ionmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
  * ["Overview of BIPs necessary for Lightning" transcript](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning/)
- * [BIP 62](https://github.com/ion/bips/blob/master/bip-0062.mediawiki)
- * [BIP 140 -- alternative approach to malleability fixes](https://github.com/ion/bips/blob/master/bip-0140.mediawiki)
+ * [BIP 62](https://github.com/cevap/bips/blob/master/bip-0062.mediawiki)
+ * [BIP 140 -- alternative approach to malleability fixes](https://github.com/cevap/bips/blob/master/bip-0140.mediawiki)
  * [Stack exchange answer regarding 683f...8bfa transaction](http://ion.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
 
 ## Linear scaling of sighash operations
@@ -65,7 +65,7 @@ The modified hash only applies to signature operations initiated from witness da
 
 ### Further information
 
- * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
  * [Blog post by Rusty Russell on the 25s transaction](http://rusty.ozlabs.org/?p=522)
  * [CVE 2013-2292 on Ion wiki](https://en.ion.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
  * [Proposal to limit transactions to 100kB](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-July/009494.html)
@@ -85,7 +85,7 @@ This benefit is only available when spending transactions sent to segwit enabled
 
 ### Further information
 
- * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
 
 ## Increased security for multisig via pay-to-script-hash (P2SH)
 
