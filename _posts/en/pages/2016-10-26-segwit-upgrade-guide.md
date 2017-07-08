@@ -51,7 +51,7 @@ The BIP9 parameters for the segwit soft fork allow miners to begin signaling the
 When segwit is activated, you will want to be able to mine and relay segwit-style blocks.  The following mining software has been upgraded to support segwit.
 
 - Full nodes:
-  - [Ion Core](https://ion.org/en/download) 0.13.1
+  - [Ion Core](https://bitcoin.org/en/download) 0.13.1
   - [Ion Knots](http://ionknots.org/) 0.13.1
   - [Iond](https://github.com/ionsuite/iond/pull/656)\*
 
@@ -96,7 +96,7 @@ This system has worked well in the past, with at least 25% of reachable nodes (a
 
 ### Upgrading
 
-To upgrade to a segwit-compatible release, download a segwit-compatible version of your full node software (such as the [Ion Core 0.13.1 release](https://ion.org/en/download)), ensure that the files you downloaded are legitimate (using PGP or another method), stop the old version of your node software, and start the new version of the software. Note that if you upgrade after segwit has activated, your node will need to download and resync blocks from the activation point forward, since the old version did not download them completely.
+To upgrade to a segwit-compatible release, download a segwit-compatible version of your full node software (such as the [Ion Core 0.13.1 release](https://bitcoin.org/en/download)), ensure that the files you downloaded are legitimate (using PGP or another method), stop the old version of your node software, and start the new version of the software. Note that if you upgrade after segwit has activated, your node will need to download and resync blocks from the activation point forward, since the old version did not download them completely.
 
 You may use the Ion Core RPC `getblockchaininfo` to track the status of the segwit soft fork (labeled `segwit` in the list of BIP9-style soft forks).  This information includes how many recent blocks have been produced by miners signaling their intention to enforce segwit’s new consensus rules.  The results from the `getblockchaininfo` RPC will also let you determine when segwit’s soft fork has become locked in (meaning it will activate within the next 2,016 blocks) and activated (meaning it is now enforced by miners).
 
@@ -104,7 +104,7 @@ The wallet provided with Ion Core 0.13.1 will continue to only generate non-segw
 
 If you’re a developer or expert user who wants to generate addresses for testing, please see the [segwit dev guide][].
 
-**Questions?** If you use Ion Core as your full node, please see the [Get Help](https://ion.org/en/ion-core/help) page on Ion.org for various support options.  If you use another full node, the best place to ask is wherever users of your full node software go for support.  The maintainers of your software will be familiar with the idea behind segwit at the very least, and they will be able to tell you when it will be implemented and how it will affect you.
+**Questions?** If you use Ion Core as your full node, please see the [Get Help](https://bitcoin.org/en/ion-core/help) page on Ion.org for various support options.  If you use another full node, the best place to ask is wherever users of your full node software go for support.  The maintainers of your software will be familiar with the idea behind segwit at the very least, and they will be able to tell you when it will be implemented and how it will affect you.
 
 ### Not upgrading
 

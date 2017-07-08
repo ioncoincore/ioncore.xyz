@@ -18,7 +18,7 @@ ECSDA签名验证是节点层面最耗计算资源的任务之一。因为每个
 另外，这个签名缓存还可以消除一个DoS攻击路径，通过构造一些特殊结构的交易来使比特币客户端的运行缓慢。
  
 ### 更多相关信息请参考：
- * [Ion-Qt 0.7.0 Release notes](https://ion.org/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
+ * [Ion-Qt 0.7.0 Release notes](https://bitcoin.org/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
  * [Fixed vulnerability explanation: Why the signature cache is a DoS protection](https://iontalk.org/index.php?topic=136422.0)
 
  
@@ -29,7 +29,7 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 为了进一步优化这个系统的性能，LevelDB和Ultraprune一起被引入，老的BDB数据库技术被弃用。整体上来看，影响是显著的：虽然不同硬件上体验到的改善程度会有所不同，但是验证区块数据时的性能至少提高了一个数量级。这个新数据库结构也为以后对比特币全节点的精简和轻量化铺平了道路。
  
 ### 更多相关信息请参考：
-* [Ion-Qt 0.8.0 Release notes](https://ion.org/en/release/v0.8.0#improvements)
+* [Ion-Qt 0.8.0 Release notes](https://bitcoin.org/en/release/v0.8.0#improvements)
 * [Ultraprune in plain english](https://archive.is/bUocJ)
 * [Ultraprune merged in mainline](https://iontalk.org/index.php?topic=119525.0)
 * [Pruning in the reference client: ultraprune mode](https://iontalk.org/index.php?topic=91954.0)
@@ -52,9 +52,9 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 自比特币早期时期以来，人们就对初始区块下载时间有抱怨。采用了区块头先同步这种方式，这个软件对新用户来说实用性又向前跨越了一步。现在用户可以利用整个网络的节点，大幅削减引导时间，而不必在不稳定的同步中浪费大量时间。这方面对比特币的长期可持续性来说是非常重要的，开发者使用更精妙的算法渐进式地在这方面进行改善。
  
 ### 更多相关信息请参考：
-* [Ion-Qt 0.10.0 Release notes](https://ion.org/en/release/v0.10.0#faster-synchronization)
+* [Ion-Qt 0.10.0 Release notes](https://bitcoin.org/en/release/v0.10.0#faster-synchronization)
 
-* [Ion.org Developer Guide](https://ion.org/en/developer-guide#headers-first)
+* [Ion.org Developer Guide](https://bitcoin.org/en/developer-guide#headers-first)
 
 * [Pieter Wuille’s post to the Ion-dev mailing list](https://lists.linuxfoundation.org/pipermail/ion-dev/2014-October/006724.html)
  
@@ -66,7 +66,7 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 这样的区块文件修剪假设仍旧会有足够多的存档节点来维护完整区块链数据。另一方面，这种创新让维护节点的成本更低从而扩大了验证者的范围。总而言之，这种解决方案有助于我们维持网络多样化。
  
 ### 更多相关信息请参考：
-* [Ion-Qt 0.11.0 Release notes](https://ion.org/en/release/v0.11.0#block-file-pruning)
+* [Ion-Qt 0.11.0 Release notes](https://bitcoin.org/en/release/v0.11.0#block-file-pruning)
 
  
 ## libsecp256k1
@@ -76,7 +76,7 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 比特币交易活动日益增多，这次更新为网络节点维持合理的用户体验至关重要。而且，降低了算法复杂性，让用户更高效地利用他们的资源，为新参与者降低了参与门槛。
  
 ### 更多相关信息请参考：
-* [Ion-Qt 0.12.0 Release notes](https://ion.org/en/release/v0.12.0#signature-validation-using-libsecp256k1)
+* [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#signature-validation-using-libsecp256k1)
 * [Andrew Poelstra (andytoshi) on security and testing of - libsecp256k1](https://iontalk.org/index.php?action=profile;u=80376)
 * [Greg Maxwell on testing of libsecp256k1 revealing bug in OpenSSL](https://www.reddit.com/r/Ion/comments/2rrxq7/on_why_010s_release_notes_say_we_have_reason_to/)
 * [Greg Maxwell presentation at DevCore](https://www.youtube.com/watch?v=RguZ0_nmSPw&t=1297)
@@ -90,7 +90,7 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 用户可以自己设置最大体积，默认设置是300MB，这次更新为资源有限的节点用户带来更健壮的体验，整体上来说，让整个网络更加可靠。
  
 ### 更多相关信息请参考：
-* [Ion-Qt 0.12.0 Release notes](https://ion.org/en/release/v0.12.0#memory-pool-limiting)
+* [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#memory-pool-limiting)
 
  
 在第二部分，我们将讨论更多基于上述技术的优化和对网络健壮性、扩展潜力的改善。

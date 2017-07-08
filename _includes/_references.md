@@ -109,4 +109,4 @@
 
 [recent-contributors]: https://github.com/ion/ion/graphs/contributors?from=2015-06-01&to=2016-06-01&type=c
 
-[website-issues]: https://github.com/ion-core/ioncore.xyz/issues
+[website-issues]: https://github.com/cevap/ioncore.xyz/issues

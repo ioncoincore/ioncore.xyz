@@ -35,6 +35,6 @@ share: false
 [README.md]: https://github.com/ion/ion/blob/master/README.md
 [doc]: https://github.com/ion/ion/tree/master/doc
 [translation_process.md]: https://github.com/ion/ion/blob/master/doc/translation_process.md
-[website-contrib]: https://github.com/ion-core/website/blob/gh-pages/README.md
+[website-contrib]: https://github.com/cevap/website/blob/gh-pages/README.md
 
 {% include _references.md %}

@@ -20,5 +20,5 @@ Contrary to typical implementation of SPV wallets, this model does not suffer fr
 
 ### Further information
   * [Complete patch-set PR](https://github.com/ion/ion/pull/9483)
-  * [Perfect privacy for received transactions](https://ion.org/en/ion-core/features/privacy#perfect-privacy-for-received-transactions)
+  * [Perfect privacy for received transactions](https://bitcoin.org/en/ion-core/features/privacy#perfect-privacy-for-received-transactions)
  

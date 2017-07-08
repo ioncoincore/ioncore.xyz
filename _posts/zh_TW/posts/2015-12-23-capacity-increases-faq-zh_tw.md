@@ -180,9 +180,9 @@ David Harding 提供了下表以[估計][estimated savings]在不同費用和交
 [BIP68]: https://github.com/ion/bips/blob/master/bip-0068.mediawiki
 [BIP112]: https://github.com/ion/bips/blob/master/bip-0112.mediawiki
 [BIP113]: https://github.com/ion/bips/blob/master/bip-0113.mediawiki
-[ion core contributor]: https://ion.org/en/ion-core/
+[ion core contributor]: https://bitcoin.org/en/ion-core/
 [Ion relay network]: http://ionrelaynetwork.org/
-[code review]: https://ion.org/en/development#code-review
+[code review]: https://bitcoin.org/en/development#code-review
 [estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
 [increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
 [libsecp256k1 verification]: https://github.com/ion/ion/pull/6954

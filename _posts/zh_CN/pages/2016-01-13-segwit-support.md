@@ -28,5 +28,5 @@ No: 否
 添加公司或服务, 请使用 ACK ticket [#30] 加公司／服务名称。
 
 
-[#30]: https://github.com/ion-core/website/pull/30
-{% comment %}updated to https://github.com/ion-core/website/pull/30#issuecomment-177012065{% endcomment %}
+[#30]: https://github.com/cevap/website/pull/30
+{% comment %}updated to https://github.com/cevap/website/pull/30#issuecomment-177012065{% endcomment %}

@@ -38,6 +38,6 @@ You can also translate or contribute to this [website][website-contrib].
 [pulls]: https://github.com/ion/ion/pulls
 [ion-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/ion-discuss
 [ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
-[website-contrib]: https://github.com/ion-core/website/blob/gh-pages/README.md
+[website-contrib]: https://github.com/cevap/website/blob/gh-pages/README.md
 [Slack]: https://ioncore.slack.com/
 [invite]: https://slack.ioncore.xyz/

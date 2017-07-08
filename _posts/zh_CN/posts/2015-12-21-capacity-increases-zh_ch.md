@@ -17,7 +17,7 @@ version: 1
 
 ---
 
-如果你想参与连署，请到[#53](https://github.com/ion-core/website/issues/53))。
+如果你想参与连署，请到[#53](https://github.com/cevap/website/issues/53))。
 
 
 [1]: https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html

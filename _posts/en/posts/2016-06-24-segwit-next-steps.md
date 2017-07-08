@@ -148,7 +148,7 @@ Although signature aggregation is still being designed, it will be easy to add s
 
 [schnorr]: https://en.wikipedia.org/wiki/Schnorr_signature
 [ed25519 signature scheme]: http://ed25519.cr.yp.to/
-[libsecp256k1]: https://github.com/ion-core/secp256k1
+[libsecp256k1]: https://github.com/cevap/secp256k1
 [signature aggregation]: https://iontalk.org/index.php?topic=1377298.0
 
 ### MAST

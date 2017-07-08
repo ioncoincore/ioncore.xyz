@@ -45,7 +45,7 @@ A wallet MUST implement all the features in this section, in order to be conside
     * The <code>flag</code> MUST be <code>0x01</code>
     * The <code>witness</code> is a serialization of all witness data of the transaction.
         * Each txin is associated with a witness field. As a result, there is no indication of number of witness fields, as it is implied by the number of <code>txins</code>
-        * Each witness field starts with a <code>compactSize</code> [integer](https://ion.org/en/developer-reference#compactsize-unsigned-integers) to indicate the number of stack items for the corresponding <code>txin</code>. It is then followed by witness stack item(s) for the corresponding <code>txin</code>, if any. 
+        * Each witness field starts with a <code>compactSize</code> [integer](https://bitcoin.org/en/developer-reference#compactsize-unsigned-integers) to indicate the number of stack items for the corresponding <code>txin</code>. It is then followed by witness stack item(s) for the corresponding <code>txin</code>, if any. 
         * Each witness stack item starts with a <code>compactSize</code> integer to indicate the number of bytes of the item.
         * If a <code>txin</code> is not associated with any witness data, its corresponding witness field is an exact <code>0x00</code>, indicating that the number of witness stack items is zero.
 * If all <code>txins</code> in a transaction are not associated with any witness data, the transaction MUST be serialized in the original transaction format, without <code>marker</code>, <code>flag</code>, and <code>witness</code>. For example, if none of the <code>txins</code> are coming from segwit UTXO, it MUST be serialized in the original transaction format. (exception: coinbase transaction)

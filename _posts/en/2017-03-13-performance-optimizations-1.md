@@ -23,7 +23,7 @@ Additionally, the signature cache also mitigates a DoS vector introduced by the 
 
 ### Further information
 
- * [Ion-Qt 0.7.0 Release notes](https://ion.org/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
+ * [Ion-Qt 0.7.0 Release notes](https://bitcoin.org/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
  * [Fixed vulnerability explanation: Why the signature cache is a DoS protection](https://iontalk.org/index.php?topic=136422.0)
 
 ## Ultraprune + LevelDB
@@ -37,7 +37,7 @@ To further optimize the performance of the system, Ultraprune was introduced in 
 
 ### Further information
 
-  * [Ion-Qt 0.8.0 Release notes](https://ion.org/en/release/v0.8.0#improvements)
+  * [Ion-Qt 0.8.0 Release notes](https://bitcoin.org/en/release/v0.8.0#improvements)
   * [Ultraprune in plain english](https://archive.is/bUocJ)
   * [Ultraprune merged in mainline](https://iontalk.org/index.php?topic=119525.0)
   * [Pruning in the reference client: ultraprune mode](https://iontalk.org/index.php?topic=91954.0)
@@ -67,8 +67,8 @@ Complaints about initial block download time have been prevalent since the early
 
 ### Further information
 
-  * [Ion-Qt 0.10.0 Release notes](https://ion.org/en/release/v0.10.0#faster-synchronization)
-  * [Ion.org Developer Guide](https://ion.org/en/developer-guide#headers-first)
+  * [Ion-Qt 0.10.0 Release notes](https://bitcoin.org/en/release/v0.10.0#faster-synchronization)
+  * [Ion.org Developer Guide](https://bitcoin.org/en/developer-guide#headers-first)
   * [Pieter Wuille's post to the Ion-dev mailing list](https://lists.linuxfoundation.org/pipermail/ion-dev/2014-October/006724.html)
   
 ## Block file pruning
@@ -82,7 +82,7 @@ Of course, pruning implies that there remains a sufficient number of archival no
 
 ### Further information
 
-  * [Ion-Qt 0.11.0 Release notes](https://ion.org/en/release/v0.11.0#block-file-pruning)
+  * [Ion-Qt 0.11.0 Release notes](https://bitcoin.org/en/release/v0.11.0#block-file-pruning)
 
 ## libsecp256k1
 Release: Ion Core 0.12
@@ -95,7 +95,7 @@ Considering the growth in Ion transaction activity, this upgrade was essential t
 
 ### Further information
 
-  * [Ion-Qt 0.12.0 Release notes](https://ion.org/en/release/v0.12.0#signature-validation-using-libsecp256k1)
+  * [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#signature-validation-using-libsecp256k1)
   * [Andrew Poelstra (andytoshi) on security and testing of libsecp256k1](https://iontalk.org/index.php?action=profile;u=80376)
   * [Greg Maxwell on testing of libsecp256k1 revealing bug in OpenSSL](https://www.reddit.com/r/Ion/comments/2rrxq7/on_why_010s_release_notes_say_we_have_reason_to/)
   * [Greg Maxwell presentation at DevCore](https://www.youtube.com/watch?v=RguZ0_nmSPw&t=1297)
@@ -112,6 +112,6 @@ Configuration of the maximum size is left to the users with the default size bei
 
 ### Further information
 
-* [Ion-Qt 0.12.0 Release notes](https://ion.org/en/release/v0.12.0#memory-pool-limiting)
+* [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#memory-pool-limiting)
 
 In Part 2, we will discuss more recent improvements that build on the technologies presented above and further improve the robustness and scaling potential of the network. 
