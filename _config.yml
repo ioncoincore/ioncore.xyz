@@ -2,7 +2,7 @@
 
 title: Ion Core
 url: https://ioncore.xyz
-transifex_url: https://www.transifex.com/ioncore/ioncoreorg
+transifex_url: https://www.transifex.com/ioncore/ioncorexyz
 
 # Jekyll configuration
 
@@ -29,7 +29,7 @@ owner:
   bio: ""
   email:
   disqus-shortname:
-  twitter: ioncoreorg
+  twitter: ioncorexyz
   facebook: #username
   google:
     plus: #username

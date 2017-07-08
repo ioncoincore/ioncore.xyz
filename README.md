@@ -12,7 +12,7 @@ File names *must* be in the format `Y-m-d-title.md`, e.g. `2015-12-31-title.md`.
 
 ## Translations
 
-The main translations can be found at [Transifex](https://www.transifex.com/ioncore/ioncoreorg/). Please
+The main translations can be found at [Transifex](https://www.transifex.com/ioncore/ioncorexyz/). Please
 join if you wish to contribute to translating content.
 
 Menu and miscellaneous localisations can be found in:

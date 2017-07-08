@@ -92,7 +92,7 @@
 [BIP151]: https://github.com/ion/bips/blob/master/bip-0151.mediawiki
 [BIP152]: https://github.com/ion/bips/blob/master/bip-0152.mediawiki
 
-[@ioncoreorg]: https://twitter.com/ioncoreorg
+[@ioncorexyz]: https://twitter.com/ioncorexyz
 [#ion-core-dev]: https://webchat.freenode.net?channels=%23ion-core-dev&uio=MTY9dHJ1ZSYxMT0yMTU87
 [issues]: https://github.com/ion/ion/issues
 [pulls]: https://github.com/ion/ion/pulls
