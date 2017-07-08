@@ -1,5 +1,5 @@
 ---
-title: 如何贡献代码 Bitcoin 核心
+title: 如何贡献代码 Ion 核心
 name: contributing-guidelines
 id: zh_CN-contributing-guidelines
 permalink: /zh_CN/faq/contributing-code/
@@ -11,7 +11,7 @@ category: faqs
 version: 2
 ---
 
-Bitcoin 核心项目按照开放式贡献者模式运作，欢迎任何人以同行评价、测试和打补丁的形式为它的发展做出贡献。本文档说明了做出贡献的操作流程和指导。
+Ion 核心项目按照开放式贡献者模式运作，欢迎任何人以同行评价、测试和打补丁的形式为它的发展做出贡献。本文档说明了做出贡献的操作流程和指导。
 
 首先，在结构方面，没有所谓的特权 “核心开发人员”的特殊概念。开源通常自然而然地围绕有才能的人展开，而长期贡献者会获得开发者社区更多的信任。
 但是出于实用的角度某些层次是必不可少的。因此有知识库“维护者们”负责合并拉取请求以及一个“牵头维护者”负责发布周期、整体合并、模式化和任命维护人员。
@@ -27,7 +27,7 @@ Bitcoin 核心项目按照开放式贡献者模式运作，欢迎任何人以同
   - 创建主题分支
   - 提交补丁
 
-必须遵守 [开发手册](https://github.com/bitcoin/bitcoin/blob/master/doc/developer-notes.md) 规定的项目代码规范。
+必须遵守 [开发手册](https://github.com/ion/ion/blob/master/doc/developer-notes.md) 规定的项目代码规范。
 
 通常情况下 [提交应该是原子化的](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) 并且差异应该容易阅读。
 出于这个原因请不要将任何格式修正和代码移除与真正在的代码修改混在一起。

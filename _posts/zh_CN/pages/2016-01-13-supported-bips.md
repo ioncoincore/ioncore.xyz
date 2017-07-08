@@ -1,5 +1,5 @@
 ---
-title: Bitcoin Core Supported BIPs
+title: Ion Core Supported BIPs
 name: supported-bips
 type: pages
 layout: page

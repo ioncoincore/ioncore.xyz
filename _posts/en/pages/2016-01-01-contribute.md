@@ -11,7 +11,7 @@ version: 3
 ---
 
 You are welcome to contribute to the project!
-Our main source code repository is [hosted on GitHub](https://github.com/bitcoin/bitcoin/) and there are several aspects you can help on:
+Our main source code repository is [hosted on GitHub](https://github.com/ion/ion/) and there are several aspects you can help on:
 
   - Improving our documentation (see [README.md][README.md] and [doc folder][doc])
   - [Translations][translation_process.md]
@@ -24,15 +24,15 @@ Feel free to report [issues][issues] and open [pull requests][pulls], but please
 
 **Discussion**
 
-Most Bitcoin Core related discussion happens in the [#bitcoin-core-dev] IRC channel on irc.freenode.net or [bitcoin-core-dev][] mailing list. There is also a mailing list for Bitcoin protocol discussion [bitcoin-dev][] and a general Bitcoin discussion [bitcoin-discuss][]. We also have [Slack][slack] ([request an invitation][slack-invite]).
+Most Ion Core related discussion happens in the [#ion-core-dev] IRC channel on irc.freenode.net or [ion-core-dev][] mailing list. There is also a mailing list for Ion protocol discussion [ion-dev][] and a general Ion discussion [ion-discuss][]. We also have [Slack][slack] ([request an invitation][slack-invite]).
 
 **Contribute to this website**
 
 You can also translate or contribute to this [website][website-contrib].
 
-[README.md]: https://github.com/bitcoin/bitcoin/blob/master/README.md
-[doc]: https://github.com/bitcoin/bitcoin/tree/master/doc
-[translation_process.md]: https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md
-[website-contrib]: https://github.com/bitcoin-core/website/blob/gh-pages/README.md
+[README.md]: https://github.com/ion/ion/blob/master/README.md
+[doc]: https://github.com/ion/ion/tree/master/doc
+[translation_process.md]: https://github.com/ion/ion/blob/master/doc/translation_process.md
+[website-contrib]: https://github.com/ion-core/website/blob/gh-pages/README.md
 
 {% include _references.md %}

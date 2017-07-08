@@ -1,5 +1,5 @@
 ---
-title: Bitcoin Core Sponsorship Programme
+title: Ion Core Sponsorship Programme
 permalink: /en/about/sponsorship/programme/
 lang: en
 id: en-projects-sponsorship-programme
@@ -8,13 +8,13 @@ type: pages
 layout: page
 tags: [sponsorship, research, funding]
 ---
-The [Bitcoin Core Sponsorship Programme](/en/2016/04/04/announcing_sponsorship_programme/) provides a way for the Bitcoin industry to fund independent research and development of Bitcoin Core, by funding developers, developer projects, or otherwise providing resources to the project. The programme is tailored for larger industry participants and at this time, we have no mechanism for taking smaller donations.
+The [Ion Core Sponsorship Programme](/en/2016/04/04/announcing_sponsorship_programme/) provides a way for the Ion industry to fund independent research and development of Ion Core, by funding developers, developer projects, or otherwise providing resources to the project. The programme is tailored for larger industry participants and at this time, we have no mechanism for taking smaller donations.
 
 To maintain decentralisation, projects will be individually managed by a separate lead, who will be responsible for heading the project as well as allocating funds.
 
-The Bitcoin Core project has a suggested list of projects that require funding, and sponsors are also able to suggest their own. Sponsors may provide funding or human resources.
+The Ion Core project has a suggested list of projects that require funding, and sponsors are also able to suggest their own. Sponsors may provide funding or human resources.
 
-_**To discuss the possibilities, please email sponsorship<span style="display:none"></span>@bitcoincore.org**_
+_**To discuss the possibilities, please email sponsorship<span style="display:none"></span>@ioncore.org**_
 
 Additionally please see the [FAQ](/en/about/sponsorship/faq/) for more details.
 

@@ -1,5 +1,5 @@
 ---
-title: Subscribe to Bitcoin Core announcements
+title: Subscribe to Ion Core announcements
 name: announcements
 permalink: /zh_CN/list/announcements/join/
 type: pages
@@ -16,6 +16,6 @@ version: 1
     
 仅通告低流量。
 
-_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wullie][sipa-key] and DKIM signed from bitcoincore.org_.
+_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wullie][sipa-key] and DKIM signed from ioncore.org_.
 
 {% include _references.md %}

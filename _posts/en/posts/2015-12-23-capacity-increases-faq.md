@@ -2,9 +2,9 @@
 type: posts
 layout: post
 lang: en
-name: bitcoin-core-capacity-increases-faq
-id: en-bitcoin-core-capacity-increases-faq
-title: Bitcoin Capacity Increases FAQ
+name: ion-core-capacity-increases-faq
+id: en-ion-core-capacity-increases-faq
+title: Ion Capacity Increases FAQ
 permalink: /en/2015/12/23/capacity-increases-faq/
 version: 1
 ---
@@ -18,11 +18,11 @@ New technology will be deployed when it is ready and has been tested. However, w
 | Feb 2016 | 0.12.0 | [libsecp256k1 verification][] |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Feb 2016 | | Segregated witness feature complete & ready for general review |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Mar 2016 | 0.12.1 | Deploy OP_CHECKSEQUENCEVERIFY (BIPs [68][BIP68] & [112][BIP112]) + [BIP113][] as first [BIP9][] versionbits soft fork |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
-| | | [Segregated witness pull request](https://github.com/bitcoin/bitcoin/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
+| | | [Segregated witness pull request](https://github.com/ion/ion/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Oct 2016 | 0.13.1 | Deploy segregated witness (including block size increase) |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | 2017 | | Weak blocks and IBLT, Lightning, or both ||
 
-- **Segregated witness testnet:** a separate testnet (not part of the regular testnet) that provides an opportunity for Bitcoin Core contributors to test segregated witness and for wallet authors to   begin working with it.
+- **Segregated witness testnet:** a separate testnet (not part of the regular testnet) that provides an opportunity for Ion Core contributors to test segregated witness and for wallet authors to   begin working with it.
 
 - **[Libsecp256k1][] verification:** 500% to 700% speed boost on x86\_64 hardware during verification to help new full nodes join the network and to lighten the burden on existing nodes.
 
@@ -30,9 +30,9 @@ New technology will be deployed when it is ready and has been tested. However, w
 
 - **[VersionBits][BIP9]:** increase the maximum number of soft forks able to be deployed simultaneously from 1 to 29, allowing for faster and more decentralized future upgrades of the network.
 
-- **[Segregated witness][bip-segwit]:** 175% to 400% direct capacity upgrade, 66% additional improvement in bi-directional channel efficiency by consolidating channel open and close operations, an end to third-party malleability that hurts smart contract deployment, fraud proofs to allow lightweight clients to better participate in economic enforcement, and ability to more easily upgrade Bitcoin's Script language so that new and more powerful trustless contracts may be devised.
+- **[Segregated witness][bip-segwit]:** 175% to 400% direct capacity upgrade, 66% additional improvement in bi-directional channel efficiency by consolidating channel open and close operations, an end to third-party malleability that hurts smart contract deployment, fraud proofs to allow lightweight clients to better participate in economic enforcement, and ability to more easily upgrade Ion's Script language so that new and more powerful trustless contracts may be devised.
 
-- **IBLTs and weak blocks:** 90% or more reduction in critical bandwidth to relay blocks created by miners who want their blocks to propagate quickly with a modest [increase in total bandwidth][], bringing many of the benefits of the [Bitcoin Relay Network][] to all full nodes. This improvement is accomplished by spreading bandwidth usage out over time for full nodes, which means IBLT and weak blocks may allow for safer future increases to the max block size.
+- **IBLTs and weak blocks:** 90% or more reduction in critical bandwidth to relay blocks created by miners who want their blocks to propagate quickly with a modest [increase in total bandwidth][], bringing many of the benefits of the [Ion Relay Network][] to all full nodes. This improvement is accomplished by spreading bandwidth usage out over time for full nodes, which means IBLT and weak blocks may allow for safer future increases to the max block size.
 
 ## Is the segregated witness soft fork equivalent to a 4 MB block size increase, a 2 MB increase, a 1.75 MB increase, or what? I keep hearing different numbers.  {#segwit-size}
 
@@ -44,7 +44,7 @@ According to some [calculations][] performed by Anthony Towns, a block filled wi
 It is further likely that future scaling improvements, such as Lightning, may slightly improve the ratio such that filled blocks become larger than 2 MB.
 
 [current proposal]: https://youtu.be/fst1IK_mrng?t=2234
-[calculations]: http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011869.html
+[calculations]: http://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011869.html
 
 ## Segregated witness sounds complicated; will the ecosystem be prepared for its deployment?  {#ecosystem-ready}
 
@@ -58,7 +58,7 @@ Segregated witness transactions will require lower fees, will afford much greate
 
 ## Segregated witness still sounds complicated. Why not simply raise the maximum block size?  {#size-bump}
 
-There's a [single line of code][max_block_size] in Bitcoin Core that says the maximum block size is 1,000,000 bytes (1 MB). The simplest code modification would be a hard fork to update that line to say, for example, 2,000,000 bytes (2 MB).
+There's a [single line of code][max_block_size] in Ion Core that says the maximum block size is 1,000,000 bytes (1 MB). The simplest code modification would be a hard fork to update that line to say, for example, 2,000,000 bytes (2 MB).
 
 However, hard forks are anything but simple:
 
@@ -72,7 +72,7 @@ However, hard forks are anything but simple:
 
 Despite these considerable complications, with sufficient precautions, none of them is fatal to a hard fork, and we do expect to make hard forks in the future. But with segregated witness (segwit) we have a soft fork, similar to other soft forks we've performed and gained experience in deploying, that provides us with many benefits in addition to allowing more transactions to be added to the blockchain.
 
-Segwit does require more changes in higher level software stacks than a simple block size increase, but if we truly want to see bitcoin scale, far more invasive changes will be needed anyway, and segwit will gently encourage people to upgrade to more scalable models right away without forcing them to do so.
+Segwit does require more changes in higher level software stacks than a simple block size increase, but if we truly want to see ion scale, far more invasive changes will be needed anyway, and segwit will gently encourage people to upgrade to more scalable models right away without forcing them to do so.
 
 Developers, miners, and the community have accrued significant experience deploying soft forks, and we believe segwit can be deployed at least as fast, and probably more securely, than a hard fork that increases the maximum block size.
 
@@ -80,13 +80,13 @@ Developers, miners, and the community have accrued significant experience deploy
 
 No. That is not part of the [roadmap][].
 
-[roadmap]: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011865.html
+[roadmap]: https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html
 
 ## If there's eventually going to be a hard fork, why not do it now? {#why-not-now}
 
 We currently have the ability to increase the capacity of the system through soft forks that have widespread consensus without any of the complications of a hard fork, as described in an [earlier question][q simple raise], so the expectation that there will be an eventual hard fork is not sufficient reason to attempt one now.
 
-In addition to giving us extra transaction capacity, the improvements proposed in the roadmap (combined with other technology such as bi-directional payment channels) give users the ability to reduce the amount of blockchain space they use on average---effectively increasing the capacity of the Bitcoin system without increasing the amount of full node bandwidth used.
+In addition to giving us extra transaction capacity, the improvements proposed in the roadmap (combined with other technology such as bi-directional payment channels) give users the ability to reduce the amount of blockchain space they use on average---effectively increasing the capacity of the Ion system without increasing the amount of full node bandwidth used.
 
 For example,
 
@@ -94,7 +94,7 @@ For example,
 
 - Segregated witness allows a payment channel close transaction to be combined with a payment channel open transaction, reducing the blockchain space used to change channels by about 66%. 
 
-- Segregated witness allows soft forks to change the Bitcoin Script language in ways that could reduce the average size of a transaction, such as using public-key-recovery-from-signatures or Schnorr combined signatures.
+- Segregated witness allows soft forks to change the Ion Script language in ways that could reduce the average size of a transaction, such as using public-key-recovery-from-signatures or Schnorr combined signatures.
 
 - Segregated witness permits the creation of compact fraud proofs that may bring the security of Simplified Payment Verification (SPV) lightweight clients up near to that of full nodes, which may allow the network to function well with fewer full nodes than it can under currently-deployed technology.
 
@@ -104,7 +104,7 @@ The actual effect of these technologies is unknown, but scaling now with a soft 
 
 Wallets that currently support P2SH can migrate to full segregated witness in two phases:
 
-- Phase 1: Scripts are hashed twice, first to 256 bits and then to 160 bits. The 160 bit hash will be compatible with existing P2SH addresses, so upgraded wallets will be able to send and receive bitcoins to and from currently existing wallets.
+- Phase 1: Scripts are hashed twice, first to 256 bits and then to 160 bits. The 160 bit hash will be compatible with existing P2SH addresses, so upgraded wallets will be able to send and receive ions to and from currently existing wallets.
 
 - Phase 2: Scripts are hashed once to 256 bits. This format will not be compatible with existing wallets but will allow more efficient use of block space and will offer better security due to greater collision resistance.
 
@@ -127,11 +127,11 @@ Web wallets and exchanges that send large numbers of transactions each day at fi
 
 ## I heard you were breaking zero-confirmation transactions. Which technology in the scaling roadmap is doing that?  {#rbf}
 
-None of them. By default, current versions of Bitcoin Core won't replace an unconfirmed transaction with another transaction that spends any of the same inputs. Some people think this means the first transaction they see that spends a particular input is safe, but this is untrue. (If it were true, we wouldn't need the blockchain.)
+None of them. By default, current versions of Ion Core won't replace an unconfirmed transaction with another transaction that spends any of the same inputs. Some people think this means the first transaction they see that spends a particular input is safe, but this is untrue. (If it were true, we wouldn't need the blockchain.)
 
-This current default policy does mean that people who want to be able to update their unconfirmed transactions can't do that. The original version of Bitcoin provided people with a way to indicate that they wanted to be able to update their transactions, but Nakamoto had to disable it in 2010 to prevent denial-of-service (DoS) attacks.
+This current default policy does mean that people who want to be able to update their unconfirmed transactions can't do that. The original version of Ion provided people with a way to indicate that they wanted to be able to update their transactions, but Nakamoto had to disable it in 2010 to prevent denial-of-service (DoS) attacks.
 
-Recent Bitcoin Core developers realized that they could prevent the DoS attack by requiring updated transactions pay extra fees, and they've re-enabled Nakamoto's mechanism for indicating when a transactions can be replaced. This feature is planned for Bitcoin Core 0.12.0 (expected Jan/Feb 2016) but, like Nakamoto's original feature, is opt-in so people who want to be able to replace their transactions have to use a wallet that supports that feature.
+Recent Ion Core developers realized that they could prevent the DoS attack by requiring updated transactions pay extra fees, and they've re-enabled Nakamoto's mechanism for indicating when a transactions can be replaced. This feature is planned for Ion Core 0.12.0 (expected Jan/Feb 2016) but, like Nakamoto's original feature, is opt-in so people who want to be able to replace their transactions have to use a wallet that supports that feature.
 
 Currently there are no wallets that provide this feature, but wallets that do provide it in the future may be able to combine multiple transactions together to reduce the amount of blockchain space they use as well as increase the fees they pay on transactions that are taking a long time to confirm, helping to prevent transactions from getting “stuck” (a known usability problem).
 
@@ -158,42 +158,42 @@ The [BIP66][] (strict DER) soft fork which activated in July 2015 will soon be p
 
 What segregated witness (segwit) does is provide several major benefits to anyone who uses it to create transactions:
 
-A permanent fix for third-party malleability, allowing multi-stage smart contracts to flourish. A modest reduction in fees. Easy future upgrades to Bitcoin Script, so wallets can more easily gain access to new features.
+A permanent fix for third-party malleability, allowing multi-stage smart contracts to flourish. A modest reduction in fees. Easy future upgrades to Ion Script, so wallets can more easily gain access to new features.
 
-Through the previous soft forks, and through conversations such as the [Miners' Panel][] at Scaling Bitcoin Hong Kong, miners have repeatedly shown that they want Bitcoin to be the most useful system possible even if they don't receive any direct benefits. Segwit and the other improvements in the roadmap provide significant usability enhancements.
+Through the previous soft forks, and through conversations such as the [Miners' Panel][] at Scaling Ion Hong Kong, miners have repeatedly shown that they want Ion to be the most useful system possible even if they don't receive any direct benefits. Segwit and the other improvements in the roadmap provide significant usability enhancements.
 
 In addition, segwit allows miners to put more transactions in their blocks, which may allow them to increase their per-block revenue.
 
 ## How can I help?
 
-Start by reading the [Bitcoin Core contributor][] pages on Bitcoin.org. In particular, [code review][] is a critical part of getting soft forks deployed.
+Start by reading the [Ion Core contributor][] pages on Ion.org. In particular, [code review][] is a critical part of getting soft forks deployed.
 
 To get specific suggestions on how you can help, please join the
-[#bitcoin-dev][] IRC channel.
+[#ion-dev][] IRC channel.
 
-[#bitcoin-dev]: https://webchat.freenode.net/?channels=bitcoin-dev&amp;uio=d4
-[actively studied]: http://diyhpl.us/wiki/transcripts/scalingbitcoin/bitcoin-block-propagation-iblt-rusty-russell/
-[bip-segwit]: https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
-[BIP9]: https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki
-[BIP16]: https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki
-[BIP30]: https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki
-[BIP34]: https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki
-[BIP50]: https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki
-[BIP65]: https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki
-[BIP66]: https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki
-[BIP68]: https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki
-[BIP112]: https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki
-[BIP113]: https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki
-[bitcoin core contributor]: https://bitcoin.org/en/bitcoin-core/
-[Bitcoin relay network]: http://bitcoinrelaynetwork.org/
-[code review]: https://bitcoin.org/en/development#code-review
-[estimated savings]: https://www.reddit.com/r/bitcoinxt/comments/3w1i6b/i_attended_scaling_bitcoin_hong_kong_these_are_my/cxtkaih
-[increase in total bandwidth]: https://scalingbitcoin.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
-[libsecp256k1]: https://github.com/bitcoin/secp256k1
-[libsecp256k1 verification]: https://github.com/bitcoin/bitcoin/pull/6954
-[max_block_size]: https://github.com/bitcoin/bitcoin/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
+[#ion-dev]: https://webchat.freenode.net/?channels=ion-dev&amp;uio=d4
+[actively studied]: http://diyhpl.us/wiki/transcripts/scalingion/ion-block-propagation-iblt-rusty-russell/
+[bip-segwit]: https://github.com/ion/bips/blob/master/bip-0141.mediawiki
+[BIP9]: https://github.com/ion/bips/blob/master/bip-0009.mediawiki
+[BIP16]: https://github.com/ion/bips/blob/master/bip-0016.mediawiki
+[BIP30]: https://github.com/ion/bips/blob/master/bip-0030.mediawiki
+[BIP34]: https://github.com/ion/bips/blob/master/bip-0034.mediawiki
+[BIP50]: https://github.com/ion/bips/blob/master/bip-0050.mediawiki
+[BIP65]: https://github.com/ion/bips/blob/master/bip-0065.mediawiki
+[BIP66]: https://github.com/ion/bips/blob/master/bip-0066.mediawiki
+[BIP68]: https://github.com/ion/bips/blob/master/bip-0068.mediawiki
+[BIP112]: https://github.com/ion/bips/blob/master/bip-0112.mediawiki
+[BIP113]: https://github.com/ion/bips/blob/master/bip-0113.mediawiki
+[ion core contributor]: https://ion.org/en/ion-core/
+[Ion relay network]: http://ionrelaynetwork.org/
+[code review]: https://ion.org/en/development#code-review
+[estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
+[increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
+[libsecp256k1]: https://github.com/ion/secp256k1
+[libsecp256k1 verification]: https://github.com/ion/ion/pull/6954
+[max_block_size]: https://github.com/ion/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
-[payment channel efficiency]: https://scalingbitcoin.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
-[previous soft forks]: https://github.com/bitcoin/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
+[payment channel efficiency]: https://scalingion.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
+[previous soft forks]: https://github.com/ion/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
 [weak blocks and iblts]: https://www.youtube.com/watch?v=ivgxcEOyWNs&t=1h40m20s
 [q simple raise]: #size-bump

@@ -9,13 +9,13 @@ permalink: /en/2016/06/08/version-bits-miners-faq/
 categories: [FAQ, mining]
 tags: [soft fork, soft forks, bip9, version bits, mining]
 version: 1
-excerpt: The "version bits" BIP9 system is a way to introduce backward compatible rule changes to the Bitcoin consensus rules, known as a soft fork.
+excerpt: The "version bits" BIP9 system is a way to introduce backward compatible rule changes to the Ion consensus rules, known as a soft fork.
 ---
 {% include _toc.html %}
 
 ## What is _version bits_ BIP9?
 
-The _version bits_ [BIP9][] system is a way to introduce backward compatible rule changes to the Bitcoin consensus rules, known as a soft fork.
+The _version bits_ [BIP9][] system is a way to introduce backward compatible rule changes to the Ion consensus rules, known as a soft fork.
 
 _version bits_ allows miners to signal that they can validate the soft fork rules. It also allows for up to 29 soft forks to be proposed concurrently.
 
@@ -37,9 +37,9 @@ or
 
 - `[DEFINED]` -> `[STARTED]` -> `[FAILED]`
 
-![version bits state diagram](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0009/states.png)
+![version bits state diagram](https://raw.githubusercontent.com/ion/bips/master/bip-0009/states.png)
 
-The Bitcoin network retargets mining difficulty every 2016 blocks; at this time _version bits_ will look at the window of the previous 2016 blocks to see how many blocks signal for a given soft fork. If 95% of the blocks signal readiness for the soft fork, the state changes from `[STARTED]` to `[LOCKED_IN]`.
+The Ion network retargets mining difficulty every 2016 blocks; at this time _version bits_ will look at the window of the previous 2016 blocks to see how many blocks signal for a given soft fork. If 95% of the blocks signal readiness for the soft fork, the state changes from `[STARTED]` to `[LOCKED_IN]`.
 
 After `[LOCKED_IN]` the rules will activate after one more difficulty retarget, i.e. a further 2016 blocks. Nodes software will warn that an upgrade is pending.
 
@@ -89,13 +89,13 @@ Non-upgraded miners risk producing invalid blocks which would be orphaned if the
 
 ## Who assigns version bits to different upgrade proposals?
 
-Soft forks are proposed through the [BIPs process][BIP1]. Active [BIP9][] soft fork proposals are listed on the [assignments page](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki#deployments)
+Soft forks are proposed through the [BIPs process][BIP1]. Active [BIP9][] soft fork proposals are listed on the [assignments page](https://github.com/ion/bips/blob/master/bip-0009.mediawiki#deployments)
 
 ## Further reading
 
 - <http://rusty.ozlabs.org/?p=576>
-- <https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki>
-- <https://bitcointalk.org/index.php?topic=1067693.msg11446462#msg11446462>
+- <https://github.com/ion/bips/blob/master/bip-0009.mediawiki>
+- <https://iontalk.org/index.php?topic=1067693.msg11446462#msg11446462>
 
 {% include _references.md %}
 

@@ -1,5 +1,5 @@
 ---
-title: Bitcoin Core Supported BIPs
+title: Ion Core Supported BIPs
 name: supported-bips
 type: page
 type: pages
@@ -8,7 +8,7 @@ permalink: /zh_TW/bips/
 share: false
 version: 0
 ---
-Bitcoin Core supports the following [BIPs][BIPS-link].
+Ion Core supports the following [BIPs][BIPS-link].
 
 | BIP |Supported since| Title |
 |-----|---------------|-------|

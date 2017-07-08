@@ -33,7 +33,7 @@ In addition, the compact block relay proposal also provides a second mode of ope
 
 The diagram below shows the way nodes currently send blocks compared to compact block relay's two operating modes.
 
-![Compact Blocks diagram](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0152/protocol-flow.png)
+![Compact Blocks diagram](https://raw.githubusercontent.com/ion/bips/master/bip-0152/protocol-flow.png)
 
 - In **Legacy Relaying,** a block is validated (the grey bar) by Node A, who then sends an `inv` message to Node B requesting permission to send the block.  Node B replies with a request (`getdata`) for the block and Node A sends it.
 
@@ -57,7 +57,7 @@ However, in the described experiments, the sending node used a simple formula to
 
 ## How does the Fast Relay Network factor into this?
 
-The [Fast Relay Network](http://bitcoinrelaynetwork.org/) (FRN) consists of two pieces:
+The [Fast Relay Network](http://ionrelaynetwork.org/) (FRN) consists of two pieces:
 
 * The curated set of nodes currently in the Fast Relay Network
 
@@ -67,19 +67,19 @@ The set of curated nodes in the FRN have been carefully chosen with minimal rela
 
 The original FBRP is how the participating nodes communicate block information to each other. Nodes keep track of what transactions they send to each other, and relay block differentials based off of this knowledge. This protocol is nearly optimal for one-to-one server-client communication of new blocks. More recently, a UDP and Forward Error Correction (FEC) based protocol, named RN-NextGeneration,has been deployed for testing and use by miners. These protocols however require a not-well connected relay topology and are more brittle than a more general p2p network. Improvements at the protocol level using compact blocks will shrink the performance gap between the curated network of nodes and the p2p network in general. The increased robustness of the p2p network and block propagation speed at large will play a role in how the network develops in the future. 
 
-## Does this scale Bitcoin?
+## Does this scale Ion?
 
 This feature is intended to save peak block bandwidth for nodes, reducing bandwidth spikes which can degrade end-user internet experience. However, the centralization pressures of mining exist in a large part due to latency of block propagation, as described in the following video. Compact blocks version 1 is not primarily designed to solve that problem.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6kibPzbrIc" frameborder="0" allowfullscreen> </iframe>
 
-It is expected that miners will continue to use the [Fast Relay Network](http://bitcoinrelaynetwork.org/) until a lower-latency or more robust solution is developed. However improvements to the base p2p protocol will increase robustness in the case of FRN failure, and perhaps reduce the advantage of private relay networks, making them not worthwhile to run.
+It is expected that miners will continue to use the [Fast Relay Network](http://ionrelaynetwork.org/) until a lower-latency or more robust solution is developed. However improvements to the base p2p protocol will increase robustness in the case of FRN failure, and perhaps reduce the advantage of private relay networks, making them not worthwhile to run.
 
 Furthermore, the experiments conducted and data collected using the first version of compact blocks will inform the design of the future improvements we expect to be more competitive with the FRN.
 
 ## Who benefits from compact blocks?
 
-* Full node users who want to relay transactions but who have limited internet bandwidth. If you simply want to save the most bandwidth possible while still relaying blocks to peers, there is a `blocksonly` mode already available starting in Bitcoin Core v0.12.  Blocks-only mode only receives transactions when they're included in a block, so there is no extra transaction overhead.
+* Full node users who want to relay transactions but who have limited internet bandwidth. If you simply want to save the most bandwidth possible while still relaying blocks to peers, there is a `blocksonly` mode already available starting in Ion Core v0.12.  Blocks-only mode only receives transactions when they're included in a block, so there is no extra transaction overhead.
 
 * The network as a whole. Decreasing block propagation times on the p2p network creates a healthier network with a better baseline relay security margin. 
 
@@ -87,8 +87,8 @@ Furthermore, the experiments conducted and data collected using the first versio
 
 The first version of compact blocks has been assigned [BIP152][], has a working implementation, and is being actively tested by the developer community. 
 
-- BIP152: <https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki>
-- Reference implementation: <https://github.com/bitcoin/bitcoin/pull/8068>
+- BIP152: <https://github.com/ion/bips/blob/master/bip-0152.mediawiki>
+- Reference implementation: <https://github.com/ion/ion/pull/8068>
 
 ## How can this be adapted for even faster p2p relay?
 
@@ -109,7 +109,7 @@ This would allow a node to begin sending a block as soon as it receives them, an
 The idea of using bloom filters (such as those used in [BIP37][] filteredblocks) to more efficiently transmit blocks was proposed a number of  years ago. It was also implemented by Pieter Wuille (sipa) in 2013 but he found the overhead made it slow down the transfer.
 
 {% highlight text %}
-[#bitcoin-dev, public log (excerpts)]
+[#ion-dev, public log (excerpts)]
 
 [2013-12-27]
 09:12 < sipa> TD: i'm working on bip37-based block propagation
@@ -139,9 +139,9 @@ As was noted in the excerpt, simply extending the protocol to support sending in
 - <https://people.xiph.org/~greg/lowlatency.block.xfer.txt>
 - <https://people.xiph.org/~greg/weakblocks.txt>
 - <https://people.xiph.org/~greg/mempool_sync_relay.txt>
-- <https://en.bitcoin.it/wiki/User:Gmaxwell/block_network_coding>
-- <http://diyhpl.us/~bryan/irc/bitcoin/block-propagation-links.2016-05-09.txt>
-- <http://diyhpl.us/~bryan/irc/bitcoin/weak-blocks-links.2016-05-09.txt>
-- <http://diyhpl.us/~bryan/irc/bitcoin/propagation-links.2016-05-09.txt>
+- <https://en.ion.it/wiki/User:Gmaxwell/block_network_coding>
+- <http://diyhpl.us/~bryan/irc/ion/block-propagation-links.2016-05-09.txt>
+- <http://diyhpl.us/~bryan/irc/ion/weak-blocks-links.2016-05-09.txt>
+- <http://diyhpl.us/~bryan/irc/ion/propagation-links.2016-05-09.txt>
 
 {% include _references.md %}

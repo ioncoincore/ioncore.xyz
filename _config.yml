@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Bitcoin Core
-url: https://bitcoincore.org
-transifex_url: https://www.transifex.com/bitcoincore/bitcoincoreorg
+title: Ion Core
+url: https://ioncore.org
+transifex_url: https://www.transifex.com/ioncore/ioncoreorg
 
 # Jekyll configuration
 
@@ -24,12 +24,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Bitcoin Core
+  name: Ion Core
   avatar: bio-photo.jpg
   bio: ""
   email:
   disqus-shortname:
-  twitter: bitcoincoreorg
+  twitter: ioncoreorg
   facebook: #username
   google:
     plus: #username
@@ -38,7 +38,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: bitcoin
+  github: ion
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username

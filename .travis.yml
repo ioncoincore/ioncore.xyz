@@ -29,6 +29,6 @@ branches:
 notifications:
   irc:
     channels:
-      - "chat.freenode.net#bitcoin-core-website"
+      - "chat.freenode.net#ion-core-website"
     on_success: change
     on_failure: change

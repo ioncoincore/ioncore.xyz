@@ -28,7 +28,7 @@ excerpt: 版本位允许矿工向外界示意他们可以验证软分叉规则�
 
 -	[DEFINED] -> [STARTED] -> [FAILED]
 
-![version bits state diagram](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0009/states.png)
+![version bits state diagram](https://raw.githubusercontent.com/ion/bips/master/bip-0009/states.png)
 
 比特币网络每 2016 个区块变更挖矿难度；此时版本位将观察前面 2016 个区块的窗口，看看有多少区块对指定的软分叉释放信号。如果 95％ 区块对软分叉释放就绪信号，状态从[STARTED] 变化至 [LOCKED_IN]。
 
@@ -75,7 +75,7 @@ IsSuperMajority() 或其简写ISM，是一个历史遗留的软分叉触发器�
 
 ## 谁来为提议的不同更新版本分配版本位？
 
-软分叉是通过 [BIPs process][BIP1] 被提议的。现行的 BIP9 软分叉提议存放在 [assignments page](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki#deployments)
+软分叉是通过 [BIPs process][BIP1] 被提议的。现行的 BIP9 软分叉提议存放在 [assignments page](https://github.com/ion/bips/blob/master/bip-0009.mediawiki#deployments)
 
 ## 更多阅读
 
@@ -83,7 +83,7 @@ IsSuperMajority() 或其简写ISM，是一个历史遗留的软分叉触发器�
 {% include _toc.html %}
 
 - <http://rusty.ozlabs.org/?p=576>
-- <https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki>
-- <https://bitcointalk.org/index.php?topic=1067693.msg11446462#msg11446462>
+- <https://github.com/ion/bips/blob/master/bip-0009.mediawiki>
+- <https://iontalk.org/index.php?topic=1067693.msg11446462#msg11446462>
 
 include _references.md %}

@@ -11,7 +11,7 @@
 |[34][BIP34] | v0.7.0        |[Block v2, Height in coinbase][BIP34]|
 |[35][BIP35] | v0.7.0        |[mempool message][BIP35]|
 |[37][BIP37] | v0.8.0        |[Bloom filtering][BIP37]|
-|[42][BIP42] | v0.9.2        |[A finite monetary supply for Bitcoin][BIP42]|
+|[42][BIP42] | v0.9.2        |[A finite monetary supply for Ion][BIP42]|
 |[61][BIP61] | v0.9.0        |["reject" P2P message][BIP61]|
 |[65][BIP65] | v0.10.4       |[OP_CHECKLOCKTIMEVERIFY][BIP65]|
 |[68][BIP68] | v0.12.1       |[Relative lock-time using consensus-enforced sequence numbers][BIP68]|

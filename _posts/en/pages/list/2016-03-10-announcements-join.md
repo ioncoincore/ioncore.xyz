@@ -1,5 +1,5 @@
 ---
-title: Subscribe to Bitcoin Core announcements
+title: Subscribe to Ion Core announcements
 name: announcements
 permalink: /en/list/announcements/join/
 type: pages
@@ -8,7 +8,7 @@ lang: en
 share: false
 version: 1
 ---
-Receive notification of important security announcements and releases for Bitcoin Core.
+Receive notification of important security announcements and releases for Ion Core.
 
 Enter your email address below:
 
@@ -16,6 +16,6 @@ Enter your email address below:
     
 Low traffic for announcements only.
 
-_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wuille][sipa-key] and DKIM signed from bitcoincore.org_.
+_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wuille][sipa-key] and DKIM signed from ioncore.org_.
 
 {% include _references.md %}

@@ -11,7 +11,7 @@ version: 0
 ---
 
 You are welcome to contribute to the project!
-Our main source code repository is [hosted on GitHub](https://github.com/bitcoin/bitcoin/) and there are several aspects you can help on:
+Our main source code repository is [hosted on GitHub](https://github.com/ion/ion/) and there are several aspects you can help on:
 
   - Improving our documentation (see [README.md][README.md] and [doc folder][doc])
   - [Translations][translation_process.md]
@@ -25,19 +25,19 @@ please check the [contribution guidelines](/en/faq/contributing-code) to underst
 
 **Discussion**
 
-Most Bitcoin Core related discussion happens in the `#bitcoin-core-dev` IRC channel on irc.freenode.net. There is also a mailing list for Bitcoin protocol discussion [bitcoin-dev][bitcoin-dev] and a general Bitcoin discussion [bitcoin-discuss][bitcoin-discuss]. We also have [Slack][slack] (request an [invitation][invite]).
+Most Ion Core related discussion happens in the `#ion-core-dev` IRC channel on irc.freenode.net. There is also a mailing list for Ion protocol discussion [ion-dev][ion-dev] and a general Ion discussion [ion-discuss][ion-discuss]. We also have [Slack][slack] (request an [invitation][invite]).
 
 **Contribute to this website**
 
 You can also translate or contribute to this [website][website-contrib].
 
-[README.md]: https://github.com/bitcoin/bitcoin/blob/master/README.md
-[doc]: https://github.com/bitcoin/bitcoin/tree/master/doc
-[translation_process.md]: https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md
-[issues]: https://github.com/bitcoin/bitcoin/issues
-[pulls]: https://github.com/bitcoin/bitcoin/pulls
-[bitcoin-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/bitcoin-discuss
-[bitcoin-dev]: http://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev
-[website-contrib]: https://github.com/bitcoin-core/website/blob/gh-pages/README.md
-[Slack]: https://bitcoincore.slack.com/
-[invite]: https://slack.bitcoincore.org/
+[README.md]: https://github.com/ion/ion/blob/master/README.md
+[doc]: https://github.com/ion/ion/tree/master/doc
+[translation_process.md]: https://github.com/ion/ion/blob/master/doc/translation_process.md
+[issues]: https://github.com/ion/ion/issues
+[pulls]: https://github.com/ion/ion/pulls
+[ion-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/ion-discuss
+[ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
+[website-contrib]: https://github.com/ion-core/website/blob/gh-pages/README.md
+[Slack]: https://ioncore.slack.com/
+[invite]: https://slack.ioncore.org/

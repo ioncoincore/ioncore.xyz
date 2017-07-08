@@ -2,8 +2,8 @@
 layout: post
 type: posts
 lang: zh_TW
-name: bitcoin-core-capacity-increases-faq
-id: zh_tw-bitcoin-core-capacity-increases-faq
+name: ion-core-capacity-increases-faq
+id: zh_tw-ion-core-capacity-increases-faq
 title: 系統擴展常見問題解答
 permalink: /zh_TW/2015/12/21/系統擴展常見問題解答/
 version: 1
@@ -23,7 +23,7 @@ version: 1
 
 \* 有星號的日期是預計完成代碼的時間。代碼只會在充分審核後才會發表，而軟分叉完成也需要時間。([BIP66][]經歷數月時間在2015年7月生效，[BIP65][]則只用了五周時間在2015年12月生效)
 
-- **隔離見證測試網:** 一個獨立的測試網，並非平常測試網的一部分。讓 Bitcoin Core 開發員及錢包開發員測試隔離見證功能。
+- **隔離見證測試網:** 一個獨立的測試網，並非平常測試網的一部分。讓 Ion Core 開發員及錢包開發員測試隔離見證功能。
 
 - **Libsecp256k1驗證:** 在x86\_64硬件上提升交易驗證速度五至七倍。幫助新節點加入網絡並減輕現有節點的負擔。
 
@@ -33,7 +33,7 @@ version: 1
 
 - **隔離見證:** 允許交易容量上升到1.75至4倍，解決第三方延展性讓智能合約更安全，雙向支付通道效率提升66%，提供欺詐證明讓輕量節點也可以執行系統規則，更容易對腳本系統升級以允許更強大的合約功能。
 
-- **IBLT及弱區塊:** 只需要把[總帶寬增加少許][increase in total bandwidth]，就可以把區塊傳播所必須的帶寬減低90%以上，讓礦工可以在最短時間內把區塊傳播出去，把[比特幣廣播網絡][Bitcoin Relay Network]的好處帶給所有全節點。IBLT及弱區塊可以把全節點所需的帶寬變得更平均，讓將來可以更安全地增加最大區塊容量。
+- **IBLT及弱區塊:** 只需要把[總帶寬增加少許][increase in total bandwidth]，就可以把區塊傳播所必須的帶寬減低90%以上，讓礦工可以在最短時間內把區塊傳播出去，把[比特幣廣播網絡][Ion Relay Network]的好處帶給所有全節點。IBLT及弱區塊可以把全節點所需的帶寬變得更平均，讓將來可以更安全地增加最大區塊容量。
 
 ## 隔離見證軟分叉究竟相當於多少的區塊大小增加？我聽過不同講法，如4MB、2MB、1.75MB。 {#segwit-size}
 
@@ -44,7 +44,7 @@ version: 1
 根據Anthony Towns的[計算][calculations]，如果區塊裝滿了標準的單簽名P2PKH交易，體積大概為1.6MB；如果是2-of-2多重簽名交易，則大概為2.0MB。
 
 [current proposal]: https://youtu.be/fst1IK_mrng?t=2234
-[calculations]: http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011869.html
+[calculations]: http://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011869.html
 
 ## 隔離見證好像很複雜，比特幣生態各環節準備好沒有？ {#ecosystem-ready}
 
@@ -58,7 +58,7 @@ version: 1
 
 ## 我還是覺得隔離見證很複雜，為什麼不簡單地提高區塊體積？  {#size-bump}
 
-在Bitcoin Core有[一句代碼][max_block_size]指定區塊最大是 1,000,000 字節 (1MB)。最簡單的方法是用硬分叉改變這句代碼，例如變為 2,000,000 字節 (2MB)。
+在Ion Core有[一句代碼][max_block_size]指定區塊最大是 1,000,000 字節 (1MB)。最簡單的方法是用硬分叉改變這句代碼，例如變為 2,000,000 字節 (2MB)。
 
 但硬分叉本身絕不簡單:
 
@@ -80,7 +80,7 @@ version: 1
 
 不會，這並非[路線圖][roadmap]的一部分。
 
-[roadmap]: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011865.html
+[roadmap]: https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html
 
 ## 如果最終還是要硬分叉，為何現在不做？ {#why-not-now}
 
@@ -125,11 +125,11 @@ David Harding 提供了下表以[估計][estimated savings]在不同費用和交
 
 ## 聽說你們會讓零確認不能再用，這是路線圖內哪一項技術？  {#rbf}
 
-這並不是路線圖的一部分。作為現在 Bitcoin Core 版本的默認設置，在收到一個未確認交易後，就不會再接受其它有相同輸入的交易。有些人認為這表示他們首個見到的交易就是安全的，但其實不是；如果真的是這樣，我們根本不需要區塊鏈。
+這並不是路線圖的一部分。作為現在 Ion Core 版本的默認設置，在收到一個未確認交易後，就不會再接受其它有相同輸入的交易。有些人認為這表示他們首個見到的交易就是安全的，但其實不是；如果真的是這樣，我們根本不需要區塊鏈。
 
-在現時的默認設置下，人們並不能更新他們未確認的交易。在最初的 Bitcoin 版本，其實是有方法讓使用者表明他希望交易可被更新，但為了防止拒絕服務攻擊，中本聰在2010年關閉了這功能。
+在現時的默認設置下，人們並不能更新他們未確認的交易。在最初的 Ion 版本，其實是有方法讓使用者表明他希望交易可被更新，但為了防止拒絕服務攻擊，中本聰在2010年關閉了這功能。
 
-最近 Bitcoin Core 的開發員發現只要要求更新交易的同時要求使用者要付出更多的交易費，就可以防止上述的拒絕服務攻擊，因此他們重開了中本聰那個允許交易被替換的機制。這功能會在預計2016年1至2月在 Bitcoin Core 0.12.0 推出，但和中本聰原本的設計一樣，只有希望可以替換交易的使用者才需要選擇使用支持該功能的錢包。
+最近 Ion Core 的開發員發現只要要求更新交易的同時要求使用者要付出更多的交易費，就可以防止上述的拒絕服務攻擊，因此他們重開了中本聰那個允許交易被替換的機制。這功能會在預計2016年1至2月在 Ion Core 0.12.0 推出，但和中本聰原本的設計一樣，只有希望可以替換交易的使用者才需要選擇使用支持該功能的錢包。
 
 現在並沒有錢包提供這功能，但將來這類錢包可以把多個未確認交易合並以減少所需要的區塊鏈空間，也可以讓用戶提高未確認交易的費用，不會因為之前付費不足讓交易「阻塞」在錢包內。
 
@@ -164,30 +164,30 @@ David Harding 提供了下表以[估計][estimated savings]在不同費用和交
 
 ## 我可以怎樣幫忙？
 
-首先閱讀在 Bitcoin.org 上的 [Bitcoin Core貢獻者][Bitcoin Core contributor]網頁。
+首先閱讀在 Ion.org 上的 [Ion Core貢獻者][Ion Core contributor]網頁。
 其中[代碼審閱][code review]是實行軟分叉極重要的一部分。
 
-如果你想得到更多有關如何貢獻的建議，請加入[#bitcoin-dev][] IRC 頻道討論。
+如果你想得到更多有關如何貢獻的建議，請加入[#ion-dev][] IRC 頻道討論。
 
-[#bitcoin-dev]: https://webchat.freenode.net/?channels=bitcoin-dev&amp;uio=d4
-[bip-segwit]: https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
-[BIP9]: https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki
-[BIP16]: https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki
-[BIP34]: https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki
-[BIP50]: https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki
-[BIP65]: https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki
-[BIP66]: https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki
-[BIP68]: https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki
-[BIP112]: https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki
-[BIP113]: https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki
-[bitcoin core contributor]: https://bitcoin.org/en/bitcoin-core/
-[Bitcoin relay network]: http://bitcoinrelaynetwork.org/
-[code review]: https://bitcoin.org/en/development#code-review
-[estimated savings]: https://www.reddit.com/r/bitcoinxt/comments/3w1i6b/i_attended_scaling_bitcoin_hong_kong_these_are_my/cxtkaih
-[increase in total bandwidth]: https://scalingbitcoin.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
-[libsecp256k1 verification]: https://github.com/bitcoin/bitcoin/pull/6954
-[max_block_size]: https://github.com/bitcoin/bitcoin/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
+[#ion-dev]: https://webchat.freenode.net/?channels=ion-dev&amp;uio=d4
+[bip-segwit]: https://github.com/ion/bips/blob/master/bip-0141.mediawiki
+[BIP9]: https://github.com/ion/bips/blob/master/bip-0009.mediawiki
+[BIP16]: https://github.com/ion/bips/blob/master/bip-0016.mediawiki
+[BIP34]: https://github.com/ion/bips/blob/master/bip-0034.mediawiki
+[BIP50]: https://github.com/ion/bips/blob/master/bip-0050.mediawiki
+[BIP65]: https://github.com/ion/bips/blob/master/bip-0065.mediawiki
+[BIP66]: https://github.com/ion/bips/blob/master/bip-0066.mediawiki
+[BIP68]: https://github.com/ion/bips/blob/master/bip-0068.mediawiki
+[BIP112]: https://github.com/ion/bips/blob/master/bip-0112.mediawiki
+[BIP113]: https://github.com/ion/bips/blob/master/bip-0113.mediawiki
+[ion core contributor]: https://ion.org/en/ion-core/
+[Ion relay network]: http://ionrelaynetwork.org/
+[code review]: https://ion.org/en/development#code-review
+[estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
+[increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
+[libsecp256k1 verification]: https://github.com/ion/ion/pull/6954
+[max_block_size]: https://github.com/ion/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
-[payment channel efficiency]: https://scalingbitcoin.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
-[previous soft forks]: https://github.com/bitcoin/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
+[payment channel efficiency]: https://scalingion.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
+[previous soft forks]: https://github.com/ion/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
 [q simple raise]: #size-bump

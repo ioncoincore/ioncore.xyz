@@ -45,13 +45,13 @@ Segwit 可以防止第三方和 scriptSig 延展性, 通过把比特币交易中
 
 ### 更多信息
 
- * [比特币维基延展性](https://en.bitcoin.it/wiki/Transaction_Malleability)
- * [关于延展性攻击的 2015 年比特币电报文章](http://cointelegraph.com/news/115374/the-ongoing-bitcoin-malleability-attack)
- * [关于延展性攻击的2015年比特币杂志文章](https://bitcoinmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
- * [概述各种比特币改进建议对闪电交易的重要性](http://diyhpl.us/wiki/transcripts/scalingbitcoin/hong-kong/overview-of-bips-necessary-for-lightning/)
- * [BIP 62](https://github.com/bitcoin/bips/blob/master/bip-0062.mediawiki)
- * [比特币改进建议 140-延展性修复的替代方法](https://github.com/bitcoin/bips/blob/master/bip-0140.mediawiki)
- * [关于 683f…8bfa 交易在 Stack exchange 问答网络平台的回答](http://bitcoin.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
+ * [比特币维基延展性](https://en.ion.it/wiki/Transaction_Malleability)
+ * [关于延展性攻击的 2015 年比特币电报文章](http://cointelegraph.com/news/115374/the-ongoing-ion-malleability-attack)
+ * [关于延展性攻击的2015年比特币杂志文章](https://ionmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
+ * [概述各种比特币改进建议对闪电交易的重要性](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning/)
+ * [BIP 62](https://github.com/ion/bips/blob/master/bip-0062.mediawiki)
+ * [比特币改进建议 140-延展性修复的替代方法](https://github.com/ion/bips/blob/master/bip-0140.mediawiki)
+ * [关于 683f…8bfa 交易在 Stack exchange 问答网络平台的回答](http://ion.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
 
 ## 线性增长 sighash 的操作
 
@@ -74,11 +74,11 @@ Segwit 通过改变交易哈希签名的计算方式可以解决此问题，使�
 
 ### 更多信息
 
- * [BIP 143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
  * [在 25s 交易中 Rusty Russell 发布的博客](http://rusty.ozlabs.org/?p=522)
- * [CVE 2013-2292-比特币维基](https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
- * [提议限制交易至 100KB](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-July/009494.html)
- * [在比特币 Classic0.11.2 版本中添加了限制sighash字节的额外共识](https://github.com/bitcoinclassic/bitcoinclassic/commit/842dc24b23ad9551c67672660c4cba882c4c840a)
+ * [CVE 2013-2292-比特币维基](https://en.ion.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
+ * [提议限制交易至 100KB](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-July/009494.html)
+ * [在比特币 Classic0.11.2 版本中添加了限制sighash字节的额外共识](https://github.com/ionclassic/ionclassic/commit/842dc24b23ad9551c67672660c4cba882c4c840a)
 
 ## 值的签署
 
@@ -96,7 +96,7 @@ Segwit 使 input 哈希变的精确从而解决了此问题。这意味着硬件
 
 ### 更多资料
 
- * [BIP 143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki)
+ * [BIP 143](https://github.com/ion/bips/blob/master/bip-0143.mediawiki)
  
 ## 通過 multisig（P2SH) 增強的安全性
 
@@ -112,11 +112,11 @@ Segwit 通过使用 HASH160 付款直接到一个公共密钥（这种攻击是�
 
 ### 更多资料
 
- * [Gavin Andresen询问 80 位的攻击是否值得担忧](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-January/012198.html)
- * [Ethan Heilman 描述发现算法圈](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-January/012202.html)
- * [Rusty Russell 计算进行攻击的成本](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-January/012227.html)
- * [Anthony Towns 用周期算法剥削交易](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-January/012218.html)
- * [Gavin Andresen 总结](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-January/012234.html)
+ * [Gavin Andresen询问 80 位的攻击是否值得担忧](https://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012198.html)
+ * [Ethan Heilman 描述发现算法圈](https://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012202.html)
+ * [Rusty Russell 计算进行攻击的成本](https://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012227.html)
+ * [Anthony Towns 用周期算法剥削交易](https://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012218.html)
+ * [Gavin Andresen 总结](https://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012234.html)
 
 ## 脚本版
 
@@ -133,7 +133,7 @@ Segwit 包括脚本版本号解决此，在非segwit交易也需要用一个额�
 
 ## 减少 UTXO 增长
 
-（UTXO）数据库是由每个验证 Bitcoin 节点维持，以确定新的交易是否有效或欺诈。为网络的有效运行，该数据库必须非常快查询和修改，
+（UTXO）数据库是由每个验证 Ion 节点维持，以确定新的交易是否有效或欺诈。为网络的有效运行，该数据库必须非常快查询和修改，
 并且理想地应当能够适合主存储器（RAM），因此保持该数据库的小是很重要的。
 
 当比特币增长这就变得困难，因为每个新用户必须有自己的至少一个UTXO条目，每个用户有多个条目，保护隐私和灵活性，或提供为后盾，为支付渠道。
@@ -145,7 +145,7 @@ Segwit改善了的情况通过签名数据，这不会影响UTXO大小，成本�
 
 ### 谁受惠?
 
-减少 UTXO 增长将有利于矿工，企业，完整的节点使用者，有助于维持在Bitcoin网络的安全随着更多的用户进入系统的用户。
+减少 UTXO 增长将有利于矿工，企业，完整的节点使用者，有助于维持在Ion网络的安全随着更多的用户进入系统的用户。
 用户和开发帮助减少UTXO的增长将享有较低的费用，相比忽视交易对UTXO增长的影响使用者。
 
 ### 更多资料
@@ -204,6 +204,6 @@ Segwit改善了情况并通过允许未来软叉延长证人结构并包括承�
 ### 更多资料
 
  * [背包问题](https://en.wikipedia.org/wiki/Knapsack_problem)
- * [2015 年 8 月 Sigop 攻击 bitcointalk 的讨论](https://bitcointalk.org/index.php?topic=1166928.0;all)
- * [Gregory Maxwell 在bitcoin-dev 邮件列表上发表的witness limits](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011870.html)
- * [“验证成本度量” 成绩](http://diyhpl.us/wiki/transcripts/scalingbitcoin/hong-kong/validation-cost-metric/)
+ * [2015 年 8 月 Sigop 攻击 iontalk 的讨论](https://iontalk.org/index.php?topic=1166928.0;all)
+ * [Gregory Maxwell 在ion-dev 邮件列表上发表的witness limits](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011870.html)
+ * [“验证成本度量” 成绩](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/validation-cost-metric/)
