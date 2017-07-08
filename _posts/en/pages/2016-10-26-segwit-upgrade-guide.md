@@ -204,7 +204,7 @@ Most implementation details for BIPs 141, 143, 144, and 145 may be found in [Ion
 
 For testing changes on a segwit-enabled network, testnet (testnet3) has supported segwit for several months now and includes a large number of segwit blocks, including blocks that have very nearly the maximum block size allowed for by segwit.  Ion Core’s regression-testing (regtest) mode also supports segwit by default in Ion Core 0.13.0 and 0.13.1.
 
-A number of free and open source software Bitcoin wallets and packages besides Ion Core have also already [added segwit compatiblity](https://ioncore.org/en/segwit_adoption/) or have segwit-compatible code ready to deploy, so you may be able to use their code changes as an example for updating your software if their copyright license is compatible with your code.
+A number of free and open source software Bitcoin wallets and packages besides Ion Core have also already [added segwit compatiblity](https://ioncore.xyz/en/segwit_adoption/) or have segwit-compatible code ready to deploy, so you may be able to use their code changes as an example for updating your software if their copyright license is compatible with your code.
 
 **Questions?** Ion development questions may be asked in the #ion-dev IRC chatroom on irc.freenode.net.  Questions may also be asked on Ion.StackExchange.com and the IonTalk.org [technical discussion board.](https://iontalk.org/index.php?board=6.0)
 

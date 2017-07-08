@@ -22,7 +22,7 @@ Where proposed content is about Ion Core project policy, there should rough cons
 
 ## Translation Process
 
-Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [ioncore.org project](https://www.transifex.com/ioncore/ioncoreorg).
+Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [ioncore.xyz project](https://www.transifex.com/ioncore/ioncoreorg).
  
 Each document has a header called "Front Matter", which looks something like this:
 

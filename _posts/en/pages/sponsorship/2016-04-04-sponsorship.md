@@ -14,7 +14,7 @@ To maintain decentralisation, projects will be individually managed by a separat
 
 The Ion Core project has a suggested list of projects that require funding, and sponsors are also able to suggest their own. Sponsors may provide funding or human resources.
 
-_**To discuss the possibilities, please email sponsorship<span style="display:none"></span>@ioncore.org**_
+_**To discuss the possibilities, please email sponsorship<span style="display:none"></span>@ioncore.xyz**_
 
 Additionally please see the [FAQ](/en/about/sponsorship/faq/) for more details.
 

@@ -14,7 +14,7 @@ Ion Core 赞助计划为比特币业界提供一个途径，通过资助开发�
 
 Ion Core 计划有以下的一个清单，列出一些需要资金的项目，而赞助人也可以建议其它项目。赞助人可以提供资金或人力资源。
 
-_**有兴趣者请电邮 sponsorship<span style="display:none"></span>@ioncore.org**_
+_**有兴趣者请电邮 sponsorship<span style="display:none"></span>@ioncore.xyz**_
 
 在[常见问题集](/zh_CN/about/sponsorship/faq/)可以得到更多资讯。
 

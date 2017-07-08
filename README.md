@@ -1,4 +1,4 @@
-# [ioncore.org](https://ioncore.org) [![Build Status](https://travis-ci.org/ion-core/ioncore.org.svg?branch=gh-pages)](https://travis-ci.org/ion-core/ioncore.org)
+# [ioncore.xyz](https://ioncore.xyz) [![Build Status](https://travis-ci.org/ion-core/ioncore.xyz.svg?branch=gh-pages)](https://travis-ci.org/ion-core/ioncore.xyz)
 
 This repository is the source code of the Ion Core project website built with Jekyll.
 

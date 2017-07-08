@@ -50,7 +50,7 @@ Once compiled, add `-segnet` to the standard `iond` and `ion-cli` command line.
 ## Additional Background and History
 
 - [Scaling Ions Hong Kong Presentation](https://prezi.com/lyghixkrguao/segregated-witness-and-deploying-it-for-ion/)
-- [Extended Video](https://ioncore.org/en/2015/12/14/segregated-witness)
+- [Extended Video](https://ioncore.xyz/en/2015/12/14/segregated-witness)
 - [Transcript](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/segregated-witness-and-its-impact-on-scalability/)
 
 ## Technical References
@@ -67,7 +67,7 @@ Once compiled, add `-segnet` to the standard `iond` and `ion-cli` command line.
 - [Hard Forks vs. Soft Forks](https://petertodd.org/2016/soft-forks-are-safer-than-hard-forks)
 - [Early Exploration of “Non-contentious” Hard Fork Research](https://scalingion.org/hongkong2015/presentations/DAY1/1_overview_1_timon.pdf)
 
-[FAQ]: https://ioncore.org/en/2015/12/23/capacity-increases-faq
+[FAQ]: https://ioncore.xyz/en/2015/12/23/capacity-increases-faq
 [roadmap]: http://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html
 [segwit_adoption]: /en/segwit_adoption
 

@@ -40,4 +40,4 @@ You can also translate or contribute to this [website][website-contrib].
 [ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
 [website-contrib]: https://github.com/ion-core/website/blob/gh-pages/README.md
 [Slack]: https://ioncore.slack.com/
-[invite]: https://slack.ioncore.org/
+[invite]: https://slack.ioncore.xyz/

@@ -100,7 +100,7 @@
 [ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
 [ion-core-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-core-dev
 [Slack]: https://ioncore.slack.com/
-[slack-invite]: https://slack.ioncore.org/
+[slack-invite]: https://slack.ioncore.xyz/
 [software life cycle]: /en/lifecycle
 
 [laanwj-key]: https://github.com/ion/ion/blob/master/contrib/gitian-keys/laanwj-key.pgp
@@ -109,4 +109,4 @@
 
 [recent-contributors]: https://github.com/ion/ion/graphs/contributors?from=2015-06-01&to=2016-06-01&type=c
 
-[website-issues]: https://github.com/ion-core/ioncore.org/issues
+[website-issues]: https://github.com/ion-core/ioncore.xyz/issues
