@@ -18,7 +18,7 @@ New technology will be deployed when it is ready and has been tested. However, w
 | Feb 2016 | 0.12.0 | [libsecp256k1 verification][] |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Feb 2016 | | Segregated witness feature complete & ready for general review |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Mar 2016 | 0.12.1 | Deploy OP_CHECKSEQUENCEVERIFY (BIPs [68][BIP68] & [112][BIP112]) + [BIP113][] as first [BIP9][] versionbits soft fork |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
-| | | [Segregated witness pull request](https://github.com/bitcoin/bitcoin/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
+| | | [Segregated witness pull request](https://github.com/cevap/ion/pull/7910) | <img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | Oct 2016 | 0.13.1 | Deploy segregated witness (including block size increase) |<img src="/assets/images/ok-48.png" alt="delivered" title="delivered">|
 | 2017 | | Weak blocks and IBLT, Lightning, or both ||
 
@@ -190,8 +190,8 @@ To get specific suggestions on how you can help, please join the
 [estimated savings]: https://www.reddit.com/r/bitcoinxt/comments/3w1i6b/i_attended_scaling_bitcoin_hong_kong_these_are_my/cxtkaih
 [increase in total bandwidth]: https://scalingbitcoin.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
 [libsecp256k1]: https://github.com/bitcoin/secp256k1
-[libsecp256k1 verification]: https://github.com/bitcoin/bitcoin/pull/6954
-[max_block_size]: https://github.com/bitcoin/bitcoin/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
+[libsecp256k1 verification]: https://github.com/cevap/ion/pull/6954
+[max_block_size]: https://github.com/cevap/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
 [payment channel efficiency]: https://scalingbitcoin.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
 [previous soft forks]: https://github.com/bitcoin/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips

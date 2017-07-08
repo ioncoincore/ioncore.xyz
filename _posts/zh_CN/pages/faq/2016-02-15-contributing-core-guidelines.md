@@ -27,7 +27,7 @@ Bitcoin 核心项目按照开放式贡献者模式运作，欢迎任何人以同
   - 创建主题分支
   - 提交补丁
 
-必须遵守 [开发手册](https://github.com/bitcoin/bitcoin/blob/master/doc/developer-notes.md) 规定的项目代码规范。
+必须遵守 [开发手册](https://github.com/cevap/ion/blob/master/doc/developer-notes.md) 规定的项目代码规范。
 
 通常情况下 [提交应该是原子化的](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) 并且差异应该容易阅读。
 出于这个原因请不要将任何格式修正和代码移除与真正在的代码修改混在一起。

@@ -56,10 +56,10 @@ In addition to over 3,000 lines of added automated testing code, segwit has been
 
 With the original sidechains implementation of segwit having been used by a number of reviewers over the past year and the Bitcoin soft fork implementation having received rigorous testing and review over six months, the Bitcoin Core developers believe it is now ready to move to production.
 
-[PR#8149]: https://github.com/bitcoin/bitcoin/pull/8149
-[PR#7910]: https://github.com/bitcoin/bitcoin/pull/7910
+[PR#8149]: https://github.com/cevap/ion/pull/8149
+[PR#7910]: https://github.com/cevap/ion/pull/7910
 [may2016 core meetup]: /logs/2016-05-zurich-meeting-notes.html
-[luke-jr sfsw]: https://botbot.me/freenode/bitcoin-core-dev/2015-10-21/
+[luke-jr sfsw]: https://botbot.me/freenode/ion-core-dev/2015-10-21/
 [elements project]: http://elementsproject.org/
 
 ## Compact Blocks

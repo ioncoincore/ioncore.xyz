@@ -52,7 +52,7 @@ As a consequence, synchronization to the tip of the chain happens much faster by
 
 ### Further information
 
-  * [Parallel script verification #2060](https://github.com/bitcoin/bitcoin/pull/2060)
+  * [Parallel script verification #2060](https://github.com/cevap/ion/pull/2060)
 
 ## Headers first synchronization
 Release: Bitcoin Core 0.10

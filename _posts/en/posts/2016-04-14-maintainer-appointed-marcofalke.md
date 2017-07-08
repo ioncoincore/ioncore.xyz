@@ -10,7 +10,7 @@ share: true
 author: laanwj
 tags: [bitcoin, maintainer]
 category: [announcements]
-canonical: https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2016-April/000003.html
+canonical: https://lists.linuxfoundation.org/pipermail/ion-core-dev/2016-April/000003.html
 version: 1
 ---
 Hereby I'm announcing Marco Falke as the new Testing & QA maintainer for

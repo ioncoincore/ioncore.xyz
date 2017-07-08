@@ -175,6 +175,6 @@ The following functions are not required for initial segwit support.
 * [Examples of different witness transaction types and transaction validity checking tool](http://n.bitcoin.ninja/checktx)
 * [BIP141][]
 * [BIP143][]
-* [Script tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/data/script_tests.json)
-* [Valid transaction tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/data/tx_valid.json)
-* [Invalid transaction tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/data/tx_invalid.json)
+* [Script tests](https://github.com/cevap/ion/blob/master/src/test/data/script_tests.json)
+* [Valid transaction tests](https://github.com/cevap/ion/blob/master/src/test/data/tx_valid.json)
+* [Invalid transaction tests](https://github.com/cevap/ion/blob/master/src/test/data/tx_invalid.json)

@@ -14,7 +14,7 @@ Bitcoin Core 贊助計劃為比特幣業界提供一個途徑，通過資助開�
 
 Bitcoin Core 計劃有以下的一個清單，列出一些需要資金的項目，而贊助人也可以建議其它項目。贊助人可以提供資金或人力資源。
 
-_**有興趣者請電郵 sponsorship<span style="display:none"></span>@bitcoincore.org**_
+_**有興趣者請電郵 sponsorship<span style="display:none"></span>@ioncore.xyz**_
 
 在[常見問題集](/zh_TW/about/sponsorship/faq/)可以得到更多資訊。
 

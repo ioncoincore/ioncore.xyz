@@ -21,9 +21,9 @@ sipa:
   google:
     plus:
 
-0xadada:
+adada:
   name: Ron. A
-  email: bitcoincore.org@0xadada.pub
+  email: ioncore.xyz@0xadada.pub
   avatar: https://github.com/0xadada.png
   github: "0xADADA"
   twitter: "0xADADA"
@@ -39,3 +39,10 @@ gmaxwell:
   google:
     plus:
 
+cevap:
+  name: CEVAP
+  email: ioncore.xyz@cevap.pub
+  avatar: https://github.com/cevap.png
+  github: "cevap"
+  twitter: "ioncorexyz"
+  bio: 🐼 CEVAP 🐼 Ćevapi is a grilled dish of minced meat, a type of skinless sausage, found traditionally in the countries of southeastern Europe (the Balkans).

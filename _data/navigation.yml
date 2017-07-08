@@ -1,7 +1,7 @@
 # Site navigation links
 en:
   home:
-    title: "Bitcoin Core"
+    title: "🗺️Ion Core 👯👯 👛"
     url:   "/"
   about:
     title: "About"
@@ -92,7 +92,7 @@ en:
         url: "/en/list/announcements/join/"
 zh_CN:
   home:
-    title: "Bitcoin Core"
+    title: "🗺️Ion Core 👯👯 👛"
     url:   "/zh_CN/"
   about:
     title: "关于我们"
@@ -183,7 +183,7 @@ zh_CN:
         url: "/zh_CN/list/announcements/join/"
 zh_TW:
   home:
-    title: "Bitcoin Core"
+    title: "🗺️Ion Core 👯👯 👛"
     url:   "/zh_TW/"
   about:
     title: "關於我們"

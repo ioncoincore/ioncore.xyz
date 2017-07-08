@@ -107,6 +107,6 @@ Ruben de Vries
 
 _This letter was originally published in Bitcoin Magazine on 1st September 2015 at <https://bitcoinmagazine.com/articles/open-letter-bitcoin-community-developers-1441146317>._
 
-[1]: https://github.com/bitcoin/bitcoin/tree/master/doc/release-notes
+[1]: https://github.com/cevap/ion/tree/master/doc/release-notes
 [2]: https://github.com/bitcoin/bips
 [3]: https://scalingbitcoin.org/montreal2015/

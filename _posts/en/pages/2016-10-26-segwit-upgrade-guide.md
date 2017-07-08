@@ -200,11 +200,11 @@ Segwit is described for developers in the following documents:
 
 Please note, [BIP142][] (address format for segregated witness) is in *deferred* status (as defined by BIP1) and is not proposed as a standard.  Instead, wallet developers are invited to discuss on the [bitcoin-dev mailing list][bitcoin-dev] the creation of a new Bitcoin address format that will be more usable than current base58check-encoded addresses.
 
-Most implementation details for BIPs 141, 143, 144, and 145 may be found in [Bitcoin Core PR#8149](https://github.com/bitcoin/bitcoin/pull/8149).  The implementation for BIP147 may be found in [Bitcoin Core PR#8636](https://github.com/bitcoin/bitcoin/pull/8636).
+Most implementation details for BIPs 141, 143, 144, and 145 may be found in [Bitcoin Core PR#8149](https://github.com/cevap/ion/pull/8149).  The implementation for BIP147 may be found in [Bitcoin Core PR#8636](https://github.com/cevap/ion/pull/8636).
 
 For testing changes on a segwit-enabled network, testnet (testnet3) has supported segwit for several months now and includes a large number of segwit blocks, including blocks that have very nearly the maximum block size allowed for by segwit.  Bitcoin Core’s regression-testing (regtest) mode also supports segwit by default in Bitcoin Core 0.13.0 and 0.13.1.
 
-A number of free and open source software Bitcoin wallets and packages besides Bitcoin Core have also already [added segwit compatiblity](https://bitcoincore.org/en/segwit_adoption/) or have segwit-compatible code ready to deploy, so you may be able to use their code changes as an example for updating your software if their copyright license is compatible with your code.
+A number of free and open source software Bitcoin wallets and packages besides Bitcoin Core have also already [added segwit compatiblity](https://ioncore.xyz/en/segwit_adoption/) or have segwit-compatible code ready to deploy, so you may be able to use their code changes as an example for updating your software if their copyright license is compatible with your code.
 
 **Questions?** Bitcoin development questions may be asked in the #bitcoin-dev IRC chatroom on irc.freenode.net.  Questions may also be asked on Bitcoin.StackExchange.com and the BitcoinTalk.org [technical discussion board.](https://bitcointalk.org/index.php?board=6.0)
 

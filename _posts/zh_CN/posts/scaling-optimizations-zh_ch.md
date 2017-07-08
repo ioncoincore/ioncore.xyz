@@ -41,7 +41,7 @@ Ultraprune（区块链高度精简）是比特币软件最重要的升级之一�
 这样优化的结果是，节点资源的使用更高效，区块同步更快。根据测试结果来看，对比以前版本，这个版本的速度提高了35%到100%。
  
 ### 更多相关信息请参考：
-* [Parallel script verification #2060](https://github.com/bitcoin/bitcoin/pull/2060)
+* [Parallel script verification #2060](https://github.com/cevap/ion/pull/2060)
 
  
 ## 区块头先同步

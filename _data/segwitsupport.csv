@@ -66,7 +66,7 @@ Counterparty,https://counterparty.io/,ready,"wallet, blockchain-protocol-layer",
 Cryptobuyer,https://cryptobuyer.io/,planned,wallet,n/a
 Digitalbitbox,https://digitalbitbox.com/,ready,hardware wallet,
 DigitalMint,https://www.digitalmint.io,ready,"on-demand, cash-to-bitcoin exchange", bitcoin core
-Dotbit.me,https://dotbit.me,ready,"dot-bit registrar, wallet",Bitcoin Core
+Dotbit.me,https://dotbit.me,ready,"dot-bit registrar, wallet",🗺️Ion Core 👯👯 👛
 EI8HT,http://ei8.ht/,planned,wallet,"bitcoin core, bitcoinjs"
 Electrum,https://electrum.org/,ready,wallet,
 Eloipool,https://github.com/luke-jr/eloipool,ready,pool software,n/a

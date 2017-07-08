@@ -16,18 +16,18 @@ Anyone may participate in the review process. All comments and ACK/NACKs will be
 
 ## Content Policy
 
-The purpose of the website is to be an official mouthpiece for the Bitcoin Core project as well as be a resource for technical information that has a direct impact on Bitcoin Core software. This can include research, presentations, and developer blogs. 
+The purpose of the website is to be an official mouthpiece for the 🗺️Ion Core 👯👯 👛 project as well as be a resource for technical information that has a direct impact on 🗺️Ion Core 👯👯 👛 software. This can include research, presentations, and developer blogs. 
 
-Where proposed content is about Bitcoin Core project policy, there should rough consensus of the Bitcoin Core project maintainers as a minimum bar and final decision is with the Bitcoin Core project lead.
+Where proposed content is about 🗺️Ion Core 👯👯 👛 project policy, there should rough consensus of the 🗺️Ion Core 👯👯 👛 project maintainers as a minimum bar and final decision is with the 🗺️Ion Core 👯👯 👛 project lead.
 
 ## Translation Process
 
-Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [bitcoincore.org project](https://www.transifex.com/bitcoincore/bitcoincoreorg).
+Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [ioncore.xyz project](https://www.transifex.com/cevap/ioncorexyz).
  
 Each document has a header called "Front Matter", which looks something like this:
 
     ---
-    title: Clarifying Communications of the Bitcoin Core project
+    title: Clarifying Communications of the 🗺️Ion Core 👯👯 👛 project
     name: clarifying-communications
     id: en-clarifying-communications
     lang: en
@@ -41,7 +41,7 @@ Each document has a header called "Front Matter", which looks something like thi
 Translators should only translate the `title:` field, and change the language code in the `id:`, `lang:` and `permalink:` fields. For example the above would be translated for `zh_CN` as:
  
     ---
-    title: 有关Bitcoin Core沟通渠道的澄清
+    title: 有关🗺️Ion Core 👯👯 👛沟通渠道的澄清
     name: clarifying-communications
     id: zh_cn-clarifying-communications
     lang: zn_CN

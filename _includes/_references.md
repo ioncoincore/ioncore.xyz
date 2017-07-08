@@ -90,21 +90,21 @@
 [BIP151]: https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki
 [BIP152]: https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki
 
-[@bitcoincoreorg]: https://twitter.com/bitcoincoreorg
-[#bitcoin-core-dev]: https://webchat.freenode.net?channels=%23bitcoin-core-dev&uio=MTY9dHJ1ZSYxMT0yMTU87
-[issues]: https://github.com/bitcoin/bitcoin/issues
-[pulls]: https://github.com/bitcoin/bitcoin/pulls
+[@ioncorexyz]: https://twitter.com/ioncorexyz
+[#ion-core-dev]: https://webchat.freenode.net?channels=%23ion-core-dev&uio=MTY9dHJ1ZSYxMT0yMTU87
+[issues]: https://github.com/cevap/ion/issues
+[pulls]: https://github.com/cevap/ion/pulls
 [bitcoin-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/bitcoin-discuss
 [bitcoin-dev]: http://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev
-[bitcoin-core-dev]: http://lists.linuxfoundation.org/mailman/listinfo/bitcoin-core-dev
-[Slack]: https://bitcoincore.slack.com/
-[slack-invite]: https://slack.bitcoincore.org/
+[ion-core-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-core-dev
+[Slack]: https://ionomy.slack.com/
+[slack-invite]: https://ionomy.slack.com/
 [software life cycle]: /en/lifecycle
 
-[laanwj-key]: https://github.com/bitcoin/bitcoin/blob/master/contrib/gitian-keys/laanwj-key.pgp
-[jonasschnelli-key]: https://github.com/bitcoin/bitcoin/blob/master/contrib/gitian-keys/jonasschnelli-key.pgp
-[sipa-key]: https://github.com/bitcoin/bitcoin/blob/master/contrib/gitian-keys/sipa-key.pgp
+[laanwj-key]: https://github.com/cevap/ion/blob/master/contrib/gitian-keys/laanwj-key.pgp
+[jonasschnelli-key]: https://github.com/cevap/ion/blob/master/contrib/gitian-keys/jonasschnelli-key.pgp
+[sipa-key]: https://github.com/cevap/ion/blob/master/contrib/gitian-keys/sipa-key.pgp
 
-[recent-contributors]: https://github.com/bitcoin/bitcoin/graphs/contributors?from=2015-06-01&to=2016-06-01&type=c
+[recent-contributors]: https://github.com/cevap/ion/graphs/contributors?from=2015-06-01&to=2016-06-01&type=c
 
-[website-issues]: https://github.com/bitcoin-core/bitcoincore.org/issues
+[website-issues]: https://github.com/cevap/ioncore.xyz/issues

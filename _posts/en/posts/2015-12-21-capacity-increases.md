@@ -16,6 +16,6 @@ For more information, please see the [FAQ](/en/2015/12/23/capacity-increases-faq
 
 ---
 
-Signatures may be added to bitcoincore.org pull request [#53](https://github.com/bitcoin-core/website/issues/53)
+Signatures may be added to ioncore.xyz pull request [#53](https://github.com/bitcoin-core/website/issues/53)
 
 [1]: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/011865.html
