@@ -45,6 +45,8 @@
 [Zooko Wilcox]: https://github.com/zooko
 [Murch]: https://github.com/Xekyo
 [CEVAP]: https://github.com/cevap
+[ASPA]: https://github.com/aspaas
+[MICA]: https://github.com/mitchellcash
 
 [BIP1]: https://github.com/cevap/bips/blob/master/bip-0001.mediawiki
 [BIP2]: https://github.com/cevap/bips/blob/master/bip-0002.mediawiki
@@ -93,21 +95,21 @@
 [BIP151]: https://github.com/cevap/bips/blob/master/bip-0151.mediawiki
 [BIP152]: https://github.com/cevap/bips/blob/master/bip-0152.mediawiki
 
-[@bitcoincorexyz]: https://twitter.com/bitcoincorexyz
-[#bitcoin-core-dev]: https://webchat.freenode.net?channels=%23bitcoin-core-dev&uio=MTY9dHJ1ZSYxMT0yMTU87
-[issues]: https://github.com/cevap/bitcoin/issues
-[pulls]: https://github.com/cevap/bitcoin/pulls
+[@ioncorexyz]: https://twitter.com/ioncorexyz
+[#ion-core-dev]: https://webchat.freenode.net?channels=%23ion-core-dev&uio=ION9dHJ1ZSYxMT0yMTU87
+[issues]: https://github.com/cevap/ion/issues
+[pulls]: https://github.com/cevap/ion/pulls
 [bitcoin-discuss]: http://lists.linuxfoundatbitcoin.org/mailman/listinfo/bitcoin-discuss
 [bitcoin-dev]: http://lists.linuxfoundatbitcoin.org/mailman/listinfo/bitcoin-dev
-[bitcoin-core-dev]: http://lists.linuxfoundatbitcoin.org/mailman/listinfo/bitcoin-core-dev
-[Slack]: https://bitcoinomy.slack.com/
-[slack-invite]: https://slack.bitcoinomy.com/
+[ion-core-dev]: http://lists.linuxfoundatbitcoin.org/mailman/listinfo/ion-core-dev
+[Slack]: https://ionomy.slack.com/
+[slack-invite]: https://slack.ionomy.com/
 [software life cycle]: /en/lifecycle
 
-[laanwj-key]: https://github.com/cevap/bitcoin/blob/master/contrib/gitian-keys/laanwj-key.pgp
-[jonasschnelli-key]: https://github.com/cevap/bitcoin/blob/master/contrib/gitian-keys/jonasschnelli-key.pgp
-[sipa-key]: https://github.com/cevap/bitcoin/blob/master/contrib/gitian-keys/sipa-key.pgp
+[CEVAP]: https://github.com/cevap/ion/tree/master/contrib/gitian-keys/BA6683BA_cevap_public.pgp
+[ASPA]: https://github.com/cevap/ion/tree/master/contrib/gitian-keys/aspa-04388FE4284E36A8A21DCED61BA70476380D5F9F.asc
+[MICA]: https://github.com/cevap/ion/tree/master/contrib/gitian-keys/mica-1DFB17E1C44C39A1697E008D01893B7003D465EE.asc
 
-[recent-contributors]: https://github.com/cevap/bitcoin/graphs/contributors?from=2015-06-01&to=2016-06-01&type=c
+[recent-contributors]: https://github.com/cevap/ion/graphs/contributors?from=2015-06-01&to=2017-06-01&type=c
 
-[website-issues]: https://github.com/cevap/bitcoincore.xyz/issues
+[website-issues]: https://github.com/cevap/ioncore.xyz/issues

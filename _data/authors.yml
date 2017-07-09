@@ -1,6 +1,6 @@
 # Authors
 
-cevap:
+CEVAP:
   name: CEVAP
   web:
   email:
@@ -8,6 +8,28 @@ cevap:
   avatar: https://avatars0.githubusercontent.com/u/24996551?v=3
   twitter: ioncorexyz
   github: cevap
+  google:
+    plus:
+
+ASPA:
+  name: ASPA
+  web:
+  email:
+  bio:
+  avatar: https://avatars1.githubusercontent.com/u/25762277?v=3
+  twitter: 
+  github: aspaas
+  google:
+    plus:
+
+MICA:
+  name: MICA
+  web:
+  email:
+  bio:
+  avatar: https://avatars1.githubusercontent.com/u/8009243?v=3
+  twitter: 
+  github: mitchellcash
   google:
     plus:
 
