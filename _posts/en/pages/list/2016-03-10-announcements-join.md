@@ -16,6 +16,6 @@ Enter your email address below:
     
 Low traffic for announcements only.
 
-_Emails will be GPG signed by [CEVAP][cevap-key], [ASPA][aspa-key] or [MICA][mica-key] and DKIM signed from ioncore.xyz_.
+_Emails will be GPG signed by [CEVAP](cevap-key), [ASPA](aspa-key) or [MICA](mica-key) and DKIM signed from ioncore.xyz_.
 
 {% include _references.md %}

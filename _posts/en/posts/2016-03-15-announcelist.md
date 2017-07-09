@@ -15,6 +15,6 @@ To subscribe, enter your email address below:
 
 {% include pages/list/announcement.html %}
 
-_Emails will be GPG signed by [CEVAP][cevap-key], [ASPA][aspa-key] or [MICA][mica-key] and DKIM signed from ioncore.xyz._
+_Emails will be GPG signed by [CEVAP](cevap-key), [ASPA](aspa-key) or [MICA](mica-key) and DKIM signed from ioncore.xyz._
 
 {% include _references.md %}
