@@ -1,5 +1,5 @@
 ---
-title: Ion Core Supported BIPs
+title: 🗺️Ion Core 👯👯 👛 Supported BIPs
 name: supported-bips
 type: pages
 layout: page
@@ -8,7 +8,7 @@ permalink: /en/bips/
 share: false
 version: 2
 ---
-Ion Core supports the following [BIPs][BIP1].
+🗺️Ion Core 👯👯 👛 supports the following [BIPs][BIP1].
 
 | BIP |Supported since| Title |
 |-----|---------------|-------|

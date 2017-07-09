@@ -1,18 +1,18 @@
-# [ioncore.xyz](https://ioncore.xyz) [![Build Status](https://travis-ci.org/ion-core/ioncore.xyz.svg?branch=gh-pages)](https://travis-ci.org/ion-core/ioncore.xyz)
+# [ioncore.xyz](https://ioncore.xyz) [![Build Status](https://travis-ci.org/cevap/ioncore.xyz.svg?branch=gh-pages)](https://travis-ci.org/cevap/ioncore.xyz)
 
-This repository is the source code of the Ion Core project website built with Jekyll.
+This repository is the source code of the 🗺️Ion Core 👯👯 👛 project website built with Jekyll.
 
 ## Directory structure
 
   - `_posts/<lang>/posts` for blog articles.
   - `_posts/<lang>/pages` for static pages.
-  - `_posts/<lang>/releases` for Ion Core release notes
+  - `_posts/<lang>/releases` for 🗺️Ion Core 👯👯 👛 release notes
 
 File names *must* be in the format `Y-m-d-title.md`, e.g. `2015-12-31-title.md`. File names can be translated.
 
 ## Translations
 
-The main translations can be found at [Transifex](https://www.transifex.com/ioncore/ioncorexyz/). Please
+The main translations can be found at [Transifex](https://www.transifex.com/cevap/ioncorexyz/). Please
 join if you wish to contribute to translating content.
 
 Menu and miscellaneous localisations can be found in:

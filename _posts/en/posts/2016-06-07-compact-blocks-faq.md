@@ -33,7 +33,7 @@ In addition, the compact block relay proposal also provides a second mode of ope
 
 The diagram below shows the way nodes currently send blocks compared to compact block relay's two operating modes.
 
-![Compact Blocks diagram](https://raw.githubusercontent.com/ion/bips/master/bip-0152/protocol-flow.png)
+![Compact Blocks diagram](https://raw.githubusercontent.com/cevap/bips/master/bip-0152/protocol-flow.png)
 
 - In **Legacy Relaying,** a block is validated (the grey bar) by Node A, who then sends an `inv` message to Node B requesting permission to send the block.  Node B replies with a request (`getdata`) for the block and Node A sends it.
 
@@ -79,7 +79,7 @@ Furthermore, the experiments conducted and data collected using the first versio
 
 ## Who benefits from compact blocks?
 
-* Full node users who want to relay transactions but who have limited internet bandwidth. If you simply want to save the most bandwidth possible while still relaying blocks to peers, there is a `blocksonly` mode already available starting in Ion Core v0.12.  Blocks-only mode only receives transactions when they're included in a block, so there is no extra transaction overhead.
+* Full node users who want to relay transactions but who have limited internet bandwidth. If you simply want to save the most bandwidth possible while still relaying blocks to peers, there is a `blocksonly` mode already available starting in 🗺️Ion Core 👯👯 👛 v0.12.  Blocks-only mode only receives transactions when they're included in a block, so there is no extra transaction overhead.
 
 * The network as a whole. Decreasing block propagation times on the p2p network creates a healthier network with a better baseline relay security margin. 
 
@@ -139,9 +139,9 @@ As was noted in the excerpt, simply extending the protocol to support sending in
 - <https://people.xiph.org/~greg/lowlatency.block.xfer.txt>
 - <https://people.xiph.org/~greg/weakblocks.txt>
 - <https://people.xiph.org/~greg/mempool_sync_relay.txt>
-- <https://en.ion.it/wiki/User:Gmaxwell/block_network_coding>
-- <http://diyhpl.us/~bryan/irc/ion/block-propagation-links.2016-05-09.txt>
-- <http://diyhpl.us/~bryan/irc/ion/weak-blocks-links.2016-05-09.txt>
-- <http://diyhpl.us/~bryan/irc/ion/propagation-links.2016-05-09.txt>
+- <https://en.bitcoin.it/wiki/User:Gmaxwell/block_network_coding>
+- <http://diyhpl.us/~bryan/irc/bitcoin/block-propagation-links.2016-05-09.txt>
+- <http://diyhpl.us/~bryan/irc/bitcoin/weak-blocks-links.2016-05-09.txt>
+- <http://diyhpl.us/~bryan/irc/bitcoin/propagation-links.2016-05-09.txt>
 
 {% include _references.md %}

@@ -1007,7 +1007,7 @@ $.magnificPopup.registerModule(INLINE_NS, {
 			});
 		},
 
-		getInline: function(item, template) {
+		getInline: functbitcoin.item, template) {
 
 			_putInlineElementsBack();
 
@@ -1079,7 +1079,7 @@ $.magnificPopup.registerModule(AJAX_NS, {
 			_mfpOn(CLOSE_EVENT+'.'+AJAX_NS, _destroyAjaxRequest);
 			_mfpOn('BeforeChange.' + AJAX_NS, _destroyAjaxRequest);
 		},
-		getAjax: function(item) {
+		getAjax: functbitcoin.item) {
 
 			if(_ajaxCur)
 				_body.addClass(_ajaxCur);
@@ -1136,7 +1136,7 @@ $.magnificPopup.registerModule(AJAX_NS, {
 
 /*>>image*/
 var _imgInterval,
-	_getTitle = function(item) {
+	_getTitle = functbitcoin.item) {
 		if(item.data && item.data.title !== undefined)
 			return item.data.title;
 
@@ -1211,7 +1211,7 @@ $.magnificPopup.registerModule('image', {
 				item.img.css('max-height', mfp.wH-decr);
 			}
 		},
-		_onImageHasSize: function(item) {
+		_onImageHasSize: functbitcoin.item) {
 			if(item.img) {
 
 				item.hasSize = true;
@@ -1237,7 +1237,7 @@ $.magnificPopup.registerModule('image', {
 		/**
 		 * Function that loops until the image has size to display elements that rely on it asap
 		 */
-		findImageSize: function(item) {
+		findImageSize: functbitcoin.item) {
 
 			var counter = 0,
 				img = item.img[0],
@@ -1271,7 +1271,7 @@ $.magnificPopup.registerModule('image', {
 			mfpSetInterval(1);
 		},
 
-		getImage: function(item, template) {
+		getImage: functbitcoin.item, template) {
 
 			var guard = 0,
 
@@ -1642,7 +1642,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 			});
 		},
 
-		getIframe: function(item, template) {
+		getIframe: functbitcoin.item, template) {
 			var embedSrc = item.src;
 			var iframeSt = mfp.st.iframe;
 
@@ -1917,7 +1917,7 @@ var RETINA_NS = 'retina';
 
 $.magnificPopup.registerModule(RETINA_NS, {
 	options: {
-		replaceSrc: function(item) {
+		replaceSrc: functbitcoin.item) {
 			return item.src.replace(/\.\w+$/, function(m) { return '@2x' + m; });
 		},
 		ratio: 1 // Function or number.  Set to 1 to disable.

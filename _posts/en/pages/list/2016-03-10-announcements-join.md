@@ -1,5 +1,5 @@
 ---
-title: Subscribe to Ion Core announcements
+title: Subscribe to 🗺️Ion Core 👯👯 👛 announcements
 name: announcements
 permalink: /en/list/announcements/join/
 type: pages
@@ -8,7 +8,7 @@ lang: en
 share: false
 version: 1
 ---
-Receive notification of important security announcements and releases for Ion Core.
+Receive notification of important security announcements and releases for 🗺️Ion Core 👯👯 👛.
 
 Enter your email address below:
 

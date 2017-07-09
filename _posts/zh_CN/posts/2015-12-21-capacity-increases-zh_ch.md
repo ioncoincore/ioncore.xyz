@@ -9,7 +9,7 @@ permalink: /zh_CN/2015/12/21/比特币系统扩展/
 version: 1
 ---
 
-我们连署支持 [比特币系统扩展][1] 路线图。我们已在Ion Core计划内为可扩展性工作多年，认为这是最可以延续我们一直以来努力的方向。
+我们连署支持 [比特币系统扩展][1] 路线图。我们已在🗺️Ion Core 👯👯 👛计划内为可扩展性工作多年，认为这是最可以延续我们一直以来努力的方向。
 
 有关更多详情请参阅 [常见问题解答][FAQ]。
 
@@ -17,7 +17,7 @@ version: 1
 
 ---
 
-如果你想参与连署，请到[#53](https://github.com/cevap/website/issues/53))。
+如果你想参与连署，请到[#53](https://github.com/cevap/ioncore.xyz/issues/53))。
 
 
 [1]: https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html

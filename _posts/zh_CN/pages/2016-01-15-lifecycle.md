@@ -31,4 +31,4 @@ version: 1
 
 _TBA: 将被公布_
 
-[ion-transifex-link]: https://www.transifex.com/ion/ion/
+[ion-transifex-link]: https://www.transifex.com/cevap/ion/

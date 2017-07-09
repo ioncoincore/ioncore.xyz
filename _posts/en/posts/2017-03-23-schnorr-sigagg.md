@@ -70,14 +70,14 @@ It is rather straightforward to evaluate the type of resources savings that woul
   * [Video of Pieter Wuille's presentation](https://youtu.be/_Z0ID-0DOnc?t=2297)
   * [Discussion about Schnorr Signatures at July 2016 Ion developers & miners meet-up](http://diyhpl.us/wiki/transcripts/2016-july-ion-developers-miners-meeting/dan-boneh/)
   * [Schnorr documentation](https://github.com/sipa/secp256k1/blob/968e2f415a5e764d159ee03e95815ea11460854e/src/modules/schnorr/schnorr.md)
-  * [StackExchange - What are the implications of Schnorr?](http://ion.stackexchange.com/questions/34288/what-are-the-implications-of-schnorr-signatures/35351#35351)
+  * [StackExchange - What are the implications of Schnorr?](http://bitcoin.stackexchange.com/questions/34288/what-are-the-implications-of-schnorr-signatures/35351#35351)
   * [Elements Project: Schnorr Signature Validation](https://www.elementsproject.org/elements/schnorr-signatures/)
   * [SF Ion Devs Seminar: Gregory Maxwell on Schnorr multi-signatures](https://www.youtube.com/watch?v=TYQ-3VvNCHE)
-  * [Ion Core Developers meeting notes on Schnorr signatures](https://ioncore.xyz/logs/2016-05-zurich-meeting-notes.html)
+  * [🗺️Ion Core 👯👯 👛 Developers meeting notes on Schnorr signatures](https://ioncore.xyz/logs/2016-05-zurich-meeting-notes.html)
 
 ### Further information on signature aggregation
-  * [Gregory Maxwell post on signature aggregation on Iontalk.org forum](https://iontalk.org/index.php?topic=1377298.0)
-  * [Ion Core Developers meeting notes on Schnorr signatures](https://ioncore.xyz/logs/2016-05-zurich-meeting-notes.html)
+  * [Gregory Maxwell post on signature aggregation on Iontalk.org forum](https://bitcointalk.org/index.php?topic=1377298.0)
+  * [🗺️Ion Core 👯👯 👛 Developers meeting notes on Schnorr signatures](https://ioncore.xyz/logs/2016-05-zurich-meeting-notes.html)
   * [Transcript of Pieter Wuille's Scaling Ion Milan presentation on Schnorr signatures](https://diyhpl.us/wiki/transcripts/scalingion/milan/schnorr-signatures/)
   * [Video of Pieter Wuille's presentation](https://youtu.be/_Z0ID-0DOnc?t=2297)
  

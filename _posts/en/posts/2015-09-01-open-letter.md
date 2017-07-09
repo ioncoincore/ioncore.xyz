@@ -109,4 +109,4 @@ _This letter was originally published in Ion Magazine on 1st September 2015 at <
 
 [1]: https://github.com/cevap/ion/tree/master/doc/release-notes
 [2]: https://github.com/cevap/bips
-[3]: https://scalingion.org/montreal2015/
+[3]: https://scalingioncoin.xyz/montreal2015/

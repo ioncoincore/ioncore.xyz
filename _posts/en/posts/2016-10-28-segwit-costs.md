@@ -77,7 +77,7 @@ seconds per block on a Raspberry Pi v1, or under 1/10th of a second on more capa
 
 ## Risk of introducing bugs
 
-The segwit patch set is a major change to Ion, and was rolled out, though not activated on the main Ion network, in Ion Core 0.13.0.  Any major change like this runs a variety of risks, including:
+The segwit patch set is a major change to Ion, and was rolled out, though not activated on the main Ion network, in 🗺️Ion Core 👯👯 👛 0.13.0.  Any major change like this runs a variety of risks, including:
 
  * Outright bugs: mistakes can be made in design or implementation giving unexpected or harmful results. For example [PR#8525](https://github.com/cevap/ion/pull/8525).
 
@@ -108,10 +108,10 @@ In order to reduce the chances of these risks occurring when segwit is activated
     - [PR#7910](https://github.com/cevap/ion/pull/7910)
     - [PR#8149](https://github.com/cevap/ion/pull/8149)
     - [Development branch pull requests](https://github.com/sipa/ion/pulls?utf8=%E2%9C%93&q=is%3Apr%20)
-    - [Ion Core Zurich Meeting](/logs/2016-05-zurich-meeting-notes.html)
+    - [🗺️Ion Core 👯👯 👛 Zurich Meeting](/logs/2016-05-zurich-meeting-notes.html)
     - [Peter Todd's review](https://petertodd.org/2016/segwit-consensus-critical-code-review)
 
- * Test cases: as described in the [Next Steps](/en/2016/06/24/segwit-next-steps/#how-segwit-was-tested) post, "The combined changes to the consensus rules and the P2P networking code consist of 1,486 lines of added or modified code. The segwit patch also includes an additional 3,338 lines of added or modified code in the unit and integration tests that help ensure segwit is functioning as expected on every full build of the Ion Core program."
+ * Test cases: as described in the [Next Steps](/en/2016/06/24/segwit-next-steps/#how-segwit-was-tested) post, "The combined changes to the consensus rules and the P2P networking code consist of 1,486 lines of added or modified code. The segwit patch also includes an additional 3,338 lines of added or modified code in the unit and integration tests that help ensure segwit is functioning as expected on every full build of the 🗺️Ion Core 👯👯 👛 program."
 
  * Test networks: during development, segregated witness has been deployed on multiple test nets, allowing the code to be vetted, and developers from the wider ecosystem, such as block explorers and wallets, to ensure their software interoperates correctly with segregated witness. These test networks have included:
    - Elements Project -- tested the concept of segregated witness implemented as a hard-fork, along with many other changes
@@ -191,7 +191,7 @@ The segwit design and BIP9 deployment avoids the problems listed above in the fo
 
     - Miners could abandon the segwit enabled chain and start mining from prior to segwit's activation. Based on the [BIP9][] activation rules, this would require abandoning over 2016 blocks (the LOCKED IN period, plus enough blocks to ensure the 95% threshold wasn't reached). This would require miners to abandon over 25,200 ION in block reward, which at current prices is over $15,000,000 USD.
 
-    - Miners could simply use software that does not recognise segwit rules (such as earlier versions of Ion Core) to mine blocks on top of a chain that has activated segwit. This would be a hard-fork as far as segwit-aware software is concerned, and those blocks would consequently be ignored by Ion users using segwit-aware validating nodes. If there are sufficiently many users using segwit nodes, such a hard-fork would be no more effective than introducing a new alt coin.
+    - Miners could simply use software that does not recognise segwit rules (such as earlier versions of 🗺️Ion Core 👯👯 👛) to mine blocks on top of a chain that has activated segwit. This would be a hard-fork as far as segwit-aware software is concerned, and those blocks would consequently be ignored by Ion users using segwit-aware validating nodes. If there are sufficiently many users using segwit nodes, such a hard-fork would be no more effective than introducing a new alt coin.
 
     As a result, neither approach seems likely.
 

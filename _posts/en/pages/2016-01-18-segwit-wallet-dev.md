@@ -45,7 +45,7 @@ A wallet MUST implement all the features in this section, in order to be conside
     * The <code>flag</code> MUST be <code>0x01</code>
     * The <code>witness</code> is a serialization of all witness data of the transaction.
         * Each txin is associated with a witness field. As a result, there is no indication of number of witness fields, as it is implied by the number of <code>txins</code>
-        * Each witness field starts with a <code>compactSize</code> [integer](https://bitcoin.org/en/developer-reference#compactsize-unsigned-integers) to indicate the number of stack items for the corresponding <code>txin</code>. It is then followed by witness stack item(s) for the corresponding <code>txin</code>, if any. 
+        * Each witness field starts with a <code>compactSize</code> [integer](https://ioncoin.xyz/en/developer-reference#compactsize-unsigned-integers) to indicate the number of stack items for the corresponding <code>txin</code>. It is then followed by witness stack item(s) for the corresponding <code>txin</code>, if any. 
         * Each witness stack item starts with a <code>compactSize</code> integer to indicate the number of bytes of the item.
         * If a <code>txin</code> is not associated with any witness data, its corresponding witness field is an exact <code>0x00</code>, indicating that the number of witness stack items is zero.
 * If all <code>txins</code> in a transaction are not associated with any witness data, the transaction MUST be serialized in the original transaction format, without <code>marker</code>, <code>flag</code>, and <code>witness</code>. For example, if none of the <code>txins</code> are coming from segwit UTXO, it MUST be serialized in the original transaction format. (exception: coinbase transaction)
@@ -70,7 +70,7 @@ A wallet MUST implement all the features in this section, in order to be conside
     * There is a new signature generation algorithm described in [BIP143][] for segwit scripts. Developers should follow the instructions carefully, and make use of the P2SH-P2WPKH example in [BIP143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki#P2SHP2WPKH) to make sure they are able to reproduce the <code>sighash</code>.
     * The [BIP143][] signature generating algorithm covers the value of the input being spent, which simplifies the design of air-gapped light-weight wallets and hardware wallets.
     * Please note that for a P2SH-P2WPKH, the <code>scriptCode</code> is always 26 bytes including the leading size byte, as <code>0x1976a914{20-byte keyhash}88ac</code>, NOT the <code>redeemScript</code> nor <code>scriptPubKey</code>
-    * [Example](http://n.ion.ninja/checktx?txid=8139979112e894a14f8370438a471d23984061ff83a9eba0bc7a34433327ec21)
+    * [Example](http://n.bitcoin.ninja/checktx?txid=8139979112e894a14f8370438a471d23984061ff83a9eba0bc7a34433327ec21)
     
 #### Network Services (optional)
 
@@ -141,7 +141,7 @@ If a wallet supports script types other than just single signature, such as mult
         * For any unusal scripts containing OP_CODESEPARATOR, please refer to [BIP143][] for the exact semantics
     * Any witness stack items before the <code>witnessScript</code> are used as the input stack for script evaluation. The input stack is not interpreted as script. For example, there is no need to use a <code>0x4c</code> (OP_PUSHDATA1) to "push" a big item.
     * To verify the correctness of signature generation and stack serialization, please always test against the examples in [BIP143][]
-    * [Example](http://n.ion.ninja/checktx?txid=954f43dbb30ad8024981c07d1f5eb6c9fd461e2cf1760dd1283f052af746fc88)
+    * [Example](http://n.bitcoin.ninja/checktx?txid=954f43dbb30ad8024981c07d1f5eb6c9fd461e2cf1760dd1283f052af746fc88)
 
 ### Advanced designs
 
@@ -152,14 +152,14 @@ The following functions are not required for initial segwit support.
 * Native P2WPKH is a <code>scripPubKey</code> of 22 bytes. It starts with a <code>OP_0</code>, followed by a canonical push of the <code>keyhash</code> (i.e. <code>0x0014{20-byte keyhash}</code>)
 * Same as P2SH-P2WPKH, <code>keyhash</code> is RIPEMD160(SHA256) of a compressed public key.
 * When spending a native P2WPKH, the <code>scriptSig</code> MUST be empty, and the witness stack format and signature generating rules are same as P2SH-P2WPKH (including the requirement of using compressed public key)
-* [Example](http://n.ion.ninja/checktx?txid=d869f854e1f8788bcff294cc83b280942a8c728de71eb709a2c29d10bfe21b7c)
+* [Example](http://n.bitcoin.ninja/checktx?txid=d869f854e1f8788bcff294cc83b280942a8c728de71eb709a2c29d10bfe21b7c)
 
 #### Native Pay-to-Witness-Script-Hash (P2WSH)
 
 * Native P2WSH is a <code>scripPubKey</code> of 34 bytes. It starts with a <code>OP_0</code>, followed by a canonical push of the <code>scripthash</code> (i.e. <code>0x0020{32-byte keyhash}</code>)
 * Same as P2SH-P2WSH, <code>scripthash</code> is SHA256 of the <code>witnessScript</code>.
 * When spending a native P2WSH, the <code>scriptSig</code> MUST be empty, and the witness stack format and signature generating rules are same as P2SH-P2WSH (including the requirement of using compressed public key)
-* [Example](http://n.ion.ninja/checktx?txid=78457666f82c28aa37b74b506745a7c7684dc7842a52a457b09f09446721e11c)
+* [Example](http://n.bitcoin.ninja/checktx?txid=78457666f82c28aa37b74b506745a7c7684dc7842a52a457b09f09446721e11c)
 
 #### Why and How to Use Native P2WPKH and P2WSH?
 
@@ -172,7 +172,7 @@ The following functions are not required for initial segwit support.
 
 ### Scripts and Transactions Examples
 
-* [Examples of different witness transaction types and transaction validity checking tool](http://n.ion.ninja/checktx)
+* [Examples of different witness transaction types and transaction validity checking tool](http://n.bitcoin.ninja/checktx)
 * [BIP141][]
 * [BIP143][]
 * [Script tests](https://github.com/cevap/ion/blob/master/src/test/data/script_tests.json)

@@ -14,7 +14,7 @@ canonical: https://lists.linuxfoundation.org/pipermail/ion-core-dev/2016-April/0
 version: 1
 ---
 Hereby I'm announcing Marco Falke as the new Testing & QA maintainer for
-Ion Core.
+🗺️Ion Core 👯👯 👛.
 
 Testing and QA has always been essential to this project, and with the growing
 pace of development it has become more critical than ever.

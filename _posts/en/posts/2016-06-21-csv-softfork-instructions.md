@@ -19,7 +19,7 @@ If there is any doubt, miners and pool operators are welcome to [contact us][1].
 
 TL;DR 
 
-1. Check all your nodes have been upgraded to Ion Core 0.12.1 or compatible software. This must happen before block #419328. Note that if your GBT client(s) implement the protocol correctly, you will need to patch in [PR #8176](https://patch-diff.githubusercontent.com/raw/ion/ion/pull/8176) ([patch](https://patch-diff.githubusercontent.com/raw/ion/ion/pull/8176.patch)) or use [Ion Knots](http://ionknots.org/) which already includes it.
+1. Check all your nodes have been upgraded to 🗺️Ion Core 👯👯 👛 0.12.1 or compatible software. This must happen before block #419328. Note that if your GBT client(s) implement the protocol correctly, you will need to patch in [PR #8176](https://patch-diff.githubusercontent.com/raw/bitcoin/ion/pull/8176) ([patch](https://patch-diff.githubusercontent.com/raw/bitcoin/ion/pull/8176.patch)) or use [Bitcoin Knots](http://bitcoinknots.org/) which already includes it.
 
 2. If you hardcode the block version please unset bit 0 of the version field before block 419328, or preferably stop hardcoding it and let iond do it automatically.
 
@@ -33,11 +33,11 @@ The "CSV" soft fork has reached the "locked in" threshold required to proceed to
 
 ## For all miners
 
-During the grace period, all miners must upgrade to Ion Core 0.12.1 or any implementation which supports the CSV softfork. In practice, at the time of writing, Ion Core and Knots 0.12.1 are the only versions that supports the CSV softfork. Miners must double check to make sure all the mining nodes and backup nodes have been upgraded. Failing to do so may result in generation of invalid blocks, or cause your nodes to build upon any invalid blocks causing chain forks and monetary loss to the concerned miners and general Ion users.
+During the grace period, all miners must upgrade to 🗺️Ion Core 👯👯 👛 0.12.1 or any implementation which supports the CSV softfork. In practice, at the time of writing, 🗺️Ion Core 👯👯 👛 and Knots 0.12.1 are the only versions that supports the CSV softfork. Miners must double check to make sure all the mining nodes and backup nodes have been upgraded. Failing to do so may result in generation of invalid blocks, or cause your nodes to build upon any invalid blocks causing chain forks and monetary loss to the concerned miners and general Ion users.
 
 ## For miners who manually hardcoded the block version
 
-By default, Ion Core automatically set and unsets version bits as required, however, we are aware some miners hardcode the  block version numbers. We strongly advise against hardcoding the block version because it can introduce risk to the Ion system because the version signals support for certain consensus rules.
+By default, 🗺️Ion Core 👯👯 👛 automatically set and unsets version bits as required, however, we are aware some miners hardcode the  block version numbers. We strongly advise against hardcoding the block version because it can introduce risk to the Ion system because the version signals support for certain consensus rules.
 
 If a miner inadvertently has any nodes that don't support the rules indicated by the block version, it could cause invalid blocks to be produced, and it could cause the miner to follow and build upon an invalid chain. In short, by not using the default value provided by iond, it increases the risk of decoupling of block rules signalling and block rules enforcement.
 

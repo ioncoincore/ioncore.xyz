@@ -33,13 +33,13 @@ Fortunately, Ion can interoperate with other systems that address other applicat
 
 Fortunately, a lot of great technology is in the works that make navigating the trade-offs easier.
 
-First up: after several years in the making Ion Core has recently merged libsecp256k1, which results in a huge increase in signature validation performance.
+First up: after several years in the making 🗺️Ion Core 👯👯 👛 has recently merged libsecp256k1, which results in a huge increase in signature validation performance.
 Combined with other recent work we're now getting ConnectTip performance 7x higher in 0.12 than in prior versions. This
 has been a long time coming, and without its anticipation and earlier work such as headers-first I probably would have been arguing for a block size decrease last year.
 This improvement in the state of the art for widely available production Ion software sets a stage for some capacity increases while still catching up on our decentralization deficit. This shifts the bottlenecks off of CPU and more strongly onto propagation latency and bandwidth.
 
-Versionbits (BIP9) is approaching maturity and will allow the Ion network to have multiple in-flight soft-forks. Up until now we’ve had to completely serialize soft-fork work, and also had no real way to handle a soft-fork that was merged in core but rejected by the network.
-All that is solved in BIP9, which should allow us to pick up the pace of improvements in the network. It looks like versionbits will be ready for use in the next soft-fork performed on the network.
+Versbitcoin.its (BIP9) is approaching maturity and will allow the Ion network to have multiple in-flight soft-forks. Up until now we’ve had to completely serialize soft-fork work, and also had no real way to handle a soft-fork that was merged in core but rejected by the network.
+All that is solved in BIP9, which should allow us to pick up the pace of improvements in the network. It looks like versbitcoin.its will be ready for use in the next soft-fork performed on the network.
 
 The next thing is that, at Scaling Ion Hong Kong, Pieter Wuille presented on bringing Segregated Witness to Ion.
 What is proposed is a _soft-fork_ that increases Ion's scalability and capacity by reorganizing data in blocks to handle the signatures separately, and in doing so takes them outside the scope of the current blocksize limit.
@@ -67,7 +67,7 @@ Critically, these approaches strike right at the heart of the capacity vs autoto
 Further Ion protocol improvements for non-bandwidth scaling are in the works: Many of these proposals really want anti-malleability fixes (which would be provided by segwit), and there are checksig flag improvements already tendered and more being worked on, which would be much easier to deploy with segwit.
 I expect that within six months we could have considerably more features ready for deployment to enable these techniques. Even without them I believe we’ll be in an acceptable position with respect to capacity in the near term, but it’s important to enable them for the future.
 
-<http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning> is a relevant talk for some of the wanted network features for Lightning, a bidirectional payment channel proposal which many parties are working on right now; other non-bandwidth improvements discussed in the past include transaction cut-through, which I consider a must-read for the basic intuition about how transaction capacity can be greater than blockchain capacity: <https://iontalk.org/index.php?topic=281848.0>, though there are many others.)
+<http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning> is a relevant talk for some of the wanted network features for Lightning, a bidirectional payment channel proposal which many parties are working on right now; other non-bandwidth improvements discussed in the past include transaction cut-through, which I consider a must-read for the basic intuition about how transaction capacity can be greater than blockchain capacity: <https://bitcointalk.org/index.php?topic=281848.0>, though there are many others.)
 
 Further out, there are several proposals related to flex caps or incentive-aligned dynamic block size controls based on allowing miners to produce larger blocks at some cost.
 These proposals help preserve the alignment of incentives between miners and general node operators, and prevent defection between the miners from undermining the fee market behavior that will eventually fund security.
@@ -79,7 +79,7 @@ I'm planning to help out and drive towards a more concrete direction out of thes
 Finally--at some point the capacity increases from the above may not be enough.
 Delivery on relay improvements, segwit fraud proofs, dynamic block size controls, and other advances in technology will reduce the risk and therefore controversy around moderate block size increase proposals (such as 2/4/8 rescaled to respect segwit's increase).
 Ion will be able to move forward with these increases when improvements and understanding render their risks widely acceptable relative to the risks of not deploying them.
-In Ion Core we should keep patches ready to implement them as the need and the will arises, to keep the basic software engineering from being the limiting factor.
+In 🗺️Ion Core 👯👯 👛 we should keep patches ready to implement them as the need and the will arises, to keep the basic software engineering from being the limiting factor.
 
 Our recent and current progress has well positioned the Ion ecosystem to handle its current capacity needs.
 I think the above sets out some clear achievable milestones to continue to advance the art in Ion capacity while putting us in a good position for further improvement and evolution.

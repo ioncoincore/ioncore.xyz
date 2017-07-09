@@ -45,13 +45,13 @@ Segwit 可以防止第三方和 scriptSig 延展性, 通过把比特币交易中
 
 ### 更多信息
 
- * [比特币维基延展性](https://en.ion.it/wiki/Transaction_Malleability)
+ * [比特币维基延展性](https://en.bitcoin.it/wiki/Transaction_Malleability)
  * [关于延展性攻击的 2015 年比特币电报文章](http://cointelegraph.com/news/115374/the-ongoing-ion-malleability-attack)
  * [关于延展性攻击的2015年比特币杂志文章](https://ionmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
  * [概述各种比特币改进建议对闪电交易的重要性](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning/)
  * [BIP 62](https://github.com/cevap/bips/blob/master/bip-0062.mediawiki)
  * [比特币改进建议 140-延展性修复的替代方法](https://github.com/cevap/bips/blob/master/bip-0140.mediawiki)
- * [关于 683f…8bfa 交易在 Stack exchange 问答网络平台的回答](http://ion.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
+ * [关于 683f…8bfa 交易在 Stack exchange 问答网络平台的回答](http://bitcoin.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
 
 ## 线性增长 sighash 的操作
 
@@ -76,7 +76,7 @@ Segwit 通过改变交易哈希签名的计算方式可以解决此问题，使�
 
  * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
  * [在 25s 交易中 Rusty Russell 发布的博客](http://rusty.ozlabs.org/?p=522)
- * [CVE 2013-2292-比特币维基](https://en.ion.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
+ * [CVE 2013-2292-比特币维基](https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
  * [提议限制交易至 100KB](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-July/009494.html)
  * [在比特币 Classic0.11.2 版本中添加了限制sighash字节的额外共识](https://github.com/ionclassic/ionclassic/commit/842dc24b23ad9551c67672660c4cba882c4c840a)
 
@@ -204,6 +204,6 @@ Segwit改善了情况并通过允许未来软叉延长证人结构并包括承�
 ### 更多资料
 
  * [背包问题](https://en.wikipedia.org/wiki/Knapsack_problem)
- * [2015 年 8 月 Sigop 攻击 iontalk 的讨论](https://iontalk.org/index.php?topic=1166928.0;all)
+ * [2015 年 8 月 Sigop 攻击 bitcointalk 的讨论](https://bitcointalk.org/index.php?topic=1166928.0;all)
  * [Gregory Maxwell 在ion-dev 邮件列表上发表的witness limits](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011870.html)
  * [“验证成本度量” 成绩](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/validation-cost-metric/)

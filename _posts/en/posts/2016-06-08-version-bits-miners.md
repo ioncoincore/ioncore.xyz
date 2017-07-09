@@ -37,7 +37,7 @@ or
 
 - `[DEFINED]` -> `[STARTED]` -> `[FAILED]`
 
-![version bits state diagram](https://raw.githubusercontent.com/ion/bips/master/bip-0009/states.png)
+![version bits state diagram](https://raw.githubusercontent.com/cevap/bips/master/bip-0009/states.png)
 
 The Ion network retargets mining difficulty every 2016 blocks; at this time _version bits_ will look at the window of the previous 2016 blocks to see how many blocks signal for a given soft fork. If 95% of the blocks signal readiness for the soft fork, the state changes from `[STARTED]` to `[LOCKED_IN]`.
 
@@ -95,7 +95,7 @@ Soft forks are proposed through the [BIPs process][BIP1]. Active [BIP9][] soft f
 
 - <http://rusty.ozlabs.org/?p=576>
 - <https://github.com/cevap/bips/blob/master/bip-0009.mediawiki>
-- <https://iontalk.org/index.php?topic=1067693.msg11446462#msg11446462>
+- <https://bitcointalk.org/index.php?topic=1067693.msg11446462#msg11446462>
 
 {% include _references.md %}
 

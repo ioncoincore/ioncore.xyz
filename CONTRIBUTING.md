@@ -1,7 +1,7 @@
 Contributing
 ============
 
- - [Fork it](https://github.com/cevap/website)
+ - [Fork it](https://github.com/cevap/ioncore.xyz)
  - Create a topic branch
  - Commit patches
  - Create pull request
@@ -16,18 +16,18 @@ Anyone may participate in the review process. All comments and ACK/NACKs will be
 
 ## Content Policy
 
-The purpose of the website is to be an official mouthpiece for the Ion Core project as well as be a resource for technical information that has a direct impact on Ion Core software. This can include research, presentations, and developer blogs. 
+The purpose of the website is to be an official mouthpiece for the 🗺️Ion Core 👯👯 👛 project as well as be a resource for technical information that has a direct impact on 🗺️Ion Core 👯👯 👛 software. This can include research, presentations, and developer blogs. 
 
-Where proposed content is about Ion Core project policy, there should rough consensus of the Ion Core project maintainers as a minimum bar and final decision is with the Ion Core project lead.
+Where proposed content is about 🗺️Ion Core 👯👯 👛 project policy, there should rough consensus of the 🗺️Ion Core 👯👯 👛 project maintainers as a minimum bar and final decision is with the 🗺️Ion Core 👯👯 👛 project lead.
 
 ## Translation Process
 
-Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [ioncore.xyz project](https://www.transifex.com/ioncore/ioncorexyz).
+Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [ioncore.xyz project](https://www.transifex.com/cevap/ioncorexyz).
  
 Each document has a header called "Front Matter", which looks something like this:
 
     ---
-    title: Clarifying Communications of the Ion Core project
+    title: Clarifying Communications of the 🗺️Ion Core 👯👯 👛 project
     name: clarifying-communications
     id: en-clarifying-communications
     lang: en
@@ -41,7 +41,7 @@ Each document has a header called "Front Matter", which looks something like thi
 Translators should only translate the `title:` field, and change the language code in the `id:`, `lang:` and `permalink:` fields. For example the above would be translated for `zh_CN` as:
  
     ---
-    title: 有关Ion Core沟通渠道的澄清
+    title: 有关🗺️Ion Core 👯👯 👛沟通渠道的澄清
     name: clarifying-communications
     id: zh_cn-clarifying-communications
     lang: zn_CN
@@ -57,7 +57,7 @@ Notice the remaining fields are left untranslated, however in Transifiex, you mu
 
 Please be careful when translating Markdown formatting, this must be exact (including spaces). Markdown titles require a space after the header tags, e.g. `## Title`.
 
-Please note that [translations.yml](https://github.com/cevap/website/blob/gh-pages/_data/translations.yml) and [navigation.yml](https://github.com/cevap/website/blob/gh-pages/_data/navigation.yml) should be translated and submitted as normal pull-requests because they are not compatible with Transifex at this time.
+Please note that [translations.yml](https://github.com/cevap/ioncore.xyz/blob/gh-pages/_data/translations.yml) and [navigation.yml](https://github.com/cevap/ioncore.xyz/blob/gh-pages/_data/navigation.yml) should be translated and submitted as normal pull-requests because they are not compatible with Transifex at this time.
 
 ## License
 
@@ -65,5 +65,5 @@ The code and documentation of this website are licensed under [MIT license][MIT]
 
 Unless specified in the header of the file, the website content in `_posts/` of this website is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License: [CC-BY-SA] and all contributors agree to irrevocably license their content under the same license.
 
-[MIT]: https://github.com/cevap/website/blob/gh-pages/LICENSE
+[MIT]: https://github.com/cevap/ioncore.xyz/blob/gh-pages/LICENSE
 [CC-BY-SA]: http://creativecommons.org/licenses/by-sa/4.0/

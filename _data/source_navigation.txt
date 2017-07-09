@@ -1,7 +1,7 @@
 # Site navigation links
 en:
   home:
-    title: "Ion Core"
+    title: "🗺️Ion Core 👯👯 👛"
     url:   "/"
   about:
     title: "About"

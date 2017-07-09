@@ -23,8 +23,8 @@ Additionally, the signature cache also mitigates a DoS vector introduced by the 
 
 ### Further information
 
- * [Ion-Qt 0.7.0 Release notes](https://bitcoin.org/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
- * [Fixed vulnerability explanation: Why the signature cache is a DoS protection](https://iontalk.org/index.php?topic=136422.0)
+ * [Ion-Qt 0.7.0 Release notes](https://ioncoin.xyz/en/release/v0.7.0#core-ion-handling-and-blockchain-database)
+ * [Fixed vulnerability explanation: Why the signature cache is a DoS protection](https://bitcointalk.org/index.php?topic=136422.0)
 
 ## Ultraprune + LevelDB
 Release: Ion-Qt 0.8.0
@@ -37,10 +37,10 @@ To further optimize the performance of the system, Ultraprune was introduced in 
 
 ### Further information
 
-  * [Ion-Qt 0.8.0 Release notes](https://bitcoin.org/en/release/v0.8.0#improvements)
+  * [Ion-Qt 0.8.0 Release notes](https://ioncoin.xyz/en/release/v0.8.0#improvements)
   * [Ultraprune in plain english](https://archive.is/bUocJ)
-  * [Ultraprune merged in mainline](https://iontalk.org/index.php?topic=119525.0)
-  * [Pruning in the reference client: ultraprune mode](https://iontalk.org/index.php?topic=91954.0)
+  * [Ultraprune merged in mainline](https://bitcointalk.org/index.php?topic=119525.0)
+  * [Pruning in the reference client: ultraprune mode](https://bitcointalk.org/index.php?topic=91954.0)
 
 ## Parallel script verification
 Release: Ion-Qt 0.8
@@ -55,7 +55,7 @@ As a consequence, synchronization to the tip of the chain happens much faster by
   * [Parallel script verification #2060](https://github.com/cevap/ion/pull/2060)
 
 ## Headers first synchronization
-Release: Ion Core 0.10
+Release: 🗺️Ion Core 👯👯 👛 0.10
 
 Striving to further improve initial block download time, the Core project introduced in late 2014 an important re-architecture of the mechanism used by nodes to synchronize with the most-work valid chain. 
 
@@ -67,12 +67,12 @@ Complaints about initial block download time have been prevalent since the early
 
 ### Further information
 
-  * [Ion-Qt 0.10.0 Release notes](https://bitcoin.org/en/release/v0.10.0#faster-synchronization)
-  * [Ion.org Developer Guide](https://bitcoin.org/en/developer-guide#headers-first)
+  * [Ion-Qt 0.10.0 Release notes](https://ioncoin.xyz/en/release/v0.10.0#faster-synchronization)
+  * [Ion.org Developer Guide](https://ioncoin.xyz/en/developer-guide#headers-first)
   * [Pieter Wuille's post to the Ion-dev mailing list](https://lists.linuxfoundation.org/pipermail/ion-dev/2014-October/006724.html)
   
 ## Block file pruning
-Release: Ion Core 0.11
+Release: 🗺️Ion Core 👯👯 👛 0.11
 
 Pruning of old data was a concept first described by Satoshi Nakamoto in his white paper as a potential solution to disk space scarcity. Unfortunately, the original design was inadequate and could not be implemented as imagined by its creator. Seven years later, with the blockchain reaching more than a hundred gigabytes, the introduction of block file pruning as we know it today presents a major boon to users with limited resources.
 
@@ -82,10 +82,10 @@ Of course, pruning implies that there remains a sufficient number of archival no
 
 ### Further information
 
-  * [Ion-Qt 0.11.0 Release notes](https://bitcoin.org/en/release/v0.11.0#block-file-pruning)
+  * [Ion-Qt 0.11.0 Release notes](https://ioncoin.xyz/en/release/v0.11.0#block-file-pruning)
 
 ## libsecp256k1
-Release: Ion Core 0.12
+Release: 🗺️Ion Core 👯👯 👛 0.12
 
 After measurements, it was determined that the next step after solving the inefficiencies of blockchain download was to tackle the bottleneck of transaction verification and its heavy computing load. The Core project set out to do this by using a new library designed for optimized performance of ECDSA operations. ECDSA (Elliptic Curve Digital Signature Algorithm) is the backbone of Ion’s public key infrastructure and is used every time a user moves coins by signing a message with their private keys. These signatures need to be verified by every peer in the network in order to preserve the ledger’s integrity.
 
@@ -95,14 +95,14 @@ Considering the growth in Ion transaction activity, this upgrade was essential t
 
 ### Further information
 
-  * [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#signature-validation-using-libsecp256k1)
-  * [Andrew Poelstra (andytoshi) on security and testing of libsecp256k1](https://iontalk.org/index.php?action=profile;u=80376)
+  * [Ion-Qt 0.12.0 Release notes](https://ioncoin.xyz/en/release/v0.12.0#signature-validation-using-libsecp256k1)
+  * [Andrew Poelstra (andytoshi) on security and testing of libsecp256k1](https://bitcointalk.org/index.php?action=profile;u=80376)
   * [Greg Maxwell on testing of libsecp256k1 revealing bug in OpenSSL](https://www.reddit.com/r/Ion/comments/2rrxq7/on_why_010s_release_notes_say_we_have_reason_to/)
   * [Greg Maxwell presentation at DevCore](https://www.youtube.com/watch?v=RguZ0_nmSPw&t=1297)
-  * [Hal Finney post on libsecp256k1](https://iontalk.org/index.php?topic=3238.0)
+  * [Hal Finney post on libsecp256k1](https://bitcointalk.org/index.php?topic=3238.0)
 
 ## Memory pool limiting
-Release: Ion Core 0.12
+Release: 🗺️Ion Core 👯👯 👛 0.12
 
 A long standing vulnerability of the Ion software was its inability to properly deal with the flooding of a peer’s memory pool. Indeed, an attacker could send a high number of low value, low fee transactions that would accumulate in the memory pool until it would overload the memory available. This would cause nodes with relatively low RAM resources to crash during periods of unusual activity. The only effective measure against this was to increase the software’s minimum relay fee which still left no upper bound on the potential size of the mempool.
 
@@ -112,6 +112,6 @@ Configuration of the maximum size is left to the users with the default size bei
 
 ### Further information
 
-* [Ion-Qt 0.12.0 Release notes](https://bitcoin.org/en/release/v0.12.0#memory-pool-limiting)
+* [Ion-Qt 0.12.0 Release notes](https://ioncoin.xyz/en/release/v0.12.0#memory-pool-limiting)
 
 In Part 2, we will discuss more recent improvements that build on the technologies presented above and further improve the robustness and scaling potential of the network. 

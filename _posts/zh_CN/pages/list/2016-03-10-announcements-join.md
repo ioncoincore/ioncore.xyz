@@ -1,5 +1,5 @@
 ---
-title: Subscribe to Ion Core announcements
+title: Subscribe to 🗺️Ion Core 👯👯 👛 announcements
 name: announcements
 permalink: /zh_CN/list/announcements/join/
 type: pages

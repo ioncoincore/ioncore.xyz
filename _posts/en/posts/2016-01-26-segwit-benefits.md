@@ -39,13 +39,13 @@ Note: segwit transactions only avoid malleability if all their inputs are segwit
 
 ### Further information
 
- * [Ion Wiki on Malleability](https://en.ion.it/wiki/Transaction_Malleability)
+ * [Ion Wiki on Malleability](https://en.bitcoin.it/wiki/Transaction_Malleability)
  * [Coin Telegraph article on 2015 Malleability attack](http://cointelegraph.com/news/115374/the-ongoing-ion-malleability-attack)
  * [Ion Magazine article on 2015 Malleability attack](https://ionmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640)
  * ["Overview of BIPs necessary for Lightning" transcript](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/overview-of-bips-necessary-for-lightning/)
  * [BIP 62](https://github.com/cevap/bips/blob/master/bip-0062.mediawiki)
  * [BIP 140 -- alternative approach to malleability fixes](https://github.com/cevap/bips/blob/master/bip-0140.mediawiki)
- * [Stack exchange answer regarding 683f...8bfa transaction](http://ion.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
+ * [Stack exchange answer regarding 683f...8bfa transaction](http://bitcoin.stackexchange.com/questions/22051/transaction-malleability-in-the-blockchain/22058#22058)
 
 ## Linear scaling of sighash operations
 
@@ -67,7 +67,7 @@ The modified hash only applies to signature operations initiated from witness da
 
  * [BIP 143](https://github.com/cevap/bips/blob/master/bip-0143.mediawiki)
  * [Blog post by Rusty Russell on the 25s transaction](http://rusty.ozlabs.org/?p=522)
- * [CVE 2013-2292 on Ion wiki](https://en.ion.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
+ * [CVE 2013-2292 on Ion wiki](https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2013-2292)
  * [Proposal to limit transactions to 100kB](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-July/009494.html)
  * [Ion Classic commit on 0.11.2 branch adding additional consensus limit on sighash bytes](https://github.com/ionclassic/ionclassic/commit/842dc24b23ad9551c67672660c4cba882c4c840a)
 
@@ -135,7 +135,7 @@ Reduced UTXO growth will benefit miners, businesses, and users who run full node
 
 ## Efficiency gains when not verifying signatures
 
-Signatures for historical transactions may be less interesting than signatures for future transactions -- for example, Ion Core does not check signatures for transactions prior to the most recent checkpoint by default, and some SPV clients simply don't check signatures themselves at all, trusting that has already been done by miners or other nodes. At present, however, signature data is an integral part of the transaction and must be present in order to calculate the transaction hash.
+Signatures for historical transactions may be less interesting than signatures for future transactions -- for example, 🗺️Ion Core 👯👯 👛 does not check signatures for transactions prior to the most recent checkpoint by default, and some SPV clients simply don't check signatures themselves at all, trusting that has already been done by miners or other nodes. At present, however, signature data is an integral part of the transaction and must be present in order to calculate the transaction hash.
 
 Segregating the signature data allows nodes that aren't interested in signature data to prune it from the disk, or to avoid downloading it in the first place, saving resources.
 
@@ -171,7 +171,7 @@ This lets miners easily and accurately fill blocks while maximising fee income, 
 ### Further information
 
  * [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)
- * [Sigop attack discussion on iontalk in Aug 2015](https://iontalk.org/index.php?topic=1166928.0;all)
+ * [Sigop attack discussion on bitcointalk in Aug 2015](https://bitcointalk.org/index.php?topic=1166928.0;all)
  * [Gregory Maxwell on ion-dev on witness limits](https://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011870.html)
  * ["Validation Cost Metric" transcript](http://diyhpl.us/wiki/transcripts/scalingion/hong-kong/validation-cost-metric/)
 

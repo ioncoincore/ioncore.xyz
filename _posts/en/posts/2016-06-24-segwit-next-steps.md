@@ -36,7 +36,7 @@ Segwit changes several parts of the Ion system, most notably the consensus rules
 
 Also important are changes to the peer-to-peer network code used to relay blocks and transactions.  As segwit transactions and blocks are organized differently than earlier transaction and block versions, it's important to ensure the network implementation can both relay segwit data to segwit nodes and older-style data to older nodes.
 
-These combined changes to the consensus rules and the P2P networking code consist of 1,486 lines of added or modified code.  The segwit patch also includes an additional 3,338 lines of added or modified code in the unit and integration tests that help ensure segwit is functioning as expected on every full build of the Ion Core program.
+These combined changes to the consensus rules and the P2P networking code consist of 1,486 lines of added or modified code.  The segwit patch also includes an additional 3,338 lines of added or modified code in the unit and integration tests that help ensure segwit is functioning as expected on every full build of the 🗺️Ion Core 👯👯 👛 program.
 
 In addition to over 3,000 lines of added automated testing code, segwit has been extensively tested by Ion developers.  This section describes just some of the rigorous testing they performed on different versions of segwit over the last year.
 
@@ -46,15 +46,15 @@ In addition to over 3,000 lines of added automated testing code, segwit has been
 
 - The code became fully operational in late December 2015 on a special segwit-specific testnet (called segnet) that allowed implementers and testers to run the code in a multi-user environment, and which also allowed wallet authors to test their code for generating segwit transactions.  Segnet went through several iterations as problems were found and fixed, and as improvements were discovered and implemented.
 
-- In April 2016, after four months of active development and testing, Wuille submitted a [pull request][PR#7910] to the Ion Core project for review.
+- In April 2016, after four months of active development and testing, Wuille submitted a [pull request][PR#7910] to the 🗺️Ion Core 👯👯 👛 project for review.
 
 - May 2016, Segwit was enabled on Ion's regular testnet where it was tested not just against other software that was expected to interact with segwit but also all the other programs which are regularly tested on Ion's testnet and which had not been upgraded for segwit.
 
-- Also in May 2016, twenty Ion Core developers [met in Switzerland][may2016 core meetup] for (among other things) an in-person review of the segwit code and ensuring that test coverage was adequate.
+- Also in May 2016, twenty 🗺️Ion Core 👯👯 👛 developers [met in Switzerland][may2016 core meetup] for (among other things) an in-person review of the segwit code and ensuring that test coverage was adequate.
 
-- In June 2016, after almost two months of very active review on the original pull request plus extended operation on both segnet and testnet, Wuille created a [second pull request][PR#8149] that contained all the improvements made to the original pull request, rebased on top of the most recent version of Ion Core's development branch, and which was specially formatted to make final review easy as well as ensure all reviews made to the original pull request remained valid.
+- In June 2016, after almost two months of very active review on the original pull request plus extended operation on both segnet and testnet, Wuille created a [second pull request][PR#8149] that contained all the improvements made to the original pull request, rebased on top of the most recent version of 🗺️Ion Core 👯👯 👛's development branch, and which was specially formatted to make final review easy as well as ensure all reviews made to the original pull request remained valid.
 
-With the original sidechains implementation of segwit having been used by a number of reviewers over the past year and the Ion soft fork implementation having received rigorous testing and review over six months, the Ion Core developers believe it is now ready to move to production.
+With the original sidechains implementation of segwit having been used by a number of reviewers over the past year and the Ion soft fork implementation having received rigorous testing and review over six months, the 🗺️Ion Core 👯👯 👛 developers believe it is now ready to move to production.
 
 [PR#8149]: https://github.com/cevap/ion/pull/8149
 [PR#7910]: https://github.com/cevap/ion/pull/7910
@@ -64,7 +64,7 @@ With the original sidechains implementation of segwit having been used by a numb
 
 ## Compact Blocks
 
-Segwit will allow Ion miners to include more transaction data in the blocks they create than they can now.  This will increase the bandwidth demands on Ion full nodes that relay all that data as well as increase the latency between when a new block is published and when nodes receive it (as larger amounts of data typically take longer to propagate).  To help reduce these negative side effects, Ion Core developers plan to make [compact block relay](/en/2016/06/07/compact-blocks-faq/) available for Ion Core 0.13 and above.
+Segwit will allow Ion miners to include more transaction data in the blocks they create than they can now.  This will increase the bandwidth demands on Ion full nodes that relay all that data as well as increase the latency between when a new block is published and when nodes receive it (as larger amounts of data typically take longer to propagate).  To help reduce these negative side effects, 🗺️Ion Core 👯👯 👛 developers plan to make [compact block relay](/en/2016/06/07/compact-blocks-faq/) available for 🗺️Ion Core 👯👯 👛 0.13 and above.
 
 Ion full nodes currently download many transactions twice: once when they receive the transaction by itself and a second time when the transaction is received as part of a block.  Compact block relay can eliminate most (and sometimes all) of this duplication by sending nodes just the information they need in order to reconstruct blocks using the transactions that the nodes have already received.
 
@@ -80,7 +80,7 @@ The high bandwidth mode is being used as the basis for further development into 
 
 The following plan describes how segwit is expected to be deployed.
 
-**Merge to master (without mainnet activation code):** after Ion Core developers "ACK" (approve) the final segwit pull request, it will be merged into the Ion Core master Git repository branch.  The code that is being merged will include everything in segwit except for the activation code.  This will make it easy for developers to test other features on top of segwit, such as compact blocks.  **Activation on testnet** has already occurred so users and developers may experiment and test segwit on testnet.
+**Merge to master (without mainnet activation code):** after 🗺️Ion Core 👯👯 👛 developers "ACK" (approve) the final segwit pull request, it will be merged into the 🗺️Ion Core 👯👯 👛 master Git repository branch.  The code that is being merged will include everything in segwit except for the activation code.  This will make it easy for developers to test other features on top of segwit, such as compact blocks.  **Activation on testnet** has already occurred so users and developers may experiment and test segwit on testnet.
 
 **Backport to 0.12 branch:** the unactivated code will be backported to the 0.12 maintenance branch and the backport will receive its own testing.
 
@@ -106,7 +106,7 @@ The following plan describes how segwit is expected to be deployed.
 
     This upgrade is especially important for anyone, such as a business, who accepts transactions with low numbers of confirmations.
 
-- **Ion Core wallet users** can continue using their existing nodes.  Even if you upgrade, you will see no changes beyond those described above.  The code expected to be released in 0.12.2 does not begin generating segwit receiving addresses by default.
+- **🗺️Ion Core 👯👯 👛 wallet users** can continue using their existing nodes.  Even if you upgrade, you will see no changes beyond those described above.  The code expected to be released in 0.12.2 does not begin generating segwit receiving addresses by default.
 
 - **Users of other wallets** can continue using their existing wallets.  It is recommended that lightweight wallet users always wait for several confirmations when receiving significant amounts of money, so no extra waiting is expected to be required here.
 
@@ -136,7 +136,7 @@ Verification of Schnorr signatures is slightly faster than ECDSA signatures (whi
 
 Schnorr also allows for "native multisig" in cases where all participants need to sign (such as 2-of-2, 3-of-3, or any n-of-n) that allows all *n* public keys to be combined into a single overall public key and all *n* signatures to be combined into a single overall signature.  The overall public keys and signatures are the same size as a single one of the original public keys and signatures, so it's possible to create a 100-of-100 multisig transaction that’s no larger than a 1-of-1 transaction.  This will be quite useful as it expected that the network will see increased use of n-of-n multisig transactions (for example 2-of-2 is used in many payment channel transactions).
 
-Schnorr support is already available in the [libsecp256k1][] library that Ion Core uses for creating and verifying signatures, although Ion doesn’t currently use Schnorr in any way and there are some changes the developers would like to make to the Schnorr parts of the library before starting to use it.  This, combined with segwit's support for Ion Script versioning should make adding the features described above fairly easy.
+Schnorr support is already available in the [libsecp256k1][] library that 🗺️Ion Core 👯👯 👛 uses for creating and verifying signatures, although Ion doesn’t currently use Schnorr in any way and there are some changes the developers would like to make to the Schnorr parts of the library before starting to use it.  This, combined with segwit's support for Ion Script versioning should make adding the features described above fairly easy.
 
 A more difficult feature to add that is supported by Schnorr is [signature aggregation][].  This would change how signature validation works and would allow multisig transactions requiring 1-of-2, 2-of-3, or any m-of-n signatures to create just one signature per transaction provided all the signers are online simultaneously.  This would also allow creating one signature for each transaction no matter how many inputs it has (again, if all signers are online simultaneously).
 
@@ -148,8 +148,8 @@ Although signature aggregation is still being designed, it will be easy to add s
 
 [schnorr]: https://en.wikipedia.org/wiki/Schnorr_signature
 [ed25519 signature scheme]: http://ed25519.cr.yp.to/
-[libsecp256k1]: https://github.com/cevap/secp256k1
-[signature aggregation]: https://iontalk.org/index.php?topic=1377298.0
+[libsecp256k1]: https://github.com/ion-core/secp256k1
+[signature aggregation]: https://bitcointalk.org/index.php?topic=1377298.0
 
 ### MAST
 
@@ -163,4 +163,4 @@ This not only saves space but it may also help improve privacy.  For example, if
 
 Enabling MAST can be done using the versioning of Ion Script enabled by segwit.
 
-[todd mast]: https://iontalk.org/index.php?topic=255145.msg2757327#msg2757327
+[todd mast]: https://bitcointalk.org/index.php?topic=255145.msg2757327#msg2757327

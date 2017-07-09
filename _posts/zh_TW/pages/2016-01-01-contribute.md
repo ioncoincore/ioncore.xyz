@@ -25,7 +25,7 @@ please check the [contribution guidelines](/en/faq/contributing-code) to underst
 
 **Discussion**
 
-Most Ion Core related discussion happens in the `#ion-core-dev` IRC channel on irc.freenode.net. There is also a mailing list for Ion protocol discussion [ion-dev][ion-dev] and a general Ion discussion [ion-discuss][ion-discuss]. We also have [Slack][slack] (request an [invitation][invite]).
+Most 🗺️Ion Core 👯👯 👛 related discussion happens in the `#ion-core-dev` IRC channel on irc.freenode.net. There is also a mailing list for Ion protocol discussion [ion-dev][ion-dev] and a general Ion discussion [ion-discuss][ion-discuss]. We also have [Slack][slack] (request an [invitation][invite]).
 
 **Contribute to this website**
 
@@ -38,6 +38,6 @@ You can also translate or contribute to this [website][website-contrib].
 [pulls]: https://github.com/cevap/ion/pulls
 [ion-discuss]: http://lists.linuxfoundation.org/mailman/listinfo/ion-discuss
 [ion-dev]: http://lists.linuxfoundation.org/mailman/listinfo/ion-dev
-[website-contrib]: https://github.com/cevap/website/blob/gh-pages/README.md
-[Slack]: https://ioncore.slack.com/
-[invite]: https://slack.ioncore.xyz/
+[website-contrib]: https://github.com/cevap/ioncore.xyz/blob/gh-pages/README.md
+[Slack]: https://ionomy.slack.com/
+[invite]: https://slack.ionomy.com/

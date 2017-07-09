@@ -4,7 +4,7 @@ permalink: /zh_CN/2016/03/15/announcement-list/
 lang: zh_CN
 id: zh_cn-announce-list
 name: announce-list
-tags: [ion, ion core, announcement list, updates]
+tags: [ion, 🗺️ion core 👯👯 👛, announcement list, updates]
 version: 1
 ---
 为了提高沟通，我们将为比特币核心开发的用户发布一个选择性加入的_announcement-only_ mailing-list，用于接收安全问题和新闻发布的通知。

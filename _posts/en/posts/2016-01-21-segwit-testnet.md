@@ -16,11 +16,11 @@ This represents one of the most hotly anticipated and exciting developments to d
 
 This significant innovation leads to dramatically more efficient use of the Ion blockchain, while simultaneously opening up exciting new possibilities and opportunities for the broader Ion ecosystem, particularly around smart contract applications and dramatically faster transactions, while also providing the groundwork for more advanced features and possibilities in the future.
 
-This development began with a research effort by Ion Core developer, Dr. Pieter Wuille, initially focused on addressing transaction malleability, a longstanding and well-known concern and priority. However, in the process of this research, and in the narrowing toward a solution, additional properties of the solution were discovered that allow for increasing the block size while also simultaneously opening up some incredibly exciting secondary benefits.
+This development began with a research effort by 🗺️Ion Core 👯👯 👛 developer, Dr. Pieter Wuille, initially focused on addressing transaction malleability, a longstanding and well-known concern and priority. However, in the process of this research, and in the narrowing toward a solution, additional properties of the solution were discovered that allow for increasing the block size while also simultaneously opening up some incredibly exciting secondary benefits.
 
 This effort was initiated by Dr. Pieter Wuille, but included contributions from many others, with particular thanks to Eric Lombrozo, Johnson Lau, Alex Morcos, Nicolas Dorier, Bryan Bishop, Gregory Maxwell, Peter Todd, Cory Fields, Suhas Daftuar, and Luke-Jr.
 
-## Ion Core Ecosystem
+## 🗺️Ion Core 👯👯 👛 Ecosystem
 
 There is broad excitement and anticipation as far as what providers and other exchange operators will create with the fundamental developments and innovations included in this release. So far, the [most popular wallets][segwit_adoption] and supporting libraries have stated they will support segwit including Ledger, Trezor, Electrum, and Bitgo. Additionally, work on numerous other libraries such as ionj, ionjs, pycoin and bitcore has already begun.
 
@@ -65,7 +65,7 @@ Once compiled, add `-segnet` to the standard `iond` and `ion-cli` command line.
 
 - [Analysis of segwit benefits](http://lists.linuxfoundation.org/pipermail/ion-dev/2016-January/012248.html)
 - [Hard Forks vs. Soft Forks](https://petertodd.org/2016/soft-forks-are-safer-than-hard-forks)
-- [Early Exploration of “Non-contentious” Hard Fork Research](https://scalingion.org/hongkong2015/presentations/DAY1/1_overview_1_timon.pdf)
+- [Early Exploration of “Non-contentious” Hard Fork Research](https://scalingioncoin.xyz/hongkong2015/presentations/DAY1/1_overview_1_timon.pdf)
 
 [FAQ]: https://ioncore.xyz/en/2015/12/23/capacity-increases-faq
 [roadmap]: http://lists.linuxfoundation.org/pipermail/ion-dev/2015-December/011865.html

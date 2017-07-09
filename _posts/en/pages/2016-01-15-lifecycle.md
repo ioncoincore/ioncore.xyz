@@ -11,11 +11,11 @@ version: 2
 ---
 {% include _toc.html %}
 
-This document describes the life-cycle of the Ion Core software package released by the Ion Core project. It is in line with standard maintenance policy across commercial software.  
+This document describes the life-cycle of the 🗺️Ion Core 👯👯 👛 software package released by the 🗺️Ion Core 👯👯 👛 project. It is in line with standard maintenance policy across commercial software.  
 
 ## Versioning
 
-Ion Core releases are versioned as follows: 0.MAJOR.MINOR, and release candidates are suffixed with rc1, rc2 etc.
+🗺️Ion Core 👯👯 👛 releases are versioned as follows: 0.MAJOR.MINOR, and release candidates are suffixed with rc1, rc2 etc.
 
 ## Major releases
 
@@ -63,23 +63,23 @@ _TBA: to be announced_
 
 ## Protocol versioning
 
-The description above only describes Ion Core software releases. Many other parts of the Ion system contain their own versions.  A few examples:
+The description above only describes 🗺️Ion Core 👯👯 👛 software releases. Many other parts of the Ion system contain their own versions.  A few examples:
 
 - Every **transaction** contains a version number.
 - The **P2P network protocol** uses version numbers to allow nodes to announce what features they support.
-- Ion Core's **built-in wallet** has its own internal version number.
+- 🗺️Ion Core 👯👯 👛's **built-in wallet** has its own internal version number.
 
-These versions numbers are deliberately decoupled from Ion Core's version number as the Ion Core project either has no direct control over them (as is the case with blocks and transactions), or tries to maintain compatibility with other projects (as is the case with the network protocol), or allows for the possibility that no major changes will be made in some releases (as is sometimes the case with the built-in wallet).
+These versions numbers are deliberately decoupled from 🗺️Ion Core 👯👯 👛's version number as the 🗺️Ion Core 👯👯 👛 project either has no direct control over them (as is the case with blocks and transactions), or tries to maintain compatibility with other projects (as is the case with the network protocol), or allows for the possibility that no major changes will be made in some releases (as is sometimes the case with the built-in wallet).
 
 The consensus protocol itself doesn't have a version number.
 
 ## Relationship to SemVer
 
-Ion Core software versioning does not follow the [SemVer][] optional versioning standard, but its release versioning is superficially similar.  SemVer was designed for use in normal software libraries where individuals can choose to upgrade the library at their own pace, or even stay behind on an older release if they don't like the changes.
+🗺️Ion Core 👯👯 👛 software versioning does not follow the [SemVer][] optional versioning standard, but its release versioning is superficially similar.  SemVer was designed for use in normal software libraries where individuals can choose to upgrade the library at their own pace, or even stay behind on an older release if they don't like the changes.
 
 Parts of Ion, most notably the consensus rules, don't work that way.  In order for a new consensus rule to go into effect, it must be enforced by some number of miners, full nodes, or both; and once it has gone into effect, software that doesn't know about the new rule may generate or accept invalid transactions (although upgrades are designed to prevent this from happening when possible).
 
-For this reason, Ion Core deviates from SemVer for changes to consensus rules and other updates where network-wide adoption is necessary or desirable.  Ion Core releases these changes as maintenance releases (`0.x.y`) instead of as major releases(`0.x.0`); this minimizes the size of the patch in order to make it easy for as many people as possible to inspect it, test it, and deploy it.  It also makes it possible to backport the same patch to multiple previous major releases, further increasing the number of users who can easily upgrade, although there are not always enough volunteers to manage this.
+For this reason, 🗺️Ion Core 👯👯 👛 deviates from SemVer for changes to consensus rules and other updates where network-wide adoption is necessary or desirable.  🗺️Ion Core 👯👯 👛 releases these changes as maintenance releases (`0.x.y`) instead of as major releases(`0.x.0`); this minimizes the size of the patch in order to make it easy for as many people as possible to inspect it, test it, and deploy it.  It also makes it possible to backport the same patch to multiple previous major releases, further increasing the number of users who can easily upgrade, although there are not always enough volunteers to manage this.
 
 [SemVer]: https://semver.org/
-[ion-transifex-link]: https://www.transifex.com/ion/ion/
+[ion-transifex-link]: https://www.transifex.com/cevap/ion/

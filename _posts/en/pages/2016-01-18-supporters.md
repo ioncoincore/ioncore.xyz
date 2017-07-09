@@ -1,5 +1,5 @@
 ---
-title: Ion Core Supporters
+title: 🗺️Ion Core 👯👯 👛 Supporters
 name: supporters
 type: pages
 layout: page

@@ -1,5 +1,5 @@
 ---
-title: Ion Core 赞助计划
+title: 🗺️Ion Core 👯👯 👛 赞助计划
 permalink: /zh_CN/about/sponsorship/programme/
 lang: zh_CN
 id: zh_CN-projects-sponsorship-programme
@@ -8,11 +8,11 @@ type: pages
 layout: page
 tags: [赞助, 研究, 资金]
 ---
-Ion Core 赞助计划为比特币业界提供一个途径，通过资助开发员，开发项目，或提供其它资源，以协助 Ion Core 的独立研究和开发。该计划现时为较大型的业界参与者而设，我们并没有接受小额捐款的机制。
+🗺️Ion Core 👯👯 👛 赞助计划为比特币业界提供一个途径，通过资助开发员，开发项目，或提供其它资源，以协助 🗺️Ion Core 👯👯 👛 的独立研究和开发。该计划现时为较大型的业界参与者而设，我们并没有接受小额捐款的机制。
 
 为保持去中心化，个别计划会由不同人所领导，并负责分配资金。
 
-Ion Core 计划有以下的一个清单，列出一些需要资金的项目，而赞助人也可以建议其它项目。赞助人可以提供资金或人力资源。
+🗺️Ion Core 👯👯 👛 计划有以下的一个清单，列出一些需要资金的项目，而赞助人也可以建议其它项目。赞助人可以提供资金或人力资源。
 
 _**有兴趣者请电邮 sponsorship<span style="display:none"></span>@ioncore.xyz**_
 

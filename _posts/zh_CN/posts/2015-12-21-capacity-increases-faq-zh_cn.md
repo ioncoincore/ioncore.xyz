@@ -17,19 +17,19 @@ version: 1
 | 2015年12月 | | 隔离见证测试网 |
 | 2016年2月 | 0.12.0 | [libsecp256k1验证][libsecp256k1 verification] |
 | 2016年2月 | | 隔离见证功能完成并作审核 |
-| 2016年3月\* | 0.12.x | 完成OP_CHECKSEQUENCEVERIFY (BIP[68][BIP68] 及 [112][BIP112]) + [BIP113][] 并作为首个以 [BIP9][] versionbits 实施的软分叉 |
+| 2016年3月\* | 0.12.x | 完成OP_CHECKSEQUENCEVERIFY (BIP[68][BIP68] 及 [112][BIP112]) + [BIP113][] 并作为首个以 [BIP9][] versbitcoin.its 实施的软分叉 |
 | 2016年4月\* |  0.12.x |  完成隔离见证 |
 | 2016年 | | 弱区块, IBLTs, 或者二者都实现 |
 
 \* 有星号的日期是预计完成代码的时间。代码只会在充分审核后才会发表，而软分叉完成也需要时间。([BIP66][]经历数月时间在2015年7月生效，[BIP65][]则只用了五周时间在2015年12月生效)
 
-- **隔离见证测试网:** 一个独立的测试网，并非平常测试网的一部分。让 Ion Core 开发员及钱包开发员测试隔离见证功能。
+- **隔离见证测试网:** 一个独立的测试网，并非平常测试网的一部分。让 🗺️Ion Core 👯👯 👛 开发员及钱包开发员测试隔离见证功能。
 
 - **Libsecp256k1验证:** 在x86\_64硬件上提升交易验证速度五至七倍。帮助新节点加入网络并减轻现有节点的负担。
 
 - **OP\_CHECKSEQUENCEVERIFY:** 让双向[支付通道][payment channel efficiency]可以无限期使用，提升效率达25倍。
 
-- **VersionBits:** 允许1至29个软分叉同时实施，让系统升级的过程更快，更去中心化。
+- **Versbitcoin.its:** 允许1至29个软分叉同时实施，让系统升级的过程更快，更去中心化。
 
 - **隔离见证:** 允许交易容量上升到1.75至4倍，解决第三方延展性让智能合约更安全，双向支付通道效率提升66%，提供欺诈证明让轻量节点也可以执行系统规则，更容易对脚本系统升级以允许更强大的合约功能。
 
@@ -58,7 +58,7 @@ version: 1
 
 ## 我还是觉得隔离见证很复杂，为什么不简单地提高区块体积？  {#size-bump}
 
-在Ion Core有[一句代码][max_block_size]指定区块最大是 1,000,000 字节 (1MB)。最简单的方法是用硬分叉改变这句代码，例如变为 2,000,000 字节 (2MB)。
+在🗺️Ion Core 👯👯 👛有[一句代码][max_block_size]指定区块最大是 1,000,000 字节 (1MB)。最简单的方法是用硬分叉改变这句代码，例如变为 2,000,000 字节 (2MB)。
 
 但硬分叉本身绝不简单:
 
@@ -125,11 +125,11 @@ David Harding 提供了下表以[估计][estimated savings]在不同费用和交
 
 ## 听说你们会让零确认不能再用，这是路线图内哪一项技术？  {#rbf}
 
-这并不是路线图的一部分。作为现在 Ion Core 版本的默认设置，在收到一个未确认交易后，就不会再接受其它有相同输入的交易。有些人认为这表示他们首个见到的交易就是安全的，但其实不是；如果真的是这样，我们根本不需要区块链。
+这并不是路线图的一部分。作为现在 🗺️Ion Core 👯👯 👛 版本的默认设置，在收到一个未确认交易后，就不会再接受其它有相同输入的交易。有些人认为这表示他们首个见到的交易就是安全的，但其实不是；如果真的是这样，我们根本不需要区块链。
 
 在现时的默认设置下，人们并不能更新他们未确认的交易。在最初的 Ion 版本，其实是有方法让使用者表明他希望交易可被更新，但为了防止拒绝服务攻击，中本聪在2010年关闭了这功能。
 
-最近 Ion Core 的开发员发现只要要求更新交易的同时要求使用者要付出更多的交易费，就可以防止上述的拒绝服务攻击，因此他们重开了中本聪那个允许交易被替换的机制。这功能会在预计2016年1至2月在 Ion Core 0.12.0 推出，但和中本聪原本的设计一样，只有希望可以替换交易的使用者才需要选择使用支持该功能的钱包。
+最近 🗺️Ion Core 👯👯 👛 的开发员发现只要要求更新交易的同时要求使用者要付出更多的交易费，就可以防止上述的拒绝服务攻击，因此他们重开了中本聪那个允许交易被替换的机制。这功能会在预计2016年1至2月在 🗺️Ion Core 👯👯 👛 0.12.0 推出，但和中本聪原本的设计一样，只有希望可以替换交易的使用者才需要选择使用支持该功能的钱包。
 
 现在并没有钱包提供这功能，但将来这类钱包可以把多个未确认交易合并以减少所需要的区块链空间，也可以让用户提高未确认交易的费用，不会因为之前付费不足让交易「阻塞」在钱包内。
 
@@ -139,7 +139,7 @@ David Harding 提供了下表以[估计][estimated savings]在不同费用和交
 
 弱区块和IBLT都只涉及网络改善而不是软分叉或硬分叉，因此只需要较短的测试时间就可以推出让节点升级，我们希望可以在2016年内完成。
 
-在推出弱区块和IBLT后，我们可以利用一个简单而无争议的软分叉来[规范交易次序][canonical transaction ordering]让它们更有效率，这软分叉可以透过BIP9 versionBits 推出。
+在推出弱区块和IBLT后，我们可以利用一个简单而无争议的软分叉来[规范交易次序][canonical transaction ordering]让它们更有效率，这软分叉可以透过BIP9 versbitcoin.its 推出。
 
 [canonical transaction ordering]: https://gist.github.com/gavinandresen/e20c3b5a1d4b97f79ac2#canonical-ordering-of-transactions
 
@@ -164,7 +164,7 @@ David Harding 提供了下表以[估计][estimated savings]在不同费用和交
 
 ## 我可以怎样帮忙？
 
-首先阅读在 Ion.org 上的 [Ion Core贡献者][Ion Core contributor]网页。
+首先阅读在 Ion.org 上的 [🗺️Ion Core 👯👯 👛贡献者][🗺️Ion Core 👯👯 👛 contributor]网页。
 其中[代码审阅][code review]是实行软分叉极重要的一部分。
 
 如果你想得到更多有关如何贡献的建议，请加入[#ion-dev][] IRC 频道讨论。
@@ -180,14 +180,14 @@ David Harding 提供了下表以[估计][estimated savings]在不同费用和交
 [BIP68]: https://github.com/cevap/bips/blob/master/bip-0068.mediawiki
 [BIP112]: https://github.com/cevap/bips/blob/master/bip-0112.mediawiki
 [BIP113]: https://github.com/cevap/bips/blob/master/bip-0113.mediawiki
-[ion core contributor]: https://bitcoin.org/en/ion-core/
+[🗺️ion core 👯👯 👛 contributor]: https://ioncoin.xyz/en/ion-core/
 [Ion relay network]: http://ionrelaynetwork.org/
-[code review]: https://bitcoin.org/en/development#code-review
+[code review]: https://ioncoin.xyz/en/development#code-review
 [estimated savings]: https://www.reddit.com/r/ionxt/comments/3w1i6b/i_attended_scaling_ion_hong_kong_these_are_my/cxtkaih
-[increase in total bandwidth]: https://scalingion.org/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
+[increase in total bandwidth]: https://scalingioncoin.xyz/hongkong2015/presentations/DAY1/3_block_propagation_1_rosenbaum.pdf
 [libsecp256k1 verification]: https://github.com/cevap/ion/pull/6954
 [max_block_size]: https://github.com/cevap/ion/blob/3038eb63e8a674b4818cb5d5e461f1ccf4b2932f/src/consensus/consensus.h#L10
 [miners' panel]: https://youtu.be/H-ErmmDQRFs?t=1086
-[payment channel efficiency]: https://scalingion.org/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
+[payment channel efficiency]: https://scalingioncoin.xyz/hongkong2015/presentations/DAY2/1_layer2_2_dryja.pdf
 [previous soft forks]: https://github.com/cevap/bips/blob/master/bip-0123.mediawiki#classification-of-existing-bips
 [q simple raise]: #size-bump
