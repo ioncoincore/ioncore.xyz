@@ -44,6 +44,7 @@
 [Wladimir van der Laan]: https://github.com/laanwj
 [Zooko Wilcox]: https://github.com/zooko
 [Murch]: https://github.com/Xekyo
+[CEVAP]: https://github.com/cevap
 
 [BIP1]: https://github.com/cevap/bips/blob/master/bip-0001.mediawiki
 [BIP2]: https://github.com/cevap/bips/blob/master/bip-0002.mediawiki

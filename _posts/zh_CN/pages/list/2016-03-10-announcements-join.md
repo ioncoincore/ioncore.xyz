@@ -16,6 +16,6 @@ version: 1
     
 仅通告低流量。
 
-_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wullie][sipa-key] and DKIM signed from ioncore.xyz_.
+_Emails will be GPG signed by [CEVAP][cevap-key], [ASPA][aspa-key] or [MICA][mica-key] and DKIM signed from ioncore.xyz_.
 
 {% include _references.md %}

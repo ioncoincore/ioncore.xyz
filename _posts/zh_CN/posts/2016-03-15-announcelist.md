@@ -15,6 +15,6 @@ version: 1
 
 {% include pages/list/announcement.html %}
 
-_Emails will be GPG signed by [Wladimir van der Laan][laanwj-key], [Jonas Schnelli][jonasschnelli-key] or [Pieter Wullie][sipa-key] and DKIM signed from ioncore.xyz._
+_Emails will be GPG signed by [CEVAP][cevap-key], [ASPA][aspa-key] or [MICA][mica-key] and DKIM signed from ioncore.xyz._
 
 {% include _references.md %}
