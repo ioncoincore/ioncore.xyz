@@ -31,12 +31,12 @@ _**To add your company or service, please submit a** [pull-request](https://gith
 
 You can also track activation [here](http://segwit.co/).
 
-The last 2k block segwit activation graph.
+The last 2k block segwit activation graph (bitcoin).
 [![Segwit activation 2000 block window](http://bitcoin.sipa.be/ver9-2k.png)](http://bitcoin.sipa.be/ver9-2k.png)
 
 <hr> 
 
-The last 10k block segwit activation graph.
+The last 10k block segwit activation graph (bitcoin).
 [![Segwit activation 10000 block window](http://bitcoin.sipa.be/ver9-10k.png)](http://bitcoin.sipa.be/ver9-10k.png)
 
 An API is available [here](http://api.qbit.ninja/versionstats).
