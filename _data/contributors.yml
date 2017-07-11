@@ -1,12 +1,37 @@
 maintainers:
   -
+    name: CEVAP
+    github: cevap
+    irc: cevap
+    twitter: ioncorexyz
+    avatar: https://avatars0.githubusercontent.com/u/24996551?v=3
+    bio: https://en.wikipedia.org/wiki/%C4%86evapi
+    role: Lead maintainer
+  -
+    name: ASPA
+    github: aspaas
+    irc: aspaas
+    twitter: 
+    avatar: https://avatars1.githubusercontent.com/u/25762277?v=3
+    bio:
+    role: GUI maintainer / Lead assistance
+  -
+    name: Mitchel Cash
+    github: mitchellcash
+    irc: mica
+    twitter:
+    avatar: https://avatars1.githubusercontent.com/u/8009243?v=3
+    bio:
+    role: QA/Test framework maintainer / Lead assistance
+contributors:
+  -
     name: Wladimir J. van der Laan
     github: laanwj
     irc: wumpus
     twitter: orionwl
     avatar: https://avatars3.githubusercontent.com/u/126646?v=3&s=460
     bio:
-    role: Lead maintainer
+    role: Source project - Lead maintainer
   -
     name: Jonas Schnelli
     github: jonasschnelli
@@ -14,7 +39,7 @@ maintainers:
     twitter: _jonasschnelli_
     avatar: https://avatars1.githubusercontent.com/u/178464?v=3&s=460
     bio:
-    role: GUI maintainer
+    role: Source project - GUI maintainer
   -
     name: Marco Falke
     github: MarcoFalke
@@ -22,8 +47,7 @@ maintainers:
     twitter:
     avatar: https://avatars1.githubusercontent.com/u/6399679?v=3&s=460
     bio:
-    role: QA/Test framework maintainer
-contributors:
+    role: Source project - QA/Test framework maintainer
   -
     name: Dr. Pieter Wuille
     github: sipa
@@ -136,3 +160,69 @@ contributors:
     avatar: https://avatars1.githubusercontent.com/u/6848764?v=3&s=460
     bio:
     role:
+  -
+    name: mrcoinzzz
+    github: mrcoinzzz
+    irc: mrcoinzzz
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: Bige086
+    github: Bige086
+    irc: Bige086
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: broyhill
+    github: broyhill
+    irc: broyhill
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: ionomy
+    github: ionomy
+    irc: ionomy
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: LordDarkHelmet
+    github: LordDarkHelmet
+    irc: LordDarkHelmet
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: coinkiller
+    github: 
+    irc: 
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: jpass
+    github: 
+    irc: 
+    twitter:
+    avatar: 
+    bio:
+    role:
+  -
+    name: coinkiller
+    github: 
+    irc: 
+    twitter:
+    avatar: 
+    bio:
+    role:
+
+    

@@ -1,20 +1,20 @@
 # Authors
 
-CEVAP:
+cevap:
   name: CEVAP
-  web:
-  email:
-  bio:
+  web: https://ioncoin.xyz/
+  email: cevap@i2pmail.org
+  bio: https://en.wikipedia.org/wiki/%C4%86evapi
   avatar: https://avatars0.githubusercontent.com/u/24996551?v=3
   twitter: ioncorexyz
   github: cevap
   google:
     plus:
 
-ASPA:
+aspaas:
   name: ASPA
-  web:
-  email:
+  web: https://ioncoin.xyz/
+  email:  aspa@servitising.org 
   bio:
   avatar: https://avatars1.githubusercontent.com/u/25762277?v=3
   twitter: 
@@ -22,10 +22,10 @@ ASPA:
   google:
     plus:
 
-MICA:
+mitchellcash:
   name: MICA
   web:
-  email:
+  email:  mitchell@mitchellcash.com
   bio:
   avatar: https://avatars1.githubusercontent.com/u/8009243?v=3
   twitter: 
