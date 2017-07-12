@@ -30,7 +30,7 @@ We currently host [directly from GitHub](https://github.com/cevap/ioncore.xyz/)
 
 ## WhoIs
 
-_Data from [nic.xyz]
+_Data from [nic.xyz](http://nic.xyz/whois)_
 ```
 Domain Name: IONCORE.XYZ
 Registry Domain ID: D49285992-CNIC
