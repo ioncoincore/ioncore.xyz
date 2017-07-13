@@ -1,5 +1,5 @@
 _site
 .sass-cache
 .jekyll-metadata
-/depends-sources/
-/depends-sources/sdk/
+#/_data/depends-sources/
+#/_data/depends-sources/sdk/
