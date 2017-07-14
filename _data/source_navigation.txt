@@ -35,9 +35,9 @@ en:
       segwit-dev:
         title: "Segwit dev guide"
         url: "/en/segwit_wallet_dev/"
-      optin-rbf:
-        title: "Opt-in RBF"
-        url: "/en/faq/optin_rbf/"
+      coinbleed:
+        title: "CoinBleed Analysis"
+        url: "/en/faq/coinbleed/"
       compact-blocks:
         title: "Compact Blocks"
         url: "/en/2016/06/07/compact-blocks-faq/"
