@@ -10,6 +10,16 @@ version: 2
 ---
 🗺️Ion Core 👯👯 👛 supports the following [BIPs][BIP1].
 
+#### Legends: 
+ - v2.1.?.? (_unknown if it will implemented_)
+ - ~~striked~~ (_not implemented/not checked if implemented_)
+
+#### ℹ️ - Additional information
+  - _**This page will be updated as soon as all BIP implementations are reviewed**_
+    - __🗺️Ion Core 👯👯 👛 will be used__
+    - __Bitcoin's version number will be replaced by source version like Peercoin, Novacoin, etc.__
+  - _We use currently bitcoin's version number for known BIP implementation version_
+
 | BIP |Supported since| Title |
 |-----|---------------|-------|
 {% include pages/bips-list.md %}
