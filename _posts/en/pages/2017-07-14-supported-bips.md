@@ -8,7 +8,7 @@ permalink: /en/bips/
 share: false
 version: 2
 ---
-🗺️Ion Core 👯👯 👛 targets to support as most as possible of the following [BIPs][BIP1]. Please look for non implemented list below.
+🗺️Ion Core 👯👯 👛 targets to support as many [BIPs][BIP1] as possible of the following [BIPs list][BIP1]. Please look for non implemented list below.
 
 ## Legends: 
  - ~~striked~~ (_not implemented/not checked if implemented_)
