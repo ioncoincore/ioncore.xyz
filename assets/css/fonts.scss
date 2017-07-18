@@ -14,20 +14,20 @@ sitemap: false
   src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(/assets/fonts/PTSans-NarrowBold.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Serif'), local('PTSerif-Regular'), url(/assets/fonts/PTSerif-Regular.ttf) format('truetype');
+  src: local('Open Sans'), local('OpenSans-Regular'), url(/assets/fonts/OpenSans-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('PT Serif Bold'), local('PTSerif-Bold'), url(/assets/fonts/PTSerif-Bold.ttf) format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/assets/fonts/OpenSans-Bold.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(/assets/fonts/PTSerif-Italic.ttf) format('truetype');
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/assets/fonts/OpenSans-Italic.ttf) format('truetype');
 }
